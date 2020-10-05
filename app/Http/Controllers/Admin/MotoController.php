@@ -41,7 +41,6 @@ class MotoController extends Controller
             unset($input['files']);
         }
         if (!empty($input['_method'])) {
-           dump($input);
         } else {
             $images = array_pop($input);
             try {

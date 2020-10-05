@@ -19,7 +19,6 @@ class SettingController extends BaseControler
         $brands = Brand::all()->toArray();
         $transmissions = Transmission::all()->toArray();
 
-//        dump($color);
         return view('admin.setting', compact('colors', 'brands', 'transmissions'));
     }
 
@@ -96,7 +95,6 @@ class SettingController extends BaseControler
     public function dellTransmission(Request $request)
     {
         $transmissions = $request->get('transmissions');
-//      dump($transmissions);
         foreach ($transmissions as $id) {
 
             try {

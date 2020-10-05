@@ -25,7 +25,6 @@
                 @if(isset($colors))
                     <ul>
                         @foreach($colors as $color)
-                            {{--@dump($collor)--}}
 
                             <li style="color: {{$color['hash']}}; border: black">
                                 {!! Form::checkbox('colors[]',$color['id'],'') !!}

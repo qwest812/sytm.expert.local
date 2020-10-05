@@ -1,4 +1,3 @@
-@dump($page)
 <!DOCTYPE html>
 <html>
 @include('component.header')

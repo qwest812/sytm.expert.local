@@ -45,7 +45,7 @@ class MainController extends Controller
     public function news(){
         return view("news");
     }
-    public function serearches(){
+    public function researches(){
         return view("researches");
     }
 }
