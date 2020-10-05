@@ -1,0 +1,60 @@
+.elem_setting {
+  display: flex;
+}
+
+.add_motobyke {
+  display: block;
+  background-color: #1b4b72;
+  border-radius: 50%;
+  width: 65px;
+  height: 65px;
+  text-align: center;
+  line-height: 60px;
+  border: 2px solid #1b4b72;
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  right: 20px;
+  bottom: 20px;
+  position: fixed;
+  &:hover {
+    color: #1b4b72;
+    background-color: white;
+    text-decoration: none;
+  }
+}
+
+.menu {
+  border: 1px solid red;
+  width: 210px;
+  position: fixed;
+}
+
+.arrow_to_left {
+  width: 0;
+  height: 0;
+  border-top: 10px solid transparent;
+  border-bottom: 10px solid transparent;
+  border-right: 10px solid white;
+  margin: 7px 0 0 4px;
+}
+
+.arrow_to_right {
+  width: 0;
+  height: 0;
+  border-top: 10px solid transparent;
+  border-bottom: 10px solid transparent;
+  margin: 7px 0 0 4px;
+  border-left: 10px solid white;
+}
+.error{
+  color: red;
+  font-size: 24px;
+  text-align: center;
+}
+.__blue{
+  color: #007bff; ;
+}
+.disp_none{
+  display: none;
+}
