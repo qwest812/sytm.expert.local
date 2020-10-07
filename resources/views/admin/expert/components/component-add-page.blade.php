@@ -37,7 +37,7 @@
         <div>Тип статьи</div>
         <select name="type" id="">
             <option value="1"
-                    @if($page['type']=="1")
+                    @if(~empty($page) && $page['type']=="1")
                                  selected
                                  @endif
                 >
