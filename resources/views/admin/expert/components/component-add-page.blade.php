@@ -44,7 +44,7 @@
                 Новость
             </option>
             <option value="2"
-                    @if($page['type']=="2")
+                    @if(!empty($page) && $page['type']=="2")
                     selected
                     @endif
             >
