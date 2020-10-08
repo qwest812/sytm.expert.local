@@ -1,6 +1,7 @@
 @extends('admin.layout')
 @section('content')
-    <h1>Добавить статью</h1>
+    <h1>Добавить статью </h1>
+    <div style="color: red">* поля должны быть заполнены</div>
     @if($errors->any())
         @switch($errors->first())
             @case ('ok') <div>

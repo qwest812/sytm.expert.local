@@ -18,7 +18,7 @@
 
     </div>
     <div class="add_page_url">
-        <div>Url</div>
+        <div>* Url</div>
         {!! Form::text('url')  !!}
     </div>
     <div class="add-images">

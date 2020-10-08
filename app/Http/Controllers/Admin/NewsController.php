@@ -37,7 +37,7 @@ class NewsController extends Controller
     {
         $request = $request->all();
 
-        if(!empty($request["main_img"])){
+        if (!empty($request["main_img"])) {
             $image = $request["main_img"];
             unset($request["main_img"]);
             $originalName = $image->getClientOriginalName();
@@ -46,51 +46,54 @@ class NewsController extends Controller
         }
 
 
-
-
         if (!isset($request['lang_id'])) {
             return Redirect::back()->withErrors(['language']);
         }
         $langID = $request['lang_id'];
         $lang = Language::where('id', $langID)->first("language_name");
-        $urlPath = $lang->language_name . "/" . $request['url'];
+        $urp = $request['url'];
+        if (empty($urp)) {
+            return Redirect::back()->withErrors(['url']);
+        }
+        $urlPath = $lang->language_name . "/" . $urp;
 
         unset($request["url"]);
         if (array_key_exists("files", $request)) {
             unset($request["files"]);
         }
+
         try {
-            $url =Url::where("url",$urlPath)->first();
-            if($url===null){
-                $url=  Url::create(["url" => $urlPath]);
-            }else{
-                $url->url =$urlPath;
+            $url = Url::where("url", $urlPath)->first();
+            if ($url === null) {
+                $url = Url::create(["url" => $urlPath]);
+            } else {
+                $url->url = $urlPath;
                 $url->save();
             }
         } catch (QueryException  $er) {
             return Redirect::back()->withErrors(['url']);
         }
         try {
-            $article =Writenew::find($request["id"])->first();
-            if($article===null){
-                 Writenew::create($request);
-            }else{
-                $article ->lang_id =$request["lang_id"];
-                $article ->type =$request["type"];
-                $article ->h1 =$request["h1"];
-                $article ->title =$request["title"];
-                $article ->description =$request["description"];
-                $article ->keyword =$request["keyword"];
-                $article ->text =$request["text"];
-                $article ->url_id =$url->id;
-                if(isset($request['main_img'])){
-                    $article->main_img =$request['main_img'];
-                }else{
-                    $article->main_img =$article->main_img;
-                }
-
-                $article->save();
+        if (empty($request["id"])) {
+            $request["url_id"] = $url->id;
+            Writenew::create($request);
+        } else {
+            $article = Writenew::find($request["id"])->first();
+            $article->lang_id = $request["lang_id"];
+            $article->type = $request["type"];
+            $article->h1 = $request["h1"];
+            $article->title = $request["title"];
+            $article->description = $request["description"];
+            $article->keyword = $request["keyword"];
+            $article->text = $request["text"];
+            $article->url_id = $url->id;
+            if (isset($request['main_img'])) {
+                $article->main_img = $request['main_img'];
+            } else {
+                $article->main_img = $article->main_img;
             }
+            $article->update();
+        }
 
         } catch (QueryException $er) {
             return Redirect::back()->withErrors(['article']);
@@ -102,8 +105,8 @@ class NewsController extends Controller
     public function dellNews(Request $request)
     {
         $result = $request->all();
-        $page =Writenew::where("id", $result["id"])->first();
-        $url=Url::find($page["url_id"]);
+        $page = Writenew::where("id", $result["id"])->first();
+        $url = Url::find($page["url_id"]);
         $page->delete();
         $url->delete();
         return redirect()->route('news');
@@ -112,12 +115,12 @@ class NewsController extends Controller
     public function editNews(Request $request)
     {
         $res = $request->all();
-        $page =Writenew::find($res["id"])->toArray();
-        $urlName =Url::find($page["url_id"])->toArray()["url"];
+        $page = Writenew::find($res["id"])->toArray();
+        $urlName = Url::find($page["url_id"])->toArray()["url"];
         $arrUrl = explode("/", $urlName);
-        $page["url"]=$arrUrl[1];
-        $currentLang =$arrUrl[0];
-        $languages =Language::all()->toArray();
-        return view('admin.expert.news.edit-news', compact('page','languages','currentLang'));
+        $page["url"] = $arrUrl[1];
+        $currentLang = $arrUrl[0];
+        $languages = Language::all()->toArray();
+        return view('admin.expert.news.edit-news', compact('page', 'languages', 'currentLang'));
     }
 }
