@@ -3,9 +3,11 @@
 namespace App\Http\Controllers;
 
 use App\Http\Controllers\Admin\NewsController;
+use App\Mail\Order;
 use App\Url;
 use App\Writenew;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Mail;
 
 class MainController extends Controller
 {
@@ -47,5 +49,25 @@ class MainController extends Controller
     }
     public function researches(){
         return view("researches");
+    }
+    public function test(){
+        return view("test");
+    }
+    public function sendMail(Request $request){
+        $objDemo = new \stdClass();
+//        $result=$request->all();
+//        dump($result);
+        $objDemo->name = $request->name;
+        $objDemo->phone = $request->phone;
+        $objDemo->email = $request->email;
+        $objDemo->text_field = $request->text_field;
+//        dump($objDemo);
+//        exit();
+
+        Mail::to("dauzer58@gmail.com")->send(new Order($objDemo));
+        if (Mail::failures()) {
+            // return failed mails
+            return new \Error(Mail::failures());
+        }
     }
 }

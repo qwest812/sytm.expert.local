@@ -82,8 +82,6 @@
     {{--<link href="{{ asset('/js/tilda-zero-forms-1.0.min.js') }}" rel="stylesheet">--}}
 
     <script type="text/javascript">window.dataLayer = window.dataLayer || [];</script>
-
-
 </head>
 
 <body class="t-body" style="margin:0;">
@@ -4137,90 +4135,90 @@
                 </div>
 
 
-                {{--<div class='t396__elem tn-elem tn-elem__1890093131589273481886' data-elem-id='1589273481886'--}}
-                     {{--data-elem-type='form'--}}
-                     {{--data-field-top-value="3224"--}}
-                     {{--data-field-top-res-960-value="2440" data-field-top-res-640-value="3174"--}}
-                     {{--data-field-top-res-480-value="4848" data-field-top-res-320-value="4466"--}}
-                     {{--data-field-left-value="749"--}}
-                     {{--data-field-left-res-960-value="497" data-field-left-res-640-value="110"--}}
-                     {{--data-field-left-res-480-value="50" data-field-left-res-320-value="25"--}}
-                     {{--data-field-width-value="460"--}}
-                     {{--data-field-width-res-960-value="420" data-field-width-res-480-value="380"--}}
-                     {{--data-field-width-res-320-value="270"--}}
-                     {{--data-field-axisy-value="top"--}}
-                     {{--data-field-axisx-value="left"--}}
-                     {{--data-field-container-value="grid"--}}
-                     {{--data-field-topunits-value=""--}}
-                     {{--data-field-leftunits-value=""--}}
-                     {{--data-field-heightunits-value=""--}}
-                     {{--data-field-widthunits-value=""--}}
-                     {{--data-field-inputpos-value="v"--}}
-                     {{--data-field-inputfontfamily-value="Montserrat"--}}
-                     {{--data-field-inputfontsize-value="15"--}}
-                     {{--data-field-inputfontweight-value="300"--}}
-                     {{--data-field-inputcolor-value="#000000"--}}
-                     {{--data-field-inputbgcolor-value="#e8e7e5"--}}
-                     {{--data-field-inputbordercolor-value="#e3cb9f"--}}
-                     {{--data-field-inputbordersize-value="3"--}}
-                     {{--data-field-inputheight-value="50"--}}
-                     {{--data-field-inputmargbottom-value="20"--}}
-                     {{--data-field-inputmargright-value="20"--}}
-                     {{--data-field-inputtitlefontsize-value="16"--}}
-                     {{--data-field-inputtitlefontweight-value="400"--}}
-                     {{--data-field-inputtitlecolor-value="#000"--}}
-                     {{--data-field-inputtitlemargbottom-value="5"--}}
-                     {{--data-field-inputelsfontweight-value="400"--}}
-                     {{--data-field-inputelsfontsize-value="14"--}}
-                     {{--data-field-buttontitle-value="НАДІСЛАТИ"--}}
-                     {{--data-field-buttoncolor-value="#fff"--}}
-                     {{--data-field-buttonbordercolor-value="#e3cb9f"--}}
-                     {{--data-field-buttonbordersize-value="1"--}}
-                     {{--data-field-buttonwidth-value="140"--}}
-                     {{--data-field-buttonheight-value="40"--}}
-                     {{--data-field-buttonshadowsize-value="1"--}}
-                     {{--data-field-buttonfontfamily-value="Montserrat"--}}
-                     {{--data-field-buttonfontsize-value="16"--}}
-                     {{--data-field-buttonfontweight-value="300"--}}
-                     {{--data-field-receivers-value="78bd1292e7083171af40dc6d9756576f,e8d6d0cc10160dd465e2dcb9af86b35b,ffe5f09d248c1d081d4c8a61374dca1e"--}}
-                {{-->--}}
+                <div class='t396__elem tn-elem tn-elem__1890093131589273481886' data-elem-id='1589273481886'
+                     data-elem-type='form'
+                     data-field-top-value="3224"
+                     data-field-top-res-960-value="2440" data-field-top-res-640-value="3174"
+                     data-field-top-res-480-value="4848" data-field-top-res-320-value="4466"
+                     data-field-left-value="749"
+                     data-field-left-res-960-value="497" data-field-left-res-640-value="110"
+                     data-field-left-res-480-value="50" data-field-left-res-320-value="25"
+                     data-field-width-value="460"
+                     data-field-width-res-960-value="420" data-field-width-res-480-value="380"
+                     data-field-width-res-320-value="270"
+                     data-field-axisy-value="top"
+                     data-field-axisx-value="left"
+                     data-field-container-value="grid"
+                     data-field-topunits-value=""
+                     data-field-leftunits-value=""
+                     data-field-heightunits-value=""
+                     data-field-widthunits-value=""
+                     data-field-inputpos-value="v"
+                     data-field-inputfontfamily-value="Montserrat"
+                     data-field-inputfontsize-value="15"
+                     data-field-inputfontweight-value="300"
+                     data-field-inputcolor-value="#000000"
+                     data-field-inputbgcolor-value="#e8e7e5"
+                     data-field-inputbordercolor-value="#e3cb9f"
+                     data-field-inputbordersize-value="3"
+                     data-field-inputheight-value="50"
+                     data-field-inputmargbottom-value="20"
+                     data-field-inputmargright-value="20"
+                     data-field-inputtitlefontsize-value="16"
+                     data-field-inputtitlefontweight-value="400"
+                     data-field-inputtitlecolor-value="#000"
+                     data-field-inputtitlemargbottom-value="5"
+                     data-field-inputelsfontweight-value="400"
+                     data-field-inputelsfontsize-value="14"
+                     data-field-buttontitle-value="НАДІСЛАТИ"
+                     data-field-buttoncolor-value="#fff"
+                     data-field-buttonbordercolor-value="#e3cb9f"
+                     data-field-buttonbordersize-value="1"
+                     data-field-buttonwidth-value="140"
+                     data-field-buttonheight-value="40"
+                     data-field-buttonshadowsize-value="1"
+                     data-field-buttonfontfamily-value="Montserrat"
+                     data-field-buttonfontsize-value="16"
+                     data-field-buttonfontweight-value="300"
+                     data-field-receivers-value="78bd1292e7083171af40dc6d9756576f,e8d6d0cc10160dd465e2dcb9af86b35b,ffe5f09d248c1d081d4c8a61374dca1e"
+                >
 
 
-                    {{--<div class='tn-atom tn-atom__form'>--}}
+                    <div class='tn-atom tn-atom__form'>
 
-                    {{--</div>--}}
+                    </div>
 
-                    {{--<div class="tn-atom__inputs-wrapp" style="display:none;"><textarea class="tn-atom__inputs-textarea">{"0":{"lid":"1531306243545","ls":"10","loff":"","li_type":"nm","li_ph":"Ім’я","li_nm":"Name"},"1":{"lid":"1531306540094","ls":"20","loff":"","li_type":"ph","li_ph":"Тел","li_nm":"Phone"},"2":{"lid":"1589273793411","ls":"30","loff":"","li_type":"em","li_ph":"E-mail","li_nm":"Email"},"3":{"lid":"1589273807851","ls":"40","loff":"","li_type":"ta","li_ph":"Повідомлення","li_rows":"3","li_nm":"Textarea"}}</textarea>--}}
-                    {{--</div>--}}
+                    <div class="tn-atom__inputs-wrapp" style="display:none;"><textarea class="tn-atom__inputs-textarea">{"0":{"lid":"1531306243545","ls":"10","loff":"","li_type":"nm","li_ph":"Ім’я","li_nm":"Name"},"1":{"lid":"1531306540094","ls":"20","loff":"","li_type":"ph","li_ph":"Тел","li_nm":"Phone"},"2":{"lid":"1589273793411","ls":"30","loff":"","li_type":"em","li_ph":"E-mail","li_nm":"Email"},"3":{"lid":"1589273807851","ls":"40","loff":"","li_type":"ta","li_ph":"Повідомлення","li_rows":"3","li_nm":"Textarea"}}</textarea>
+                    </div>
 
-                    {{--<script>--}}
+                    <script>
 
-                        {{--$(document).ready(function () {--}}
-                            {{--jQuery.cachedScript = function (url) {--}}
-                                {{--var options = {--}}
-                                    {{--dataType: "script",--}}
-                                    {{--cache: true,--}}
-                                    {{--url: url--}}
-                                {{--};--}}
-                                {{--return jQuery.ajax(options);--}}
-                            {{--};--}}
-                            {{--$.cachedScript("https://static.tildacdn.com/js/tilda-zero-forms-1.0.min.js").done(function (script, textStatus) {--}}
-                                {{--if (textStatus == 'success') {--}}
-                                    {{--setTimeout(function () {--}}
-                                        {{--var recid = '189009313';--}}
-                                        {{--var elemid = '1589273481886';--}}
-                                        {{--t_zeroForms__init(recid, elemid);--}}
-                                    {{--}, 500);--}}
-                                {{--} else {--}}
-                                    {{--console.log('Error init form in zeroblock. Err:' + textStatus);--}}
-                                {{--}--}}
-                            {{--});--}}
-                        {{--});--}}
+                        $(document).ready(function () {
+                            jQuery.cachedScript = function (url) {
+                                var options = {
+                                    dataType: "script",
+                                    cache: true,
+                                    url: url
+                                };
+                                return jQuery.ajax(options);
+                            };
+                            $.cachedScript("https://static.tildacdn.com/js/tilda-zero-forms-1.0.min.js").done(function (script, textStatus) {
+                                if (textStatus == 'success') {
+                                    setTimeout(function () {
+                                        var recid = '189009313';
+                                        var elemid = '1589273481886';
+                                        t_zeroForms__init(recid, elemid);
+                                    }, 500);
+                                } else {
+                                    console.log('Error init form in zeroblock. Err:' + textStatus);
+                                }
+                            });
+                        });
 
-                    {{--</script>--}}
+                    </script>
 
 
-                {{--</div>--}}
+                </div>
 
 
                 <div class='t396__elem tn-elem tn-elem__1890093131589274248122 t-animate' data-elem-id='1589274248122'
@@ -4471,8 +4469,6 @@
                         <img class='tn-atom__img'
                              src='https://static.tildacdn.com/tild6362-6162-4634-b331-333532373639/5__.png'
                              imgfield='tn_img_1590490861646'>
-                        @include('component.form')
-
                     </div>
 
 

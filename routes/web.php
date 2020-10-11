@@ -20,6 +20,8 @@ Route::get('services',"MainController@services")->name("services");
 Route::get('/contacts',"MainController@contacts")->name("contacts");
 Route::get('/news',"MainController@news")->name("all-news");
 Route::get('/researches',"MainController@researches")->name("researches");
+Route::get('/test',"MainController@test")->name("test");
+Route::post('/send-mail',"MainController@sendMail")->name("send-mail");
 
 Auth::routes();
 //Auth::routes(['register' => false]);
