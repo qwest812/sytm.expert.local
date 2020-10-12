@@ -85,7 +85,7 @@ class MainController extends Controller
 </body>
 </html>
 ';
-if(mail($to, $subject, $message,  $headers)){
+if(mail($from, $subject, $message,  $headers)){
     return json_encode(true);
 }else{
     return json_encode(false);
