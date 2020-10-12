@@ -67,7 +67,7 @@ class MainController extends Controller
         Mail::to("dauzer58@gmail.com")->send(new Order($objDemo));
         if (Mail::failures()) {
             // return failed mails
-            return new \Error(Mail::failures());
+            return new \Exception(Mail::failures());
         }
     }
 }
