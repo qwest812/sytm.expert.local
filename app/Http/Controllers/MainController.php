@@ -64,10 +64,36 @@ class MainController extends Controller
 //        dump($objDemo);
 //        exit();
 
-        Mail::to("dauzer58@gmail.com")->send(new Order($objDemo));
-        if (Mail::failures()) {
-            // return failed mails
-            return new \Exception(Mail::failures());
-        }
+
+        $from ='dauzer58@gmail.com';
+        $to ='clients@ytm.expert';
+        $subject = 'Clients';
+
+        // Для отправки HTML-письма должен быть установлен заголовок Content-type
+        $headers  = 'MIME-Version: 1.0' . "\r\n";
+        $headers .= 'Content-type: text/html; charset=iso-8859-1' . "\r\n";
+        $message = '
+<html>
+<head>
+  <title>Birthday Reminders for August</title>
+</head>
+<body>
+ <p>User:  '.$request->name.'</p>
+ <p>Phone:  '.$request->phone.'</p>
+ <p>Email:  '.$request->email.'</p>
+ <p>Text:  '.$request->text_field.'</p>
+</body>
+</html>
+';
+if(mail($to, $subject, $message,  $headers)){
+    return json_encode(true);
+}else{
+    return json_encode(false);
+}
+//        Mail::to("clients@ytm.expert")->send(new Order($objDemo));
+//        if (Mail::failures()) {
+//            // return failed mails
+//            return new \Exception(Mail::failures());
+//        }
     }
 }
