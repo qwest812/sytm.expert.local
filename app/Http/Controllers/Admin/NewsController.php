@@ -14,6 +14,7 @@ class NewsController extends Controller
 {
     const NEWS = 1;
     const RESEARCH = 2;
+    const UA ="ua";
 
     function showNews()
     {
@@ -36,7 +37,6 @@ class NewsController extends Controller
     public function saveNews(Request $request)
     {
         $request = $request->all();
-
         if (!empty($request["main_img"])) {
             $image = $request["main_img"];
             unset($request["main_img"]);
@@ -52,10 +52,16 @@ class NewsController extends Controller
         $langID = $request['lang_id'];
         $lang = Language::where('id', $langID)->first("language_name");
         $urp = $request['url'];
+
         if (empty($urp)) {
             return Redirect::back()->withErrors(['url']);
         }
-        $urlPath = $lang->language_name . "/" . $urp;
+//        if($lang->language_name != NewsController::UA){
+
+            $urlPath = $lang->language_name . "/" . $urp;
+//        }else{
+//            $urlPath =$urp;
+//        }
 
         unset($request["url"]);
         if (array_key_exists("files", $request)) {
@@ -78,7 +84,8 @@ class NewsController extends Controller
             $request["url_id"] = $url->id;
             Writenew::create($request);
         } else {
-            $article = Writenew::find($request["id"])->first();
+
+            $article = Writenew::where("id",$request["id"])->first();
             $article->lang_id = $request["lang_id"];
             $article->type = $request["type"];
             $article->h1 = $request["h1"];

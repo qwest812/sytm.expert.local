@@ -19,7 +19,7 @@ class CreateWritenewsTable extends Migration
             $table->unsignedSmallInteger('lang_id')->nullable();
             $table->foreign('lang_id')->references('id')->on('languages');
             $table->char('title', 150)->nullable();
-            $table->unsignedBigInteger('url_id');
+            $table->unsignedBigInteger('url_id')->unique();
             $table->foreign('url_id')->references('id')->on('urls');
             $table->char("main_img",255)->nullable();
             $table->char('type',150); //news or research

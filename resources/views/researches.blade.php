@@ -1,73 +1,7 @@
 
 <!DOCTYPE html>
 <html>
-<head>
-    <meta charset="utf-8" />
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />	<meta name="google-site-verification" content="00WhvK8hjWsM6iMr4H9iqufOGieNYv-ujtnHwPnI20o" />
-    <!--metatextblock-->
-    <title>Дослідження | YOUR TOTAL MARKET</title>
-    <meta name="description" content="Тут можна ознайомитися з нашими готовими дослідженнями." />
-    <link rel="canonical" href="https://ytm.expert/researches">
-
-    <meta property="og:url" content="https://ytm.expert/researches" />
-    <meta property="og:title" content="Дослідження | YOUR TOTAL MARKET" />
-    <meta property="og:description" content="Тут можна ознайомитися з нашими готовими дослідженнями." />
-    <meta property="og:type" content="website" />
-    <meta property="og:image" content="https://static.tildacdn.com/tild6632-3337-4934-b563-656637663366/grad___white___metal.jpg" />
-
-    <!--/metatextblock-->
-
-    <meta property="fb:app_id" content="257953674358265" />
-
-    <meta name="format-detection" content="telephone=no" />
-    <meta http-equiv="x-dns-prefetch-control" content="on">
-    <link rel="dns-prefetch" href="https://tilda.ws">
-    <link rel="dns-prefetch" href="https://static.tildacdn.com">
-
-
-
-    <link rel="shortcut icon" href="https://static.tildacdn.com/tild3637-6463-4631-b762-316332633936/favicon.ico" type="image/x-icon" />
-
-
-    <link rel="apple-touch-icon" href="https://static.tildacdn.com/tild6238-3438-4432-b766-373637326666/152152.png">
-    <link rel="apple-touch-icon" sizes="76x76" href="https://static.tildacdn.com/tild6238-3438-4432-b766-373637326666/152152.png">
-    <link rel="apple-touch-icon" sizes="152x152" href="https://static.tildacdn.com/tild6238-3438-4432-b766-373637326666/152152.png">
-    <link rel="apple-touch-startup-image" href="https://static.tildacdn.com/tild6238-3438-4432-b766-373637326666/152152.png">
-    <meta name="msapplication-TileColor" content="#ffffff">
-    <meta name="msapplication-TileImage" content="https://static.tildacdn.com/tild3130-3961-4433-b931-623838306235/270270.png">
-    <link rel="stylesheet" href="https://static.tildacdn.com/css/tilda-grid-3.0.min.css" type="text/css" media="all" />
-    <link rel="stylesheet" href="https://tilda.ws/project2157208/tilda-blocks-2.12.css?t=1599987641" type="text/css" media="all" />
-
-    <link rel="stylesheet" href="https://static.tildacdn.com/css/tilda-animation-1.0.min.css" type="text/css" media="all" />
-    <link rel="stylesheet" href="https://static.tildacdn.com/css/tilda-menusub-1.0.min.css" type="text/css" media="all" />
-    <link rel="stylesheet" href="https://static.tildacdn.com/css/tilda-slds-1.4.min.css" type="text/css" media="all" />
-    <link rel="stylesheet" href="https://static.tildacdn.com/css/tilda-zoom-2.0.min.css" type="text/css" media="all" />
-    <link rel="stylesheet" href="https://static.tildacdn.com/css/tilda-popup-1.1.min.css" type="text/css" media="all" />
-
-
-    <script src="https://static.tildacdn.com/js/jquery-1.10.2.min.js"></script>
-    <script src="https://static.tildacdn.com/js/tilda-scripts-2.8.min.js"></script>
-    <script src="https://tilda.ws/project2157208/tilda-blocks-2.7.js?t=1599987641"></script>
-
-    <script src="https://static.tildacdn.com/js/tilda-animation-1.0.min.js" charset="utf-8"></script>
-    <script src="https://static.tildacdn.com/js/tilda-menusub-1.0.min.js" charset="utf-8"></script>
-    <script src="https://static.tildacdn.com/js/tilda-slds-1.4.min.js" charset="utf-8"></script>
-    <script src="https://static.tildacdn.com/js/hammer.min.js" charset="utf-8"></script>
-    <script src="https://static.tildacdn.com/js/tilda-zoom-2.0.min.js" charset="utf-8"></script>
-    <script src="https://static.tildacdn.com/js/tilda-animation-sbs-1.0.min.js" charset="utf-8"></script>
-    <script src="https://static.tildacdn.com/js/tilda-forms-1.0.min.js" charset="utf-8"></script>
-    <script src="https://static.tildacdn.com/js/tilda-zero-forms-1.0.min.js" charset="utf-8"></script>
-
-
-
-
-    <script type="text/javascript">window.dataLayer = window.dataLayer || [];</script>
-
-
-
-
-</head>
+@include("component.header")
 
 <body class="t-body" style="margin:0;">
 
@@ -475,208 +409,6 @@
                 </div>
 
 
-                <div class='t396__elem tn-elem tn-elem__1994908261589273481886' data-elem-id='1589273481886' data-elem-type='form'
-                     data-field-top-value="2314"
-                     data-field-top-res-960-value="1716"		data-field-top-res-640-value="1528"		data-field-top-res-480-value="2227"		data-field-top-res-320-value="2251"
-
-                     data-field-left-value="749"
-                     data-field-left-res-960-value="497"		data-field-left-res-640-value="110"		data-field-left-res-480-value="50"		data-field-left-res-320-value="15"
-
-
-
-                     data-field-width-value="460"
-                     data-field-width-res-960-value="420"				data-field-width-res-480-value="380"		data-field-width-res-320-value="270"
-
-                     data-field-axisy-value="top"
-
-
-                     data-field-axisx-value="left"
-
-
-                     data-field-container-value="grid"
-
-
-                     data-field-topunits-value=""
-
-
-                     data-field-leftunits-value=""
-
-
-                     data-field-heightunits-value=""
-
-
-                     data-field-widthunits-value=""
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-                     data-field-inputpos-value="v"
-
-                     data-field-inputfontfamily-value="Montserrat"
-                     data-field-inputfontsize-value="15"
-
-                     data-field-inputfontweight-value="300"
-                     data-field-inputcolor-value="#000000"
-                     data-field-inputbgcolor-value="#e8e7e5"
-                     data-field-inputbordercolor-value="#e3cb9f"
-                     data-field-inputbordersize-value="3"
-
-
-
-                     data-field-inputheight-value="50"
-
-                     data-field-inputmargbottom-value="20"
-
-                     data-field-inputmargright-value="20"
-
-
-                     data-field-inputtitlefontsize-value="16"
-
-                     data-field-inputtitlefontweight-value="400"
-                     data-field-inputtitlecolor-value="#000"
-                     data-field-inputtitlemargbottom-value="5"
-
-
-                     data-field-inputelsfontweight-value="400"
-                     data-field-inputelsfontsize-value="14"
-
-
-
-
-                     data-field-buttontitle-value="НАДІСЛАТИ"
-
-
-
-                     data-field-buttoncolor-value="#fff"
-
-                     data-field-buttonbordercolor-value="#e3cb9f"
-                     data-field-buttonbordersize-value="1"
-
-
-
-
-
-
-
-                     data-field-buttonwidth-value="140"
-
-                     data-field-buttonheight-value="40"
-
-
-                     data-field-buttonshadowsize-value="1"
-
-
-
-                     data-field-buttonfontfamily-value="Montserrat"
-                     data-field-buttonfontsize-value="16"
-
-                     data-field-buttonfontweight-value="300"
-
-
-
-
-
-
-
-
-
-
-                     data-field-receivers-value="78bd1292e7083171af40dc6d9756576f,e8d6d0cc10160dd465e2dcb9af86b35b,ffe5f09d248c1d081d4c8a61374dca1e"
-
-
-
-
-
-
-                >
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-                    <div class='tn-atom tn-atom__form'>
-
-                    </div>
-
-                    <div class="tn-atom__inputs-wrapp" style="display:none;"><textarea class="tn-atom__inputs-textarea">{"0":{"lid":"1531306243545","ls":"10","loff":"","li_type":"nm","li_ph":"Ім’я","li_nm":"Name"},"1":{"lid":"1531306540094","ls":"20","loff":"","li_type":"ph","li_ph":"Тел","li_nm":"Phone"},"2":{"lid":"1589273793411","ls":"30","loff":"","li_type":"em","li_ph":"E-mail","li_nm":"Email"},"3":{"lid":"1589273807851","ls":"40","loff":"","li_type":"ta","li_ph":"Повідомлення","li_rows":"3","li_nm":"Textarea"}}</textarea></div>
-
-                    <script>
-
-                        $(document).ready(function() {
-                            jQuery.cachedScript = function( url ) {
-                                var options = {
-                                    dataType: "script",
-                                    cache: true,
-                                    url: url
-                                };
-                                return jQuery.ajax( options );
-                            };
-                            $.cachedScript("https://static.tildacdn.com/js/tilda-zero-forms-1.0.min.js").done(function( script, textStatus ) {
-                                if(textStatus=='success'){
-                                    setTimeout(function(){
-                                        var recid='199490826';
-                                        var elemid='1589273481886';
-                                        t_zeroForms__init(recid,elemid);
-                                    },500);
-                                }else{
-                                    console.log('Error init form in zeroblock. Err:'+textStatus);
-                                }
-                            });
-                        });
-
-                    </script>
-
-
-
-
-
-
-                </div>
 
 
                 <div class='t396__elem tn-elem tn-elem__1994908261589274248122 t-animate' data-elem-id='1589274248122' data-elem-type='image'
@@ -964,26 +696,7 @@
                     <div class='tn-atom'    >
                         <img class='tn-atom__img' src='https://static.tildacdn.com/tild6362-6162-4634-b331-333532373639/5__.png'  imgfield='tn_img_1590490861646'>
                     </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+                    @include('component.form')
 
 
                 </div>
@@ -2789,45 +2502,7 @@
                      data-field-widthunits-value=""
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
                 >
-
-
-
-
 
 
 
@@ -2835,64 +2510,43 @@
                         <img class='tn-atom__img' src='https://static.tildacdn.com/tild3933-3138-4461-b331-663231616238/_-min.jpg'  imgfield='tn_img_1588838583737'>
                     </div>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
                 </div>
 
+@include("component.top_menu_main")
 
-                <div class='t396__elem tn-elem tn-elem__1994908261593775265589' data-elem-id='1593775265589' data-elem-type='text'
-                     data-field-top-value="35"
-                     data-field-top-res-960-value="30"		data-field-top-res-640-value="-85"		data-field-top-res-480-value="-75"
 
-                     data-field-left-value="259"
-                     data-field-left-res-960-value="159"		data-field-left-res-640-value="-10"		data-field-left-res-480-value="-99"
 
+                {{--<div class='t396__elem tn-elem tn-elem__1994908261599720065057' data-elem-id='1599720065057' data-elem-type='image'--}}
+                     {{--data-field-top-value="85"--}}
+                     {{--data-field-top-res-960-value="75"		data-field-top-res-640-value="75"		data-field-top-res-480-value="65"		data-field-top-res-320-value="65"--}}
 
+                     {{--data-field-left-value="124"--}}
+                     {{--data-field-left-res-960-value="104"		data-field-left-res-640-value="100"		data-field-left-res-480-value="91"		data-field-left-res-320-value="91"--}}
 
-                     data-field-width-value="81"
-                     data-field-width-res-640-value="100"
 
-                     data-field-axisy-value="top"
 
+                     {{--data-field-width-value="25"--}}
 
-                     data-field-axisx-value="left"
 
+                     {{--data-field-axisy-value="top"--}}
 
-                     data-field-container-value="grid"
 
+                     {{--data-field-axisx-value="left"--}}
 
-                     data-field-topunits-value=""
 
+                     {{--data-field-container-value="grid"--}}
 
-                     data-field-leftunits-value=""
 
+                     {{--data-field-topunits-value=""--}}
 
-                     data-field-heightunits-value=""
 
+                     {{--data-field-leftunits-value=""--}}
 
-                     data-field-widthunits-value=""
 
+                     {{--data-field-heightunits-value=""--}}
 
 
+                     {{--data-field-widthunits-value=""--}}
 
 
 
@@ -2906,7 +2560,6 @@
 
 
 
-                     data-animate-sbs-event="hover"
 
 
 
@@ -2916,7 +2569,6 @@
 
 
 
-                     data-animate-sbs-opts="[{'ti':'0','mx':'0','my':'0','sx':'1','sy':'1','op':'1','ro':'0','bl':'0','ea':'','dt':'0'}]"
 
 
 
@@ -2926,13 +2578,12 @@
 
 
 
-                >
 
 
 
 
 
-                    <a class='tn-atom'  href="http://ytm.expert"  >ГОЛОВНА</a>
+                {{-->--}}
 
 
 
@@ -2940,6 +2591,9 @@
 
 
 
+                    {{--<div class='tn-atom'    >--}}
+                        {{--<img class='tn-atom__img' src='https://static.tildacdn.com/tild3339-3866-4834-b339-613162326362/noroot.png'  imgfield='tn_img_1599720065057'>--}}
+                    {{--</div>--}}
 
 
 
@@ -2957,45 +2611,45 @@
 
 
 
-                </div>
 
 
-                <div class='t396__elem tn-elem tn-elem__1994908261593775265594' data-elem-id='1593775265594' data-elem-type='text'
-                     data-field-top-value="35"
-                     data-field-top-res-960-value="30"		data-field-top-res-640-value="-80"		data-field-top-res-480-value="-75"
 
-                     data-field-left-value="406"
-                     data-field-left-res-960-value="298"		data-field-left-res-640-value="130"		data-field-left-res-480-value="21"
 
 
+                {{--</div>--}}
 
-                     data-field-width-value="80"
-                     data-field-width-res-640-value="95"
 
-                     data-field-axisy-value="top"
+                {{--<div class='t396__elem tn-elem tn-elem__1994908261599720065067' data-elem-id='1599720065067' data-elem-type='text'--}}
+                     {{--data-field-top-value="93"--}}
+                     {{--data-field-top-res-960-value="83"		data-field-top-res-640-value="82"		data-field-top-res-480-value="72"		data-field-top-res-320-value="72"--}}
 
+                     {{--data-field-left-value="60"--}}
+                     {{--data-field-left-res-960-value="40"		data-field-left-res-640-value="30"		data-field-left-res-480-value="21"		data-field-left-res-320-value="21"--}}
 
-                     data-field-axisx-value="left"
 
 
-                     data-field-container-value="grid"
+                     {{--data-field-width-value="60"--}}
+                     {{--data-field-width-res-640-value="69"--}}
 
+                     {{--data-field-axisy-value="top"--}}
 
-                     data-field-topunits-value=""
 
+                     {{--data-field-axisx-value="left"--}}
 
-                     data-field-leftunits-value=""
 
+                     {{--data-field-container-value="grid"--}}
 
-                     data-field-heightunits-value=""
 
+                     {{--data-field-topunits-value=""--}}
 
-                     data-field-widthunits-value=""
 
+                     {{--data-field-leftunits-value=""--}}
 
 
+                     {{--data-field-heightunits-value=""--}}
 
 
+                     {{--data-field-widthunits-value=""--}}
 
 
 
@@ -3012,6 +2666,7 @@
 
 
 
+                     {{--data-animate-sbs-event="hover"--}}
 
 
 
@@ -3019,7 +2674,9 @@
 
 
 
+                     {{--data-animate-sbs-trgels="1599719818985,1599720065067"--}}
 
+                     {{--data-animate-sbs-opts="[{'ti':'0','mx':'0','my':'0','sx':'1','sy':'1','op':'1','ro':'0','bl':'0','ea':'','dt':'0'},{'ti':400,'mx':'0','my':'0','sx':1.1,'sy':1.1,'op':'1','ro':'0','bl':'0','ea':'','dt':'0'}]"--}}
 
 
 
@@ -3027,15 +2684,15 @@
 
 
 
-                >
 
 
+                {{-->--}}
 
 
 
-                    <a class='tn-atom'  href="https://ytm.expert/#marketresearch"  >ПОСЛУГИ</a>
 
 
+                    {{--<a class='tn-atom'  href="{{route("main")}}"  >ГОЛОВНА</a>--}}
 
 
 
@@ -3058,42 +2715,42 @@
 
 
 
-                </div>
 
 
-                <div class='t396__elem tn-elem tn-elem__1994908261593775265597' data-elem-id='1593775265597' data-elem-type='text'
-                     data-field-top-value="35"
-                     data-field-top-res-960-value="30"		data-field-top-res-640-value="-80"		data-field-top-res-480-value="-75"
+                {{--</div>--}}
 
-                     data-field-left-value="533"
-                     data-field-left-res-960-value="416"		data-field-left-res-640-value="240"		data-field-left-res-480-value="136"
 
+                {{--<div class='t396__elem tn-elem tn-elem__1994908261599720065072' data-elem-id='1599720065072' data-elem-type='text'--}}
+                     {{--data-field-top-value="93"--}}
+                     {{--data-field-top-res-960-value="83"		data-field-top-res-640-value="82"		data-field-top-res-480-value="72"		data-field-top-res-320-value="72"--}}
 
+                     {{--data-field-left-value="150"--}}
+                     {{--data-field-left-res-960-value="130"		data-field-left-res-640-value="126"		data-field-left-res-480-value="117"		data-field-left-res-320-value="117"--}}
 
-                     data-field-width-value="80"
-                     data-field-width-res-640-value="94"
 
-                     data-field-axisy-value="top"
 
+                     {{--data-field-width-value="159"--}}
+                     {{--data-field-width-res-640-value="198"--}}
 
-                     data-field-axisx-value="left"
+                     {{--data-field-axisy-value="top"--}}
 
 
-                     data-field-container-value="grid"
+                     {{--data-field-axisx-value="left"--}}
 
 
-                     data-field-topunits-value=""
+                     {{--data-field-container-value="grid"--}}
 
 
-                     data-field-leftunits-value=""
+                     {{--data-field-topunits-value=""--}}
 
 
-                     data-field-heightunits-value=""
+                     {{--data-field-leftunits-value=""--}}
 
 
-                     data-field-widthunits-value=""
+                     {{--data-field-heightunits-value=""--}}
 
 
+                     {{--data-field-widthunits-value=""--}}
 
 
 
@@ -3110,6 +2767,7 @@
 
 
 
+                     {{--data-animate-sbs-event="hover"--}}
 
 
 
@@ -3117,7 +2775,9 @@
 
 
 
+                     {{--data-animate-sbs-trgels="1599592019852,1599719818988,1599720065072"--}}
 
+                     {{--data-animate-sbs-opts="[{'ti':'0','mx':'0','my':'0','sx':'1','sy':'1','op':'1','ro':'0','bl':'0','ea':'','dt':'0'},{'ti':400,'mx':0,'my':0,'sx':1.1,'sy':1.1,'op':'1','ro':'0','bl':'0','ea':'','dt':'0'}]"--}}
 
 
 
@@ -3127,14 +2787,14 @@
 
 
 
+                {{-->--}}
 
-                >
 
 
 
 
+                    {{--<div class='tn-atom' field='tn_text_1599720065072'   >ДОСЛІДЖЕННЯ</div>--}}
 
-                    <a class='tn-atom'  href="https://ytm.expert/researches"  >ДОСЛІДЖЕННЯ</a>
 
 
 
@@ -3158,1545 +2818,7 @@
 
 
 
-
-                </div>
-
-
-                <div class='t396__elem tn-elem tn-elem__1994908261593775265600' data-elem-id='1593775265600' data-elem-type='text'
-                     data-field-top-value="35"
-                     data-field-top-res-960-value="30"		data-field-top-res-640-value="-85"		data-field-top-res-480-value="-75"
-
-                     data-field-left-value="709"
-                     data-field-left-res-960-value="583"		data-field-left-res-640-value="360"		data-field-left-res-480-value="250"
-
-
-
-                     data-field-width-value="74"
-                     data-field-width-res-640-value="90"
-
-                     data-field-axisy-value="top"
-
-
-                     data-field-axisx-value="left"
-
-
-                     data-field-container-value="grid"
-
-
-                     data-field-topunits-value=""
-
-
-                     data-field-leftunits-value=""
-
-
-                     data-field-heightunits-value=""
-
-
-                     data-field-widthunits-value=""
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-                >
-
-
-
-
-
-                    <a class='tn-atom'  href="http://ytm.expert/news"  >НОВИНИ</a>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-                </div>
-
-
-                <div class='t396__elem tn-elem tn-elem__1994908261593775265604' data-elem-id='1593775265604' data-elem-type='text'
-                     data-field-top-value="35"
-                     data-field-top-res-960-value="30"		data-field-top-res-640-value="-85"		data-field-top-res-480-value="-75"
-
-                     data-field-left-value="852"
-                     data-field-left-res-960-value="703"		data-field-left-res-640-value="480"		data-field-left-res-480-value="360"
-
-
-
-                     data-field-width-value="89"
-
-
-                     data-field-axisy-value="top"
-
-
-                     data-field-axisx-value="left"
-
-
-                     data-field-container-value="grid"
-
-
-                     data-field-topunits-value=""
-
-
-                     data-field-leftunits-value=""
-
-
-                     data-field-heightunits-value=""
-
-
-                     data-field-widthunits-value=""
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-                >
-
-
-
-
-
-                    <a class='tn-atom'  href="#contacts"  >КОНТАКТИ</a>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-                </div>
-
-
-                <div class='t396__elem tn-elem tn-elem__1994908261593775265606' data-elem-id='1593775265606' data-elem-type='image'
-                     data-field-top-value="-43"
-                     data-field-top-res-960-value="-56"		data-field-top-res-640-value="-90"				data-field-top-res-320-value="-200"
-
-                     data-field-left-value="230"
-                     data-field-left-res-960-value="131"		data-field-left-res-640-value="-30"				data-field-left-res-320-value="-280"
-
-
-
-                     data-field-width-value="140"
-
-
-                     data-field-axisy-value="top"
-
-
-                     data-field-axisx-value="left"
-
-
-                     data-field-container-value="grid"
-
-
-                     data-field-topunits-value=""
-
-
-                     data-field-leftunits-value=""
-
-
-                     data-field-heightunits-value=""
-
-
-                     data-field-widthunits-value=""
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-                     data-animate-mobile="y"
-                     data-animate-sbs-event="hover"
-
-
-
-
-
-
-
-                     data-animate-sbs-trgels="1593773402048,1593775165602,1593775265631"
-
-                     data-animate-sbs-opts="[{'ti':'0','mx':'0','my':'0','sx':'1','sy':'1','op':'1','ro':'0','bl':'0','ea':'','dt':'0'},{'ti':0,'mx':'0','my':'0','sx':'1','sy':'1','op':0,'ro':'0','bl':'0','ea':'','dt':'0'},{'ti':0,'mx':0,'my':70,'sx':'1','sy':'1','op':0,'ro':'0','bl':'0','ea':'','dt':'0'},{'ti':100,'mx':0,'my':70,'sx':'1','sy':'1','op':'1','ro':'0','bl':'0','ea':'','dt':'0'}]"		data-animate-sbs-opts-res-960="[{'ti':'0','mx':'0','my':'0','sx':'1','sy':'1','op':'1','ro':'0','bl':'0','ea':'','dt':'0'},{'ti':0,'mx':0,'my':0,'sx':'1','sy':'1','op':0,'ro':'0','bl':'0','ea':'','dt':'0'},{'ti':0,'mx':0,'my':80,'sx':'1','sy':'1','op':0,'ro':'0','bl':'0','ea':'','dt':'0'},{'ti':100,'mx':0,'my':80,'sx':'1','sy':'1','op':'1','ro':'0','bl':'0','ea':'','dt':'0'}]"
-
-
-
-
-
-
-
-
-
-                >
-
-
-
-
-
-
-
-                    <a class='tn-atom' href="http://ytm.expert"   >
-                        <img class='tn-atom__img' src='https://static.tildacdn.com/tild6434-3765-4161-b931-373761313030/__.png'  imgfield='tn_img_1593775265606'>
-                    </a>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-                </div>
-
-
-                <div class='t396__elem tn-elem tn-elem__1994908261593775265612' data-elem-id='1593775265612' data-elem-type='image'
-                     data-field-top-value="-43"
-                     data-field-top-res-960-value="-56"		data-field-top-res-640-value="-80px"				data-field-top-res-320-value="-190"
-
-                     data-field-left-value="375"
-                     data-field-left-res-960-value="270"		data-field-left-res-640-value="-20px"				data-field-left-res-320-value="-270"
-
-
-
-                     data-field-width-value="145"
-
-
-                     data-field-axisy-value="top"
-
-
-                     data-field-axisx-value="left"
-
-
-                     data-field-container-value="grid"
-
-
-                     data-field-topunits-value=""
-
-
-                     data-field-leftunits-value=""
-
-
-                     data-field-heightunits-value=""
-
-
-                     data-field-widthunits-value=""
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-                     data-animate-mobile="y"
-                     data-animate-sbs-event="hover"
-
-
-
-
-
-
-
-                     data-animate-sbs-trgels="1593773402053,1593775165612,1593775265637"
-
-                     data-animate-sbs-opts="[{'ti':'0','mx':'0','my':'0','sx':'1','sy':'1','op':'1','ro':'0','bl':'0','ea':'','dt':'0'},{'ti':100,'mx':'0','my':'0','sx':'1','sy':'1','op':0,'ro':'0','bl':'0','ea':'','dt':'0'},{'ti':0,'mx':0,'my':70,'sx':'1','sy':'1','op':0,'ro':'0','bl':'0','ea':'','dt':'0'},{'ti':100,'mx':0,'my':70,'sx':'1','sy':'1','op':'1','ro':'0','bl':'0','ea':'','dt':'0'}]"		data-animate-sbs-opts-res-960="[{'ti':'0','mx':'0','my':'0','sx':'1','sy':'1','op':'1','ro':'0','bl':'0','ea':'','dt':'0'},{'ti':0,'mx':0,'my':0,'sx':'1','sy':'1','op':0,'ro':'0','bl':'0','ea':'','dt':'0'},{'ti':0,'mx':0,'my':80,'sx':'1','sy':'1','op':0,'ro':'0','bl':'0','ea':'','dt':'0'},{'ti':100,'mx':0,'my':80,'sx':'1','sy':'1','op':'1','ro':'0','bl':'0','ea':'','dt':'0'}]"
-
-
-
-
-
-
-
-
-
-                >
-
-
-
-
-
-
-
-                    <a class='tn-atom' href="https://ytm.expert/#marketresearch"   >
-                        <img class='tn-atom__img' src='https://static.tildacdn.com/tild6434-3765-4161-b931-373761313030/__.png'  imgfield='tn_img_1593775265612'>
-                    </a>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-                </div>
-
-
-                <div class='t396__elem tn-elem tn-elem__1994908261593775265617' data-elem-id='1593775265617' data-elem-type='image'
-                     data-field-top-value="-43"
-                     data-field-top-res-960-value="-56"		data-field-top-res-640-value="-70px"				data-field-top-res-320-value="-180"
-
-                     data-field-left-value="525"
-                     data-field-left-res-960-value="407"		data-field-left-res-640-value="-10px"				data-field-left-res-320-value="-260"
-
-
-
-                     data-field-width-value="145"
-
-
-                     data-field-axisy-value="top"
-
-
-                     data-field-axisx-value="left"
-
-
-                     data-field-container-value="grid"
-
-
-                     data-field-topunits-value=""
-
-
-                     data-field-leftunits-value=""
-
-
-                     data-field-heightunits-value=""
-
-
-                     data-field-widthunits-value=""
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-                     data-animate-mobile="y"
-                     data-animate-sbs-event="hover"
-
-
-
-
-
-
-
-                     data-animate-sbs-trgels="1593773402058,1593775165619,1593775265642"
-
-                     data-animate-sbs-opts="[{'ti':'0','mx':'0','my':'0','sx':'1','sy':'1','op':'1','ro':'0','bl':'0','ea':'','dt':'0'},{'ti':0,'mx':'0','my':'0','sx':'1','sy':'1','op':0,'ro':'0','bl':'0','ea':'','dt':'0'},{'ti':0,'mx':0,'my':70,'sx':'1','sy':'1','op':0,'ro':'0','bl':'0','ea':'','dt':'0'},{'ti':100,'mx':0,'my':70,'sx':'1','sy':'1','op':'1','ro':'0','bl':'0','ea':'','dt':'0'}]"		data-animate-sbs-opts-res-960="[{'ti':'0','mx':'0','my':'0','sx':'1','sy':'1','op':'1','ro':'0','bl':'0','ea':'','dt':'0'},{'ti':0,'mx':0,'my':0,'sx':'1','sy':'1','op':0,'ro':'0','bl':'0','ea':'','dt':'0'},{'ti':0,'mx':0,'my':80,'sx':0,'sy':0,'op':'1','ro':'0','bl':'0','ea':'','dt':'0'},{'ti':100,'mx':0,'my':80,'sx':'1','sy':'1','op':'1','ro':'0','bl':'0','ea':'','dt':'0'}]"
-
-
-
-
-
-
-
-
-
-                >
-
-
-
-
-
-
-
-                    <a class='tn-atom' href="https://ytm.expert/researches"   >
-                        <img class='tn-atom__img' src='https://static.tildacdn.com/tild6434-3765-4161-b931-373761313030/__.png'  imgfield='tn_img_1593775265617'>
-                    </a>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-                </div>
-
-
-                <div class='t396__elem tn-elem tn-elem__1994908261593775265622' data-elem-id='1593775265622' data-elem-type='image'
-                     data-field-top-value="-43"
-                     data-field-top-res-960-value="-56"		data-field-top-res-640-value="-60px"				data-field-top-res-320-value="-180"
-
-                     data-field-left-value="675"
-                     data-field-left-res-960-value="552"		data-field-left-res-640-value="0px"				data-field-left-res-320-value="-90"
-
-
-
-                     data-field-width-value="145"
-
-
-                     data-field-axisy-value="top"
-
-
-                     data-field-axisx-value="left"
-
-
-                     data-field-container-value="grid"
-
-
-                     data-field-topunits-value=""
-
-
-                     data-field-leftunits-value=""
-
-
-                     data-field-heightunits-value=""
-
-
-                     data-field-widthunits-value=""
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-                     data-animate-mobile="y"
-                     data-animate-sbs-event="hover"
-
-
-
-
-
-
-
-                     data-animate-sbs-trgels="1593773402061,1593775165625,1593775265646"
-
-                     data-animate-sbs-opts="[{'ti':'0','mx':'0','my':'0','sx':'1','sy':'1','op':'1','ro':'0','bl':'0','ea':'','dt':'0'},{'ti':0,'mx':'0','my':'0','sx':'1','sy':'1','op':0,'ro':'0','bl':'0','ea':'','dt':'0'},{'ti':0,'mx':0,'my':70,'sx':'1','sy':'1','op':0,'ro':'0','bl':'0','ea':'','dt':'0'},{'ti':100,'mx':0,'my':70,'sx':'1','sy':'1','op':'1','ro':'0','bl':'0','ea':'','dt':'0'}]"		data-animate-sbs-opts-res-960="[{'ti':'0','mx':'0','my':'0','sx':'1','sy':'1','op':'1','ro':'0','bl':'0','ea':'','dt':'0'},{'ti':0,'mx':0,'my':0,'sx':'1','sy':'1','op':0,'ro':'0','bl':'0','ea':'','dt':'0'},{'ti':0,'mx':-6,'my':80,'sx':1,'sy':1,'op':0,'ro':'0','bl':'0','ea':'','dt':'0'},{'ti':100,'mx':-9,'my':79,'sx':'1','sy':'1','op':'1','ro':'0','bl':'0','ea':'','dt':'0'}]"
-
-
-
-
-
-
-
-
-
-                >
-
-
-
-
-
-
-
-                    <a class='tn-atom' href="http://ytm.expert/news"   >
-                        <img class='tn-atom__img' src='https://static.tildacdn.com/tild6434-3765-4161-b931-373761313030/__.png'  imgfield='tn_img_1593775265622'>
-                    </a>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-                </div>
-
-
-                <div class='t396__elem tn-elem tn-elem__1994908261593775265627' data-elem-id='1593775265627' data-elem-type='image'
-                     data-field-top-value="-43"
-                     data-field-top-res-960-value="-56"		data-field-top-res-640-value="-50px"				data-field-top-res-320-value="-160"
-
-                     data-field-left-value="825"
-                     data-field-left-res-960-value="676"		data-field-left-res-640-value="10px"				data-field-left-res-320-value="-240"
-
-
-
-                     data-field-width-value="145"
-
-
-                     data-field-axisy-value="top"
-
-
-                     data-field-axisx-value="left"
-
-
-                     data-field-container-value="grid"
-
-
-                     data-field-topunits-value=""
-
-
-                     data-field-leftunits-value=""
-
-
-                     data-field-heightunits-value=""
-
-
-                     data-field-widthunits-value=""
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-                     data-animate-mobile="y"
-                     data-animate-sbs-event="hover"
-
-
-
-
-
-
-
-                     data-animate-sbs-trgels="1593773402064,1593775165631,1593775265650"
-
-                     data-animate-sbs-opts="[{'ti':'0','mx':'0','my':'0','sx':'1','sy':'1','op':'1','ro':'0','bl':'0','ea':'','dt':'0'},{'ti':0,'mx':'0','my':'0','sx':'1','sy':'1','op':'1','ro':'0','bl':'0','ea':'','dt':'0'},{'ti':0,'mx':0,'my':70,'sx':'1','sy':'1','op':0,'ro':'0','bl':'0','ea':'','dt':'0'},{'ti':100,'mx':0,'my':70,'sx':'1','sy':'1','op':'1','ro':'0','bl':'0','ea':'','dt':'0'}]"		data-animate-sbs-opts-res-960="[{'ti':'0','mx':'0','my':'0','sx':'1','sy':'1','op':'1','ro':'0','bl':'0','ea':'','dt':'0'},{'ti':0,'mx':0,'my':0,'sx':'1','sy':'1','op':0,'ro':'0','bl':'0','ea':'','dt':'0'},{'ti':0,'mx':0,'my':79,'sx':'1','sy':'1','op':0,'ro':'0','bl':'0','ea':'','dt':'0'},{'ti':100,'mx':0,'my':80,'sx':'1','sy':'1','op':'1','ro':'0','bl':'0','ea':'','dt':'0'}]"
-
-
-
-
-
-
-
-
-
-                >
-
-
-
-
-
-
-
-                    <a class='tn-atom' href="#contacts"   >
-                        <img class='tn-atom__img' src='https://static.tildacdn.com/tild6434-3765-4161-b931-373761313030/__.png'  imgfield='tn_img_1593775265627'>
-                    </a>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-                </div>
-
-
-                <div class='t396__elem tn-elem tn-elem__1994908261593775265631' data-elem-id='1593775265631' data-elem-type='image'
-                     data-field-top-value="27"
-                     data-field-top-res-960-value="-46px"		data-field-top-res-640-value="-80px"				data-field-top-res-320-value="-190px"
-
-                     data-field-left-value="230"
-                     data-field-left-res-960-value="141px"		data-field-left-res-640-value="-20px"				data-field-left-res-320-value="-270px"
-
-
-
-                     data-field-width-value="140"
-
-
-                     data-field-axisy-value="top"
-
-
-                     data-field-axisx-value="left"
-
-
-                     data-field-container-value="grid"
-
-
-                     data-field-topunits-value=""
-
-
-                     data-field-leftunits-value=""
-
-
-                     data-field-heightunits-value=""
-
-
-                     data-field-widthunits-value=""
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-                     data-animate-mobile="y"
-                     data-animate-sbs-event="hover"
-
-
-
-
-
-
-
-                     data-animate-sbs-trgels="1593773402048"
-
-                     data-animate-sbs-opts="[{'ti':'0','mx':'0','my':'0','sx':'1','sy':'1','op':'1','ro':'0','bl':'0','ea':'','dt':'0'},{'ti':0,'mx':'0','my':'0','sx':'1','sy':'1','op':0,'ro':'0','bl':'0','ea':'','dt':'0'},{'ti':0,'mx':0,'my':70,'sx':'1','sy':'1','op':0,'ro':'0','bl':'0','ea':'','dt':'0'},{'ti':100,'mx':0,'my':70,'sx':'1','sy':'1','op':'1','ro':'0','bl':'0','ea':'','dt':'0'}]"		data-animate-sbs-opts-res-960="[{'ti':'0','mx':'0','my':'0','sx':'1','sy':'1','op':'1','ro':'0','bl':'0','ea':'','dt':'0'},{'ti':0,'mx':0,'my':0,'sx':'1','sy':'1','op':0,'ro':'0','bl':'0','ea':'','dt':'0'},{'ti':0,'mx':0,'my':80,'sx':'1','sy':'1','op':0,'ro':'0','bl':'0','ea':'','dt':'0'},{'ti':100,'mx':0,'my':80,'sx':'1','sy':'1','op':'1','ro':'0','bl':'0','ea':'','dt':'0'}]"
-
-
-
-
-
-
-
-
-
-                >
-
-
-
-
-
-
-
-                    <a class='tn-atom' href="http://ytm.expert"   >
-                        <img class='tn-atom__img' src='https://static.tildacdn.com/tild6434-3765-4161-b931-373761313030/__.png'  imgfield='tn_img_1593775265631'>
-                    </a>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-                </div>
-
-
-                <div class='t396__elem tn-elem tn-elem__1994908261593775265637' data-elem-id='1593775265637' data-elem-type='image'
-                     data-field-top-value="27"
-                     data-field-top-res-960-value="-46px"		data-field-top-res-640-value="-70px"				data-field-top-res-320-value="-180px"
-
-                     data-field-left-value="375"
-                     data-field-left-res-960-value="280px"		data-field-left-res-640-value="-10px"				data-field-left-res-320-value="-260px"
-
-
-
-                     data-field-width-value="145"
-
-
-                     data-field-axisy-value="top"
-
-
-                     data-field-axisx-value="left"
-
-
-                     data-field-container-value="grid"
-
-
-                     data-field-topunits-value=""
-
-
-                     data-field-leftunits-value=""
-
-
-                     data-field-heightunits-value=""
-
-
-                     data-field-widthunits-value=""
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-                     data-animate-mobile="y"
-                     data-animate-sbs-event="hover"
-
-
-
-
-
-
-
-                     data-animate-sbs-trgels="1593773402053"
-
-                     data-animate-sbs-opts="[{'ti':'0','mx':'0','my':'0','sx':'1','sy':'1','op':'1','ro':'0','bl':'0','ea':'','dt':'0'},{'ti':100,'mx':'0','my':'0','sx':'1','sy':'1','op':0,'ro':'0','bl':'0','ea':'','dt':'0'},{'ti':0,'mx':0,'my':70,'sx':'1','sy':'1','op':0,'ro':'0','bl':'0','ea':'','dt':'0'},{'ti':100,'mx':0,'my':70,'sx':'1','sy':'1','op':'1','ro':'0','bl':'0','ea':'','dt':'0'}]"		data-animate-sbs-opts-res-960="[{'ti':'0','mx':'0','my':'0','sx':'1','sy':'1','op':'1','ro':'0','bl':'0','ea':'','dt':'0'},{'ti':0,'mx':0,'my':0,'sx':'1','sy':'1','op':0,'ro':'0','bl':'0','ea':'','dt':'0'},{'ti':0,'mx':0,'my':80,'sx':'1','sy':'1','op':0,'ro':'0','bl':'0','ea':'','dt':'0'},{'ti':100,'mx':0,'my':80,'sx':'1','sy':'1','op':'1','ro':'0','bl':'0','ea':'','dt':'0'}]"
-
-
-
-
-
-
-
-
-
-                >
-
-
-
-
-
-
-
-                    <a class='tn-atom' href="https://ytm.expert/services"   >
-                        <img class='tn-atom__img' src='https://static.tildacdn.com/tild6434-3765-4161-b931-373761313030/__.png'  imgfield='tn_img_1593775265637'>
-                    </a>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-                </div>
-
-
-                <div class='t396__elem tn-elem tn-elem__1994908261593775265642' data-elem-id='1593775265642' data-elem-type='image'
-                     data-field-top-value="27"
-                     data-field-top-res-960-value="-46px"		data-field-top-res-640-value="-60px"				data-field-top-res-320-value="-170px"
-
-                     data-field-left-value="525"
-                     data-field-left-res-960-value="417px"		data-field-left-res-640-value="0px"				data-field-left-res-320-value="-250px"
-
-
-
-                     data-field-width-value="145"
-
-
-                     data-field-axisy-value="top"
-
-
-                     data-field-axisx-value="left"
-
-
-                     data-field-container-value="grid"
-
-
-                     data-field-topunits-value=""
-
-
-                     data-field-leftunits-value=""
-
-
-                     data-field-heightunits-value=""
-
-
-                     data-field-widthunits-value=""
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-                     data-animate-mobile="y"
-                     data-animate-sbs-event="hover"
-
-
-
-
-
-
-
-                     data-animate-sbs-trgels="1593773402058"
-
-                     data-animate-sbs-opts="[{'ti':'0','mx':'0','my':'0','sx':'1','sy':'1','op':'1','ro':'0','bl':'0','ea':'','dt':'0'},{'ti':0,'mx':'0','my':'0','sx':'1','sy':'1','op':0,'ro':'0','bl':'0','ea':'','dt':'0'},{'ti':0,'mx':0,'my':70,'sx':'1','sy':'1','op':0,'ro':'0','bl':'0','ea':'','dt':'0'},{'ti':100,'mx':0,'my':70,'sx':'1','sy':'1','op':'1','ro':'0','bl':'0','ea':'','dt':'0'}]"		data-animate-sbs-opts-res-960="[{'ti':'0','mx':'0','my':'0','sx':'1','sy':'1','op':'1','ro':'0','bl':'0','ea':'','dt':'0'},{'ti':0,'mx':0,'my':0,'sx':'1','sy':'1','op':0,'ro':'0','bl':'0','ea':'','dt':'0'},{'ti':0,'mx':0,'my':80,'sx':0,'sy':0,'op':'1','ro':'0','bl':'0','ea':'','dt':'0'},{'ti':100,'mx':0,'my':80,'sx':'1','sy':'1','op':'1','ro':'0','bl':'0','ea':'','dt':'0'}]"
-
-
-
-
-
-
-
-
-
-                >
-
-
-
-
-
-
-
-                    <a class='tn-atom' href="https://ytm.expert/researches"   >
-                        <img class='tn-atom__img' src='https://static.tildacdn.com/tild6434-3765-4161-b931-373761313030/__.png'  imgfield='tn_img_1593775265642'>
-                    </a>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-                </div>
-
-
-                <div class='t396__elem tn-elem tn-elem__1994908261593775265646' data-elem-id='1593775265646' data-elem-type='image'
-                     data-field-top-value="27"
-                     data-field-top-res-960-value="-46px"		data-field-top-res-640-value="-50px"				data-field-top-res-320-value="-170px"
-
-                     data-field-left-value="675"
-                     data-field-left-res-960-value="562px"		data-field-left-res-640-value="10px"				data-field-left-res-320-value="-80px"
-
-
-
-                     data-field-width-value="145"
-
-
-                     data-field-axisy-value="top"
-
-
-                     data-field-axisx-value="left"
-
-
-                     data-field-container-value="grid"
-
-
-                     data-field-topunits-value=""
-
-
-                     data-field-leftunits-value=""
-
-
-                     data-field-heightunits-value=""
-
-
-                     data-field-widthunits-value=""
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-                     data-animate-mobile="y"
-                     data-animate-sbs-event="hover"
-
-
-
-
-
-
-
-                     data-animate-sbs-trgels="1593773402061"
-
-                     data-animate-sbs-opts="[{'ti':'0','mx':'0','my':'0','sx':'1','sy':'1','op':'1','ro':'0','bl':'0','ea':'','dt':'0'},{'ti':0,'mx':'0','my':'0','sx':'1','sy':'1','op':0,'ro':'0','bl':'0','ea':'','dt':'0'},{'ti':0,'mx':0,'my':70,'sx':'1','sy':'1','op':0,'ro':'0','bl':'0','ea':'','dt':'0'},{'ti':100,'mx':0,'my':70,'sx':'1','sy':'1','op':'1','ro':'0','bl':'0','ea':'','dt':'0'}]"		data-animate-sbs-opts-res-960="[{'ti':'0','mx':'0','my':'0','sx':'1','sy':'1','op':'1','ro':'0','bl':'0','ea':'','dt':'0'},{'ti':0,'mx':0,'my':0,'sx':'1','sy':'1','op':0,'ro':'0','bl':'0','ea':'','dt':'0'},{'ti':0,'mx':-6,'my':80,'sx':1,'sy':1,'op':0,'ro':'0','bl':'0','ea':'','dt':'0'},{'ti':100,'mx':-9,'my':79,'sx':'1','sy':'1','op':'1','ro':'0','bl':'0','ea':'','dt':'0'}]"
-
-
-
-
-
-
-
-
-
-                >
-
-
-
-
-
-
-
-                    <a class='tn-atom' href="http://ytm.expert/news"   >
-                        <img class='tn-atom__img' src='https://static.tildacdn.com/tild6434-3765-4161-b931-373761313030/__.png'  imgfield='tn_img_1593775265646'>
-                    </a>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-                </div>
-
-
-                <div class='t396__elem tn-elem tn-elem__1994908261593775265650' data-elem-id='1593775265650' data-elem-type='image'
-                     data-field-top-value="27"
-                     data-field-top-res-960-value="-46px"		data-field-top-res-640-value="-40px"				data-field-top-res-320-value="-150px"
-
-                     data-field-left-value="825"
-                     data-field-left-res-960-value="686px"		data-field-left-res-640-value="20px"				data-field-left-res-320-value="-230px"
-
-
-
-                     data-field-width-value="145"
-
-
-                     data-field-axisy-value="top"
-
-
-                     data-field-axisx-value="left"
-
-
-                     data-field-container-value="grid"
-
-
-                     data-field-topunits-value=""
-
-
-                     data-field-leftunits-value=""
-
-
-                     data-field-heightunits-value=""
-
-
-                     data-field-widthunits-value=""
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-                     data-animate-mobile="y"
-                     data-animate-sbs-event="hover"
-
-
-
-
-
-
-
-                     data-animate-sbs-trgels="1593773402064"
-
-                     data-animate-sbs-opts="[{'ti':'0','mx':'0','my':'0','sx':'1','sy':'1','op':'1','ro':'0','bl':'0','ea':'','dt':'0'},{'ti':0,'mx':'0','my':'0','sx':'1','sy':'1','op':'1','ro':'0','bl':'0','ea':'','dt':'0'},{'ti':0,'mx':0,'my':70,'sx':'1','sy':'1','op':0,'ro':'0','bl':'0','ea':'','dt':'0'},{'ti':100,'mx':0,'my':70,'sx':'1','sy':'1','op':'1','ro':'0','bl':'0','ea':'','dt':'0'}]"		data-animate-sbs-opts-res-960="[{'ti':'0','mx':'0','my':'0','sx':'1','sy':'1','op':'1','ro':'0','bl':'0','ea':'','dt':'0'},{'ti':0,'mx':0,'my':0,'sx':'1','sy':'1','op':0,'ro':'0','bl':'0','ea':'','dt':'0'},{'ti':0,'mx':0,'my':79,'sx':'1','sy':'1','op':0,'ro':'0','bl':'0','ea':'','dt':'0'},{'ti':100,'mx':0,'my':80,'sx':'1','sy':'1','op':'1','ro':'0','bl':'0','ea':'','dt':'0'}]"
-
-
-
-
-
-
-
-
-
-                >
-
-
-
-
-
-
-
-                    <a class='tn-atom' href="#contacts"   >
-                        <img class='tn-atom__img' src='https://static.tildacdn.com/tild6434-3765-4161-b931-373761313030/__.png'  imgfield='tn_img_1593775265650'>
-                    </a>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-                </div>
-
-
-                <div class='t396__elem tn-elem tn-elem__1994908261599720065057' data-elem-id='1599720065057' data-elem-type='image'
-                     data-field-top-value="85"
-                     data-field-top-res-960-value="75"		data-field-top-res-640-value="75"		data-field-top-res-480-value="65"		data-field-top-res-320-value="65"
-
-                     data-field-left-value="124"
-                     data-field-left-res-960-value="104"		data-field-left-res-640-value="100"		data-field-left-res-480-value="91"		data-field-left-res-320-value="91"
-
-
-
-                     data-field-width-value="25"
-
-
-                     data-field-axisy-value="top"
-
-
-                     data-field-axisx-value="left"
-
-
-                     data-field-container-value="grid"
-
-
-                     data-field-topunits-value=""
-
-
-                     data-field-leftunits-value=""
-
-
-                     data-field-heightunits-value=""
-
-
-                     data-field-widthunits-value=""
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-                >
-
-
-
-
-
-
-
-                    <div class='tn-atom'    >
-                        <img class='tn-atom__img' src='https://static.tildacdn.com/tild3339-3866-4834-b339-613162326362/noroot.png'  imgfield='tn_img_1599720065057'>
-                    </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-                </div>
-
-
-                <div class='t396__elem tn-elem tn-elem__1994908261599720065067' data-elem-id='1599720065067' data-elem-type='text'
-                     data-field-top-value="93"
-                     data-field-top-res-960-value="83"		data-field-top-res-640-value="82"		data-field-top-res-480-value="72"		data-field-top-res-320-value="72"
-
-                     data-field-left-value="60"
-                     data-field-left-res-960-value="40"		data-field-left-res-640-value="30"		data-field-left-res-480-value="21"		data-field-left-res-320-value="21"
-
-
-
-                     data-field-width-value="60"
-                     data-field-width-res-640-value="69"
-
-                     data-field-axisy-value="top"
-
-
-                     data-field-axisx-value="left"
-
-
-                     data-field-container-value="grid"
-
-
-                     data-field-topunits-value=""
-
-
-                     data-field-leftunits-value=""
-
-
-                     data-field-heightunits-value=""
-
-
-                     data-field-widthunits-value=""
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-                     data-animate-sbs-event="hover"
-
-
-
-
-
-
-
-                     data-animate-sbs-trgels="1599719818985,1599720065067"
-
-                     data-animate-sbs-opts="[{'ti':'0','mx':'0','my':'0','sx':'1','sy':'1','op':'1','ro':'0','bl':'0','ea':'','dt':'0'},{'ti':400,'mx':'0','my':'0','sx':1.1,'sy':1.1,'op':'1','ro':'0','bl':'0','ea':'','dt':'0'}]"
-
-
-
-
-
-
-
-
-
-                >
-
-
-
-
-
-                    <a class='tn-atom'  href="http://ytm.expert"  >ГОЛОВНА</a>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-                </div>
-
-
-                <div class='t396__elem tn-elem tn-elem__1994908261599720065072' data-elem-id='1599720065072' data-elem-type='text'
-                     data-field-top-value="93"
-                     data-field-top-res-960-value="83"		data-field-top-res-640-value="82"		data-field-top-res-480-value="72"		data-field-top-res-320-value="72"
-
-                     data-field-left-value="150"
-                     data-field-left-res-960-value="130"		data-field-left-res-640-value="126"		data-field-left-res-480-value="117"		data-field-left-res-320-value="117"
-
-
-
-                     data-field-width-value="159"
-                     data-field-width-res-640-value="198"
-
-                     data-field-axisy-value="top"
-
-
-                     data-field-axisx-value="left"
-
-
-                     data-field-container-value="grid"
-
-
-                     data-field-topunits-value=""
-
-
-                     data-field-leftunits-value=""
-
-
-                     data-field-heightunits-value=""
-
-
-                     data-field-widthunits-value=""
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-                     data-animate-sbs-event="hover"
-
-
-
-
-
-
-
-                     data-animate-sbs-trgels="1599592019852,1599719818988,1599720065072"
-
-                     data-animate-sbs-opts="[{'ti':'0','mx':'0','my':'0','sx':'1','sy':'1','op':'1','ro':'0','bl':'0','ea':'','dt':'0'},{'ti':400,'mx':0,'my':0,'sx':1.1,'sy':1.1,'op':'1','ro':'0','bl':'0','ea':'','dt':'0'}]"
-
-
-
-
-
-
-
-
-
-                >
-
-
-
-
-
-                    <div class='tn-atom' field='tn_text_1599720065072'   >ДОСЛІДЖЕННЯ</div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-                </div>
+                {{--</div>--}}
 
 
             </div>

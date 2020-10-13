@@ -1,8 +1,5 @@
-<div class="form" style="width: 420px;     top: 40px;
-    left: 500px;
-    width: 428px;
-    position: absolute;">
-    <form action="/send-mail" method="post">
+<div class="form form_field">
+    <form action="/send-mail" method="post" class="form-mail">
         @csrf
         <div class="t-form__inputsbox">
             <div class="t-input-group t-input-group_nm" data-input-lid="1531306243545" style="margin-bottom:20px;">
@@ -130,7 +127,7 @@
                     });</script>
             </div>
             <div class="tn-form__submit" style="">
-                <button type="submit" class="t-submit"
+                <button type="submit" class="t-submit send-mail"
                         style="color:#fff;border:1px solid #e3cb9f;background-color: transparent;font-family:Montserrat;font-weight:300;font-size:16px;box-shadow: 0px 0px 1px 0px rgba(0, 0, 0, 0.3);width:140px;height:40px;padding:0 15px;display:block;">
                     НАДІСЛАТИ
                 </button>
@@ -138,3 +135,52 @@
         </div>
     </form>
 </div>
+<script>
+    $(".form-mail").on("submit",function (e) {
+        e.preventDefault();
+        let form =$(this);
+        console.log(form.serialize());
+        $.ajax({
+            url: "send-mail",
+            'method': 'post',
+            data:form.serialize(),
+            success: function(result){
+                if (result =="true"){
+                    $('.t-form-success-popup').show();
+                    $('.t-form-success-popup__close-icon').on("click",function () {
+                        console.log(123);
+                        $('.t-form-success-popup').hide();
+                    });
+                    return
+                }
+                $('.tilda-popup-for-error').show();
+            },
+        error:function () {
+            $('.tilda-popup-for-error').show();
+        }});
+
+    })
+</script>
+<style>
+    .form_field{
+        width: 420px;
+        top: 40px;
+        left: 500px;
+        position: absolute;
+    }
+    @media screen and (max-width: 600px) {
+        .form_field{
+            width: 420px;
+            top: 250px;
+            left: 256px;
+            position: absolute;
+        }
+    }
+
+</style>
+<style media="screen"> .t-form-success-popup { display: none; position: fixed; background-color: rgba(0,0,0,.8); top: 0px; left: 0px; width: 100%; height: 100%; z-index: 10000; overflow-y: auto; cursor: pointer; } .t-body_success-popup-showed { height: 100vh; min-height: 100vh; overflow: hidden; } .t-form-success-popup__window { width: 100%; max-width: 400px; position: absolute; top: 50%; -webkit-transform: translateY(-50%); transform: translateY(-50%); left: 0px; right: 0px; margin: 0 auto; padding: 20px; box-sizing: border-box; } .t-form-success-popup__wrapper { background-color: #fff; padding: 40px 40px 50px; box-sizing: border-box; border-radius: 5px; text-align: center; position: relative; cursor: default; } .t-form-success-popup__text { padding-top: 20px; } .t-form-success-popup__close-icon { position: absolute; top: 14px; right: 14px; cursor: pointer; } @media screen and (max-width: 480px) { .t-form-success-popup__text { padding-top: 10px; } .t-form-success-popup__wrapper { padding-left: 20px; padding-right: 20px; } } </style>
+<div class="t-form-success-popup" style="display: none;" id="tildaformsuccesspopup"> <div class="t-form-success-popup__window"> <div class="t-form-success-popup__wrapper"> <svg class="t-form-success-popup__close-icon" xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 23 23"> <g fill-rule="evenodd"> <path d="M0 1.41L1.4 0l21.22 21.21-1.41 1.42z"></path> <path d="M21.21 0l1.42 1.4L1.4 22.63 0 21.21z"></path> </g> </svg> <svg width="50" height="50" fill="#62C584"> <path d="M25.1 49.28A24.64 24.64 0 0 1 .5 24.68 24.64 24.64 0 0 1 25.1.07a24.64 24.64 0 0 1 24.6 24.6 24.64 24.64 0 0 1-24.6 24.61zm0-47.45A22.87 22.87 0 0 0 2.26 24.68 22.87 22.87 0 0 0 25.1 47.52a22.87 22.87 0 0 0 22.84-22.84A22.87 22.87 0 0 0 25.1 1.83z"></path> <path d="M22.84 30.53l-4.44-4.45a.88.88 0 1 1 1.24-1.24l3.2 3.2 8.89-8.9a.88.88 0 1 1 1.25 1.26L22.84 30.53z"></path> </svg> <div class="t-form-success-popup__text t-descr t-descr_sm" id="tildaformsuccesspopuptext">Thank you! Your data has been submitted.</div> </div> </div> </div>
+
+
+
+<div id="tilda-popup-for-error" class="js-form-popup-errorbox tn-form__errorbox-popup" style=" display: none;" > <div class="t-form__errorbox-text t-text t-text_xs"><p class="t-form__errorbox-item" style="display: none;">Error, try later</p></div> <div class="tn-form__errorbox-close js-errorbox-close"> <div class="tn-form__errorbox-close-line tn-form__errorbox-close-line-left"></div> <div class="tn-form__errorbox-close-line tn-form__errorbox-close-line-right"></div> </div> </div>
