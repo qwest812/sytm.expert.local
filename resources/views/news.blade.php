@@ -1870,39 +1870,38 @@
          data-record-type="404" data-bg-color="#171834">
         <!-- T404 -->
 
-
+        <style>
+            .item_news {
+                width: 360px;
+            }
+        </style>
         <div class="t404" data-show-count="3">
             <div class="t-container">
-                <div class="t404__col t-col t-col_4 t-align_left t404__withbg">
-                    <a class="t404__link" href="/news/analiz-rynku-plyt-i-plytok-keramichnyx-v-i-kvartali-19-20-roku">
-                        <div class="t404__imgbox">
-                            <div class="t404__img t-bgimg"
-                                 data-original="https://static.tildacdn.com/tild6664-6261-4861-b963-353436633532/analiz-rynka-plitki-.jpg"
-                                 style="background-image: url('https://static.tildacdn.com/tild6664-6261-4861-b963-353436633532/analiz-rynka-plitki-.jpg');"></div>
-                            <div class="t404__separator"></div>
-                        </div>
-                        <div class="t404__textwrapper t404__paddingsmall" style="background-color: #171834;">
-                            <div class="t404__uptitle t-uptitle" style="text-transform:uppercase;">
-                                <span style="text-transform:uppercase;" class="t404__date">12-09-2020</span>
+                <div style="display: flex; justify-content: space-between; flex-wrap: wrap;">
+                    @foreach($news as $new)
+
+                        <a href="{{$new["url"]}}">
+                            <div class="item_news">
+                                <div style="background-image: url('{{$new["main_img"]}}');
+                                        width: 100%; height: 239px; background-size: contain"></div>
+                                <div class="t404__textwrapper t404__paddingsmall"
+                                     style="background-color: rgb(23, 24, 52); height: 214px;">
+                                    <div class="t404__uptitle t-uptitle" style="text-transform:uppercase;">
+                                <span style="text-transform:uppercase;" class="t404__date">
+                                             {{$new["time"]}}</span>
+                                    </div>
+                                    <div class="t404__title t-heading t-heading_xs"
+                                         style="color: rgb(227, 203, 159); font-size: 18px; font-weight: 500; font-family: Montserrat; height: 43px;">{{$new["h1"]}}</div>
+                                    {{--<div class="t404__descr t-descr t-descr_xs" style="color: rgb(255, 255, 255); font-size: 14px; font-weight: 400; font-family: Montserrat; height: 129px;">За результатами проведеного дослідження аналітиками «Your Total Market», можна відзначити спад обсягу ринку плит і плиток керамічних (-6,9%) за перші 3 місяці 2020 року в порівнянні з тим же часом в 2019р.</div>  --}}
+                                </div>
                             </div>
-                            <div class="t404__title t-heading t-heading_xs"
-                                 style="color:#e3cb9f;font-size:18px;font-weight:500;font-family:&apos;Montserrat&apos;;">
-                                Аналіз ринку плит і плиток керамічних в І кв. 2019-2020 рр.
-                            </div>
-                            <div class="t404__descr t-descr t-descr_xs"
-                                 style="color:#ffffff;font-size:14px;font-weight:400;font-family:&apos;Montserrat&apos;;">
-                                За результатами проведеного дослідження аналітиками «Your Total Market», можна
-                                відзначити спад обсягу ринку плит і плиток керамічних (-6,9%) за перші 3 місяці 2020
-                                року в порівнянні з тим же часом в 2019р.
-                            </div>
-                        </div>
-                    </a>
+                        </a>
+                    @endforeach
                 </div>
             </div>
         </div>
 
         <script>
-
 
             $(document).ready(function () {
                 t404_unifyHeights('229174142');
@@ -2350,8 +2349,6 @@
                 <div class="t396__carrier" data-artboard-recid="199484476"></div>
 
                 <div class="t396__filter" data-artboard-recid="199484476"></div>
-
-
 
 
                 <div class='t396__elem tn-elem tn-elem__1994844761591365209893 t-animate' data-elem-id='1591365209893'
@@ -3523,27 +3520,27 @@
         <!-- t838 -->
 
         {{--<div class="t838">--}}
-            {{--<div class="t-container">--}}
-                {{--<div class="t-col t-col_5">--}}
-                    {{--<div class="t838__wrapper t-site-search-input">--}}
-                        {{--<div class="t838__blockinput">--}}
-                            {{--<input type="text" class="t838__input t-input " placeholder=" "--}}
-                                   {{--style="color:#171834; border:2px solid #e3cb9f;  border-radius: 3px; -moz-border-radius: 3px; -webkit-border-radius: 3px;">--}}
-                            {{--<svg class="t838__search-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 88 88">--}}
-                                {{--<path fill="#e3cb9f"--}}
-                                      {{--d="M85 31.1c-.5-8.7-4.4-16.6-10.9-22.3C67.6 3 59.3 0 50.6.6c-8.7.5-16.7 4.4-22.5 11-11.2 12.7-10.7 31.7.6 43.9l-5.3 6.1-2.5-2.2-17.8 20 9 8.1 17.8-20.2-2.1-1.8 5.3-6.1c5.8 4.2 12.6 6.3 19.3 6.3 9 0 18-3.7 24.4-10.9 5.9-6.6 8.8-15 8.2-23.7zM72.4 50.8c-9.7 10.9-26.5 11.9-37.6 2.3-10.9-9.8-11.9-26.6-2.3-37.6 4.7-5.4 11.3-8.5 18.4-8.9h1.6c6.5 0 12.7 2.4 17.6 6.8 5.3 4.7 8.5 11.1 8.9 18.2.5 7-1.9 13.8-6.6 19.2z"/>--}}
-                            {{--</svg>--}}
-                        {{--</div>--}}
-                        {{--<div class="t838__blockbutton">--}}
-                            {{--<button class="t-submit"--}}
-                                    {{--style="color:#171834;border:1px solid #171834;border-radius:3px; -moz-border-radius:3px; -webkit-border-radius:3px;font-family:Montserrat;font-weight:300;">--}}
-                                {{--ПОШУК--}}
-                            {{--</button>--}}
-                        {{--</div>--}}
-                    {{--</div>--}}
-                {{--</div>--}}
+        {{--<div class="t-container">--}}
+        {{--<div class="t-col t-col_5">--}}
+        {{--<div class="t838__wrapper t-site-search-input">--}}
+        {{--<div class="t838__blockinput">--}}
+        {{--<input type="text" class="t838__input t-input " placeholder=" "--}}
+        {{--style="color:#171834; border:2px solid #e3cb9f;  border-radius: 3px; -moz-border-radius: 3px; -webkit-border-radius: 3px;">--}}
+        {{--<svg class="t838__search-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 88 88">--}}
+        {{--<path fill="#e3cb9f"--}}
+        {{--d="M85 31.1c-.5-8.7-4.4-16.6-10.9-22.3C67.6 3 59.3 0 50.6.6c-8.7.5-16.7 4.4-22.5 11-11.2 12.7-10.7 31.7.6 43.9l-5.3 6.1-2.5-2.2-17.8 20 9 8.1 17.8-20.2-2.1-1.8 5.3-6.1c5.8 4.2 12.6 6.3 19.3 6.3 9 0 18-3.7 24.4-10.9 5.9-6.6 8.8-15 8.2-23.7zM72.4 50.8c-9.7 10.9-26.5 11.9-37.6 2.3-10.9-9.8-11.9-26.6-2.3-37.6 4.7-5.4 11.3-8.5 18.4-8.9h1.6c6.5 0 12.7 2.4 17.6 6.8 5.3 4.7 8.5 11.1 8.9 18.2.5 7-1.9 13.8-6.6 19.2z"/>--}}
+        {{--</svg>--}}
+        {{--</div>--}}
+        {{--<div class="t838__blockbutton">--}}
+        {{--<button class="t-submit"--}}
+        {{--style="color:#171834;border:1px solid #171834;border-radius:3px; -moz-border-radius:3px; -webkit-border-radius:3px;font-family:Montserrat;font-weight:300;">--}}
+        {{--ПОШУК--}}
+        {{--</button>--}}
+        {{--</div>--}}
+        {{--</div>--}}
+        {{--</div>--}}
 
-            {{--</div>--}}
+        {{--</div>--}}
         {{--</div>--}}
 
 
@@ -3760,7 +3757,6 @@
                 }
             }
 
-
             @media screen and (max-width: 639px) {
                 #rec199482587 .tn-elem[data-elem-id="1590492533409"] {
                     top: 15px;
@@ -3870,27 +3866,27 @@
         <!-- t838 -->
 
         {{--<div class="t838">--}}
-            {{--<div class="t-container">--}}
-                {{--<div class="t-col t-col_12">--}}
-                    {{--<div class="t838__wrapper t-site-search-input">--}}
-                        {{--<div class="t838__blockinput">--}}
-                            {{--<input type="text" class="t838__input t-input " placeholder=" "--}}
-                                   {{--style="color:#ffffff; border:2px solid #e3cb9f;  border-radius: 3px; -moz-border-radius: 3px; -webkit-border-radius: 3px;">--}}
-                            {{--<svg class="t838__search-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 88 88">--}}
-                                {{--<path fill="#b6b6b6"--}}
-                                      {{--d="M85 31.1c-.5-8.7-4.4-16.6-10.9-22.3C67.6 3 59.3 0 50.6.6c-8.7.5-16.7 4.4-22.5 11-11.2 12.7-10.7 31.7.6 43.9l-5.3 6.1-2.5-2.2-17.8 20 9 8.1 17.8-20.2-2.1-1.8 5.3-6.1c5.8 4.2 12.6 6.3 19.3 6.3 9 0 18-3.7 24.4-10.9 5.9-6.6 8.8-15 8.2-23.7zM72.4 50.8c-9.7 10.9-26.5 11.9-37.6 2.3-10.9-9.8-11.9-26.6-2.3-37.6 4.7-5.4 11.3-8.5 18.4-8.9h1.6c6.5 0 12.7 2.4 17.6 6.8 5.3 4.7 8.5 11.1 8.9 18.2.5 7-1.9 13.8-6.6 19.2z"/>--}}
-                            {{--</svg>--}}
-                        {{--</div>--}}
-                        {{--<div class="t838__blockbutton">--}}
-                            {{--<button class="t-submit"--}}
-                                    {{--style="color:#e3cb9f;border:1px solid #e3cb9f;border-radius:3px; -moz-border-radius:3px; -webkit-border-radius:3px;font-family:Montserrat;font-weight:300;">--}}
-                                {{--ПОШУК--}}
-                            {{--</button>--}}
-                        {{--</div>--}}
-                    {{--</div>--}}
-                {{--</div>--}}
+        {{--<div class="t-container">--}}
+        {{--<div class="t-col t-col_12">--}}
+        {{--<div class="t838__wrapper t-site-search-input">--}}
+        {{--<div class="t838__blockinput">--}}
+        {{--<input type="text" class="t838__input t-input " placeholder=" "--}}
+        {{--style="color:#ffffff; border:2px solid #e3cb9f;  border-radius: 3px; -moz-border-radius: 3px; -webkit-border-radius: 3px;">--}}
+        {{--<svg class="t838__search-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 88 88">--}}
+        {{--<path fill="#b6b6b6"--}}
+        {{--d="M85 31.1c-.5-8.7-4.4-16.6-10.9-22.3C67.6 3 59.3 0 50.6.6c-8.7.5-16.7 4.4-22.5 11-11.2 12.7-10.7 31.7.6 43.9l-5.3 6.1-2.5-2.2-17.8 20 9 8.1 17.8-20.2-2.1-1.8 5.3-6.1c5.8 4.2 12.6 6.3 19.3 6.3 9 0 18-3.7 24.4-10.9 5.9-6.6 8.8-15 8.2-23.7zM72.4 50.8c-9.7 10.9-26.5 11.9-37.6 2.3-10.9-9.8-11.9-26.6-2.3-37.6 4.7-5.4 11.3-8.5 18.4-8.9h1.6c6.5 0 12.7 2.4 17.6 6.8 5.3 4.7 8.5 11.1 8.9 18.2.5 7-1.9 13.8-6.6 19.2z"/>--}}
+        {{--</svg>--}}
+        {{--</div>--}}
+        {{--<div class="t838__blockbutton">--}}
+        {{--<button class="t-submit"--}}
+        {{--style="color:#e3cb9f;border:1px solid #e3cb9f;border-radius:3px; -moz-border-radius:3px; -webkit-border-radius:3px;font-family:Montserrat;font-weight:300;">--}}
+        {{--ПОШУК--}}
+        {{--</button>--}}
+        {{--</div>--}}
+        {{--</div>--}}
+        {{--</div>--}}
 
-            {{--</div>--}}
+        {{--</div>--}}
         {{--</div>--}}
 
 

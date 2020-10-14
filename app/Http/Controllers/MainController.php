@@ -31,7 +31,7 @@ class MainController extends Controller
         return view("contacts");
     }
 
-    public function route($lang, $path="", Request $request)
+    public function route($lang, $path = "", Request $request)
     {
         $path = $lang . '/' . $path;
         $url_id = Url::where("url", $path)->first("id")->toArray();
@@ -54,15 +54,28 @@ class MainController extends Controller
     {
         $page["title"] = "Новини | YOUR TOTAL MARKET";
         $page["description"] = "Тут можна ознайомитися з останніми новинами ринку, підготованними нашими аналітиками.";
-        return view("news", compact("page"));
+        $news=Writenew::where("type",NewsController::NEWS)->get()->toArray();
+        foreach ($news as $key=>$new){
+            $url =Url::where("id",$new["url_id"])->first()->url;
+            $news[$key]["url"]=$url;
+            $news[$key]["time"]=explode(" ", $new["created_at"])[0];
+
+        }
+        return view("news", compact("page", 'news'));
     }
 
     public function researches()
     {
         $page['title'] = "Дослідження | YOUR TOTAL MARKET";
         $page['description'] = "Тут можна ознайомитися з нашими готовими дослідженнями.";
+        $news=Writenew::where("type",NewsController::RESEARCH)->get()->toArray();
+        foreach ($news as $key=>$new){
+            $url =Url::where("id",$new["url_id"])->first()->url;
+            $news[$key]["url"]=$url;
+            $news[$key]["time"]=explode(" ", $new["created_at"])[0];
 
-        return view("researches", compact('page'));
+        }
+        return view("researches", compact('page',"news"));
     }
 
     public function test()
@@ -77,7 +90,7 @@ class MainController extends Controller
         $objDemo->phone = $request->phone;
         $objDemo->email = $request->email;
         $objDemo->text_field = $request->text_field;
-        $to = 'clients@ytm.expert';
+        $to = 'info@ytm.expert';
         $subject = 'Clients';
 
         // Для отправки HTML-письма должен быть установлен заголовок Content-type
