@@ -78,9 +78,9 @@ class MainController extends Controller
         return view("researches", compact('page',"news"));
     }
 
-    public function test()
+    public function marketing()
     {
-        return view("test");
+        return view("marketing");
     }
 
     public function sendMail(Request $request)

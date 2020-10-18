@@ -5299,7 +5299,7 @@
 
 
 
-                    <a class='tn-atom'  href="https://ytm.expert/services/transfer-pricing"  >ТРАНСФЕРТНЕ ЦІНОУТВОРЕННЯ</a>
+                    <a class='tn-atom'  href="{{route("transfer-pricing")}}"  >ТРАНСФЕРТНЕ ЦІНОУТВОРЕННЯ</a>
 
 
 

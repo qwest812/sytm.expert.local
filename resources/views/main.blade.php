@@ -3364,7 +3364,7 @@
                 >
 
 
-                    <a class='tn-atom' href="https://ytm.expert/services/marketing">
+                    <a class='tn-atom' href="{{route("marketing")}}">
                         <img class='tn-atom__img'
                              src='https://static.tildacdn.com/tild6261-6434-4261-b163-303530633733/-min.png'
                              imgfield='tn_img_1588920116629'>
@@ -3422,7 +3422,7 @@
                 >
 
 
-                    <a class='tn-atom' href="https://ytm.expert/services/transfer-pricing">
+                    <a class='tn-atom' href="{{route("transfer-pricing")}}">
                         <img class='tn-atom__img'
                              src='https://static.tildacdn.com/tild3764-6430-4839-a538-353664613034/-min.png'
                              imgfield='tn_img_1588920139278'>

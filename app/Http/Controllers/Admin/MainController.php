@@ -16,10 +16,7 @@ class MainController extends Controller
         return view('admin.moto.main');
     }
 
-    public function test()
-    {
-        return view('test');
-    }
+
 
     public function uploadImage(Request $request)
     {

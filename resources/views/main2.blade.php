@@ -151,7 +151,7 @@
                                                             data-menu-item-number="2">МАРКЕТИНГ ТА РЕКЛАМА</a></li>
                                                 <li class="t-menusub__list-item t-name t-name_xs"><a
                                                             class="t-menusub__link-item t-name t-name_xs"
-                                                            style="color:#ffffff;" href="/services/transfer-pricing"
+                                                            style="color:#ffffff;" href="{{route("transfer-pricing")}}"
                                                             data-menu-item-number="2">ТРАНСФЕРТНЕ ЦІНОУТВОРЕННЯ ТА
                                                         КОНСАЛТИНГ</a></li>
                                             </ul>
@@ -3473,7 +3473,7 @@
                 >
 
 
-                    <a class='tn-atom' href="https://ytm.expert/services/transfer-pricing">
+                    <a class='tn-atom' href="{{route("transfer-pricing")}}">
                         <img class='tn-atom__img'
                              src='https://static.tildacdn.com/tild3764-6430-4839-a538-353664613034/-min.png'
                              imgfield='tn_img_1588920139278'>

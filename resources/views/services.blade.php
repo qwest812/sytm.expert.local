@@ -6598,7 +6598,7 @@
 
 
 
-                    <a class='tn-atom' href="https://ytm.expert/services/transfer-pricing"   >
+                    <a class='tn-atom' href="{{route("transfer-pricing")}}"   >
                         <img class='tn-atom__img' src='https://static.tildacdn.com/tild3764-6430-4839-a538-353664613034/-min.png'  imgfield='tn_img_1599590644860'>
                     </a>
 
