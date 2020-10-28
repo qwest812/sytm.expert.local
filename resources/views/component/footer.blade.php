@@ -601,7 +601,7 @@
         >
 
 
-            <a class='tn-atom' href="https://ytm.expert/services/market-research">ДОСЛІДЖЕННЯ РИНКУ</a>
+            <a class='tn-atom' href="{{route("market-research")}}">ДОСЛІДЖЕННЯ РИНКУ</a>
 
 
         </div>
@@ -643,7 +643,7 @@
         >
 
 
-            <a class='tn-atom' href="https://ytm.expert/services/marketing">МАРКЕТИНГ ТА РЕКЛАМА</a>
+            <a class='tn-atom' href="{{route("marketing")}}">МАРКЕТИНГ ТА РЕКЛАМА</a>
 
 
         </div>
@@ -685,7 +685,7 @@
         >
 
 
-            <a class='tn-atom' href="https://ytm.expert/services/transfer-pricing">ТРАНСФЕРТНЕ ЦІНОУТВОРЕННЯ</a>
+            <a class='tn-atom' href="{{route("transfer-pricing")}}">ТРАНСФЕРТНЕ ЦІНОУТВОРЕННЯ</a>
 
 
         </div>
@@ -727,7 +727,7 @@
         >
 
 
-            <a class='tn-atom' href="/">ПРО КОМПАНІЮ</a>
+            <a class='tn-atom' href="{{route("main")}}">ПРО КОМПАНІЮ</a>
 
 
         </div>

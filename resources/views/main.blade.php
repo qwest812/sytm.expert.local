@@ -3306,7 +3306,7 @@
                 >
 
 
-                    <a class='tn-atom' href="https://ytm.expert/services/market-research">
+                    <a class='tn-atom' href="{{route("market-research")}}">
                         <img class='tn-atom__img'
                              src='https://static.tildacdn.com/tild3837-3534-4862-b539-313337646133/-min.png'
                              imgfield='tn_img_1588920104796'>
@@ -3776,11 +3776,51 @@
 
                 >
 
+<style>
+    .research_main{
+        background-image: url('https://static.tildacdn.com/tild3461-3337-4463-b234-303566336263/photo.png');
+        height: 530px;
+        width: 100%;
+        background-size: cover;
+    }
+    .research_main_div{
+        display: flex; justify-content: space-between; flex-wrap: wrap;
+    }
+    @media screen and (max-width: 639px) {
 
+        .research_main{
+            width: 29%;
+            margin-left: 115px;
+            height: 635px;
+        }
+
+
+    }
+
+</style>
                     <div class='tn-atom'>
-                        <img class='tn-atom__img'
-                             src='https://static.tildacdn.com/tild6330-3933-4937-b161-383332336534/_.png'
-                             imgfield='tn_img_1589265402436'>
+                        {{--<img class='tn-atom__img' src='https://static.tildacdn.com/tild3461-3337-4463-b234-303566336263/photo.png'  imgfield='tn_img_1591710281251'>--}}
+                        <div class="research_main">
+                            <div class="research_main_div">
+                                @foreach($news as $new)
+                                    <a href="{{$new["url"]}}" style="margin: 30px 50px 30px 50px">
+                                        <div style="width: 280px">
+                                            <div style="background-image: url('{{$new["main_img"]}}');
+                                                    width: 100%; height: 204px; background-size: cover"></div>
+                                            <div style="    color: #000000;
+    font-size: 19px;
+    font-family: 'Helvetica',Arial,sans-serif;
+    line-height: 1.55;
+    font-weight: 400;
+    background-position: center center;
+    border-color: transparent;
+    border-style: solid; margin-top: 15px">{{$new["h1"]}}</div>
+                                        </div>
+                                    </a>
+                                @endforeach
+                            </div>
+
+                        </div>
                     </div>
 
 

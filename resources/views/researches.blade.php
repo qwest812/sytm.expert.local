@@ -2915,12 +2915,31 @@
 
                 >
 
+                    <style>
+                        .research_main{
+                            background-image: url('https://static.tildacdn.com/tild3461-3337-4463-b234-303566336263/photo.png');
+                            width: 100%;
+                            background-size: cover;
+                        }
+                        .research_main_div{
+                            display: flex; justify-content: space-between; flex-wrap: wrap;
+                        }
+                        @media screen and (max-width: 639px) {
 
+                            .research_main{
+                                width: 29%;
+                                margin-left: 84px;
+                                /*height: 635px;*/
+                            }
+
+
+                        }
+
+                    </style>
                     <div class='tn-atom'>
                         {{--<img class='tn-atom__img' src='https://static.tildacdn.com/tild3461-3337-4463-b234-303566336263/photo.png'  imgfield='tn_img_1591710281251'>--}}
-                        <div style="background-image: url('https://static.tildacdn.com/tild3461-3337-4463-b234-303566336263/photo.png'); height: 100%;
-                         width: 100%; background-size: cover; ">
-                            <div style="display: flex; justify-content: space-between; flex-wrap: wrap;">
+                        <div class="research_main">
+                            <div class="research_main_div">
                                 @foreach($news as $new)
                                     <a href="{{$new["url"]}}" style="margin: 30px 50px 30px 50px">
                                         <div style="width: 280px">
@@ -3941,7 +3960,104 @@
 
                 @include("component.top_menu_main")
 
+                <div class="t396__elem tn-elem tn-elem__1994908261599720065057" data-elem-id="1599720065057" data-elem-type="image" data-field-top-value="85" data-field-top-res-960-value="75" data-field-top-res-640-value="75" data-field-top-res-480-value="65" data-field-top-res-320-value="65" data-field-left-value="124" data-field-left-res-960-value="104" data-field-left-res-640-value="100" data-field-left-res-480-value="91" data-field-left-res-320-value="91" data-field-width-value="25" data-field-axisy-value="top" data-field-axisx-value="left" data-field-container-value="grid" data-field-topunits-value="" data-field-leftunits-value="" data-field-heightunits-value="" data-field-widthunits-value="" data-fields="img,width,filewidth,fileheight,top,left,container,axisx,axisy,widthunits,leftunits,topunits" style="left: 657px; top: 85px; width: 25px;">
 
+
+
+
+
+
+
+                    <div class="tn-atom">
+                        <img class="tn-atom__img" src="https://static.tildacdn.com/tild3339-3866-4834-b339-613162326362/noroot.png" imgfield="tn_img_1599720065057">
+                    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                </div>
+                <div class="t396__elem tn-elem tn-elem__1994908261599720065067 js-sbs-anim-trigger_hover t-sbs-anim_started t-sbs-anim_reversed" data-elem-id="1599720065067" data-elem-type="text" data-field-top-value="93" data-field-top-res-960-value="83" data-field-top-res-640-value="82" data-field-top-res-480-value="72" data-field-top-res-320-value="72" data-field-left-value="60" data-field-left-res-960-value="40" data-field-left-res-640-value="30" data-field-left-res-480-value="21" data-field-left-res-320-value="21" data-field-width-value="60" data-field-width-res-640-value="69" data-field-axisy-value="top" data-field-axisx-value="left" data-field-container-value="grid" data-field-topunits-value="" data-field-leftunits-value="" data-field-heightunits-value="" data-field-widthunits-value="" data-animate-sbs-event="hover" data-animate-sbs-trgels="1599719818985,1599720065067" data-animate-sbs-opts="[{'ti':'0','mx':'0','my':'0','sx':'1','sy':'1','op':'1','ro':'0','bl':'0','ea':'','dt':'0'},{'ti':400,'mx':'0','my':'0','sx':1.1,'sy':1.1,'op':'1','ro':'0','bl':'0','ea':'','dt':'0'}]" data-fields="top,left,width,container,axisx,axisy,widthunits,leftunits,topunits" style="top: 93px; left: 593px; width: 60px;">
+
+
+
+
+
+                    <div class="tn-atom__sbs-anim-wrapper" style="display:table; width:inherit; height:inherit;"><a class="tn-atom" href="{{route("main")}}">ГОЛОВНА</a></div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                </div>
+                <div class="t396__elem tn-elem tn-elem__1994908261599720065072 js-sbs-anim-trigger_hover t-sbs-anim_started t-sbs-anim_reversed" data-elem-id="1599720065072" data-elem-type="text" data-field-top-value="93" data-field-top-res-960-value="83" data-field-top-res-640-value="82" data-field-top-res-480-value="72" data-field-top-res-320-value="72" data-field-left-value="150" data-field-left-res-960-value="130" data-field-left-res-640-value="126" data-field-left-res-480-value="117" data-field-left-res-320-value="117" data-field-width-value="159" data-field-width-res-640-value="198" data-field-axisy-value="top" data-field-axisx-value="left" data-field-container-value="grid" data-field-topunits-value="" data-field-leftunits-value="" data-field-heightunits-value="" data-field-widthunits-value="" data-animate-sbs-event="hover" data-animate-sbs-trgels="1599592019852,1599719818988,1599720065072" data-animate-sbs-opts="[{'ti':'0','mx':'0','my':'0','sx':'1','sy':'1','op':'1','ro':'0','bl':'0','ea':'','dt':'0'},{'ti':400,'mx':0,'my':0,'sx':1.1,'sy':1.1,'op':'1','ro':'0','bl':'0','ea':'','dt':'0'}]" data-fields="top,left,width,container,axisx,axisy,widthunits,leftunits,topunits" style="top: 93px; left: 683px; width: 159px;">
+
+
+
+
+
+                    <div class="tn-atom__sbs-anim-wrapper" style="display:table; width:inherit; height:inherit;"><div class="tn-atom" field="tn_text_1599720065072">ДОСЛІДЖЕННЯ</div></div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                </div>
 
                 {{--<div class='t396__elem tn-elem tn-elem__1994908261599720065057' data-elem-id='1599720065057' data-elem-type='image'--}}
                 {{--data-field-top-value="85"--}}

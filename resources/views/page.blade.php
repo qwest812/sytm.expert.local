@@ -210,7 +210,7 @@
                 }
             }
 
-            @media screen and (max-width: 639px) {
+            `@media screen and (max-width: 639px) {`
                 #rec229093505 .t396__artboard {
                     height: 1700px;
                 }

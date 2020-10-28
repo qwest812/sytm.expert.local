@@ -8,9 +8,9 @@
     <!--metatextblock-->
     <title>Замовити дослідження ринку | YOUR TOTAL MARKET</title>
     <meta name="description" content="Надаємо лише точні дані. Ігноруємо припущення та відносні оцінки. Відповідаємо за кожен показник. Правда ринку для ваших рішень." />
-    <link rel="canonical" href="https://ytm.expert/services/market-research">
+    <link rel="canonical" href="{{route("market-research")}}">
 
-    <meta property="og:url" content="https://ytm.expert/services/market-research" />
+    <meta property="og:url" content="{{route("market-research")}}" />
     <meta property="og:title" content="Замовити дослідження ринку | YOUR TOTAL MARKET" />
     <meta property="og:description" content="Надаємо лише точні дані. Ігноруємо припущення та відносні оцінки. Відповідаємо за кожен показник. Правда ринку для ваших рішень." />
     <meta property="og:type" content="website" />

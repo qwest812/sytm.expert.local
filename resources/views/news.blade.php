@@ -1614,7 +1614,7 @@
                 >
 
 
-                    <a class='tn-atom' href="http://ytm.expert">ГОЛОВНА</a>
+                    <a class='tn-atom' href="{{route("main")}}">ГОЛОВНА</a>
 
 
                 </div>
@@ -1872,17 +1872,30 @@
 
         <style>
             .item_news {
-                width: 360px;
+                max-width: 360px;
+            }
+            .news_img{
+                background-repeat: no-repeat;
+            }
+            .news_main{
+                display: flex; justify-content: space-between; flex-wrap: wrap;
+            }
+            @media screen and (max-width: 639px) {
+                .news_main{
+                    max-width: 360px;
+                     margin:  0 auto;
+                }
             }
         </style>
+        {{--<div class="t404__col t-col t-col_4 t-align_left t404__withbg" style="display: block;">--}}
         <div class="t404" data-show-count="3">
             <div class="t-container">
-                <div style="display: flex; justify-content: space-between; flex-wrap: wrap;">
+                <div class="news_main">
                     @foreach($news as $new)
 
                         <a href="{{$new["url"]}}">
                             <div class="item_news">
-                                <div style="background-image: url('{{$new["main_img"]}}');
+                                <div class="news_img" style="background-image: url('{{$new["main_img"]}}');
                                         width: 100%; height: 239px; background-size: contain"></div>
                                 <div class="t404__textwrapper t404__paddingsmall"
                                      style="background-color: rgb(23, 24, 52); height: 214px;">
@@ -1900,6 +1913,7 @@
                 </div>
             </div>
         </div>
+
 
         <script>
 

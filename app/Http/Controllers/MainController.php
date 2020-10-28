@@ -13,12 +13,12 @@ class MainController extends Controller
 {
     public function index()
     {
-        $researches = Writenew::where("type", 2)->take(3)->orderBy('id', 'desc')->get();
-        foreach ($researches as $key => $research) {
+        $news = Writenew::where("type", 2)->take(3)->orderBy('id', 'desc')->get();
+        foreach ($news as $key => $research) {
 
-            $researches[$key]->url_id = Url::where("id", $researches[$key]->url_id)->first();
+            $news[$key]->url_id = Url::where("id", $news[$key]->url_id)->first();
         }
-        return view("main", compact("researches"));
+        return view("main", compact("news"));
     }
 
     public function services()

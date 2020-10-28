@@ -5864,7 +5864,7 @@
 
 
 
-                    <a class='tn-atom'  href="https://ytm.expert/services/market-research/marketing-research"  >Маркетингове дослідження ринку</a>
+                    <a class='tn-atom'  href="{{route("market-research")}}"  >Маркетингове дослідження ринку</a>
 
 
 
@@ -6495,7 +6495,7 @@
 
 
 
-                    <a class='tn-atom' href="https://ytm.expert/services/marketing"   >
+                    <a class='tn-atom' href="{{route("marketing")}}"   >
                         <img class='tn-atom__img' src='https://static.tildacdn.com/tild6261-6434-4261-b163-303530633733/-min.png'  imgfield='tn_img_1599590644854'>
                     </a>
 
