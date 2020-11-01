@@ -68,7 +68,7 @@ class MainController extends Controller
     {
         $page['title'] = "Дослідження | YOUR TOTAL MARKET";
         $page['description'] = "Тут можна ознайомитися з нашими готовими дослідженнями.";
-        $news = Writenew::where("type", NewsController::RESEARCH)->get()->toArray();
+        $news = Writenew::where("type", NewsController::RESEARCH)->take(3)->get()->toArray();
         foreach ($news as $key => $new) {
             $url = Url::where("id", $new["url_id"])->first()->url;
             $news[$key]["url"] = $url;
