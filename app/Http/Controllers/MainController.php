@@ -54,11 +54,11 @@ class MainController extends Controller
     {
         $page["title"] = "Новини | YOUR TOTAL MARKET";
         $page["description"] = "Тут можна ознайомитися з останніми новинами ринку, підготованними нашими аналітиками.";
-        $news=Writenew::where("type",NewsController::NEWS)->get()->toArray();
-        foreach ($news as $key=>$new){
-            $url =Url::where("id",$new["url_id"])->first()->url;
-            $news[$key]["url"]=$url;
-            $news[$key]["time"]=explode(" ", $new["created_at"])[0];
+        $news = Writenew::where("type", NewsController::NEWS)->get()->toArray();
+        foreach ($news as $key => $new) {
+            $url = Url::where("id", $new["url_id"])->first()->url;
+            $news[$key]["url"] = $url;
+            $news[$key]["time"] = explode(" ", $new["created_at"])[0];
 
         }
         return view("news", compact("page", 'news'));
@@ -68,14 +68,14 @@ class MainController extends Controller
     {
         $page['title'] = "Дослідження | YOUR TOTAL MARKET";
         $page['description'] = "Тут можна ознайомитися з нашими готовими дослідженнями.";
-        $news=Writenew::where("type",NewsController::RESEARCH)->get()->toArray();
-        foreach ($news as $key=>$new){
-            $url =Url::where("id",$new["url_id"])->first()->url;
-            $news[$key]["url"]=$url;
-            $news[$key]["time"]=explode(" ", $new["created_at"])[0];
+        $news = Writenew::where("type", NewsController::RESEARCH)->get()->toArray();
+        foreach ($news as $key => $new) {
+            $url = Url::where("id", $new["url_id"])->first()->url;
+            $news[$key]["url"] = $url;
+            $news[$key]["time"] = explode(" ", $new["created_at"])[0];
 
         }
-        return view("researches", compact('page',"news"));
+        return view("researches", compact('page', "news"));
     }
 
     public function marketing()
@@ -114,10 +114,23 @@ class MainController extends Controller
         } else {
             return json_encode(false);
         }
-//        Mail::to("clients@ytm.expert")->send(new Order($objDemo));
-//        if (Mail::failures()) {
-//            // return failed mails
-//            return new \Exception(Mail::failures());
-//        }
+    }
+
+    public function transferPricing()
+    {
+        return view("transfer-pricing");
+    }
+
+    public function marketResearch(){
+        $page['title'] = "Дослідження | YOUR TOTAL MARKET";
+        $page['description'] = "Тут можна ознайомитися з нашими готовими дослідженнями.";
+        $news = Writenew::where("type", NewsController::RESEARCH)->get()->toArray();
+        foreach ($news as $key => $new) {
+            $url = Url::where("id", $new["url_id"])->first()->url;
+            $news[$key]["url"] = $url;
+            $news[$key]["time"] = explode(" ", $new["created_at"])[0];
+
+        }
+        return view("market-research",compact('news'));
     }
 }

@@ -22,8 +22,8 @@ Route::get('/news',"MainController@news")->name("all-news");
 Route::get('/researches',"MainController@researches")->name("researches");
 Route::get('/test',"MainController@test")->name("test");
 Route::get('/marketing',"MainController@marketing")->name("marketing");
-Route::get('/transfer-pricing',"MainController@transfer-pricing")->name("transfer-pricing");
-Route::get('/market-research',"MainController@market-research")->name("market-research");
+Route::get('/transfer-pricing',"MainController@transferPricing")->name("transfer-pricing");
+Route::get('/market-research',"MainController@marketResearch")->name("market-research");
 Route::post('/send-mail',"MainController@sendMail")->name("send-mail");
 
 Auth::routes();
