@@ -235,24 +235,24 @@
     <findStrings>
       <find>Головна</find>
       <find>top_m</find>
-      <find>width: 100%; height: 239px;</find>
+      <find />
       <find>elem__1890093131591422156219</find>
-      <find>t396__elem tn-elem tn-elem__1964039741589272518200</find>
+      <find />
       <find>market-</find>
-      <find>t396__elem tn-elem tn-elem__1964039741589265769740</find>
+      <find />
       <find>marketing</find>
       <find>research_main</find>
       <find>https://static.tildacdn.com/tild6265-3536-4066-a165-316134373233/_.png</find>
       <find>toA</find>
-      <find>t396__elem tn-elem tn-elem__2283949271589274586181</find>
+      <find />
       <find>t838</find>
       <find>t396</find>
-      <find>&lt;div class='t396'&gt;</find>
+      <find />
       <find>ytm</find>
       <find>route(&quot;main&quot;</find>
       <find>ttps://static.tildacdn.com/tild6434-3765-4161-b931-373761313030/__.p</find>
       <find>https://static.tildacdn.com/tild6434-3765-4161-b931-373761313030/__.png</find>
-      <find>t396__elem tn-elem tn-elem__1964039741590490861646</find>
+      <find />
       <find>include(&quot;for</find>
       <find>&quot;for</find>
       <find>component.fo</find>
@@ -261,7 +261,7 @@
       <find>https://static.tildacdn.com/tild6362-6162-4634-b331-333532373639/5__.png</find>
       <find>component.f</find>
       <find>228395109</find>
-      <find>data-artboard-recid=&quot;228395109&quot;</find>
+      <find />
       <find>ytm.expert</find>
     </findStrings>
     <replaceStrings>
@@ -436,7 +436,7 @@
       <path value="$PROJECT_DIR$/vendor/symfony/http-client-contracts" />
     </include_path>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-14" />
     <option name="y" value="-14" />
     <option name="width" value="3227" />
