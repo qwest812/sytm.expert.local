@@ -87,8 +87,7 @@ class MainController extends Controller
         $objDemo->phone = $request->phone;
         $objDemo->email = $request->email;
         $objDemo->text_field = $request->text_field;
-//        $to = 'info@ytm.expert';
-        $to = 'dauzer58@gmail.com';
+        $to = 'info@ytm.expert';
         $subject = 'Clients';
 
         // Для отправки HTML-письма должен быть установлен заголовок Content-type
