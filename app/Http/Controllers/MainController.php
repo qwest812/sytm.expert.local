@@ -3,11 +3,9 @@
 namespace App\Http\Controllers;
 
 use App\Http\Controllers\Admin\NewsController;
-use App\Mail\Order;
 use App\Url;
 use App\Writenew;
 use Illuminate\Http\Request;
-use Illuminate\Support\Facades\Mail;
 
 class MainController extends Controller
 {
@@ -15,8 +13,7 @@ class MainController extends Controller
     {
         $news = Writenew::where("type", 2)->take(3)->orderBy('id', 'desc')->get();
         foreach ($news as $key => $research) {
-
-            $news[$key]->url_id = Url::where("id", $news[$key]->url_id)->first();
+            $news[$key]->url = Url::where("id", $news[$key]->url_id)->first()->url;
         }
         return view("main", compact("news"));
     }
@@ -90,12 +87,14 @@ class MainController extends Controller
         $objDemo->phone = $request->phone;
         $objDemo->email = $request->email;
         $objDemo->text_field = $request->text_field;
-        $to = 'info@ytm.expert';
+//        $to = 'info@ytm.expert';
+        $to = 'dauzer58@gmail.com';
         $subject = 'Clients';
 
         // Для отправки HTML-письма должен быть установлен заголовок Content-type
         $headers = 'MIME-Version: 1.0' . "\r\n";
-        $headers .= 'Content-type: text/html; charset=iso-8859-1' . "\r\n";
+        $headers .= 'Content-type: text/html; charset=utf-8' . "\r\n";
+        $headers .= "From: $to\n";
         $message = '
 <html>
 <head>
@@ -121,7 +120,8 @@ class MainController extends Controller
         return view("transfer-pricing");
     }
 
-    public function marketResearch(){
+    public function marketResearch()
+    {
         $page['title'] = "Дослідження | YOUR TOTAL MARKET";
         $page['description'] = "Тут можна ознайомитися з нашими готовими дослідженнями.";
         $news = Writenew::where("type", NewsController::RESEARCH)->take(3)->get()->toArray();
@@ -131,6 +131,6 @@ class MainController extends Controller
             $news[$key]["time"] = explode(" ", $new["created_at"])[0];
 
         }
-        return view("market-research",compact('news'));
+        return view("market-research", compact('news'));
     }
 }

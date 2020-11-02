@@ -1893,7 +1893,7 @@
                 <div class="news_main">
                     @foreach($news as $new)
 
-                        <a href="{{$new["url"]}}">
+                        <a href="{{$new["url"]}}" style="min-width: 350px">
                             <div class="item_news">
                                 <div class="news_img" style="background-image: url('{{$new["main_img"]}}');
                                         width: 100%; height: 239px; background-size: contain"></div>

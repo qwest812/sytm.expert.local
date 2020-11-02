@@ -374,7 +374,7 @@
         >
 
 
-            <a class='tn-atom' href="malito:info@ytm.expert">info@ytm.expert</a>
+            <a class='tn-atom' href="mailto:info@ytm.expert">info@ytm.expert</a>
 
 
         </div>
