@@ -65,14 +65,14 @@ class MainController extends Controller
     {
         $page['title'] = "Дослідження | YOUR TOTAL MARKET";
         $page['description'] = "Тут можна ознайомитися з нашими готовими дослідженнями.";
-        $news = Writenew::where("type", NewsController::RESEARCH)->take(3)->get()->toArray();
+        $news=Writenew::where("type", NewsController::RESEARCH)->paginate(6);
         foreach ($news as $key => $new) {
             $url = Url::where("id", $new["url_id"])->first()->url;
             $news[$key]["url"] = $url;
             $news[$key]["time"] = explode(" ", $new["created_at"])[0];
 
         }
-        return view("researches", compact('page', "news"));
+        return view("researches", compact('page', "news","news"));
     }
 
     public function marketing()
