@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d6f22f76-4cab-4883-b7a1-3f2423e519a5" name="Default" comment="test">
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/MainController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/MainController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/researches.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/researches.blade.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -142,8 +142,8 @@
       <file leaf-file-name="researches.blade.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/resources/views/researches.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="134">
-              <caret line="2941" column="40" selection-start-line="2941" selection-start-column="40" selection-end-line="2941" selection-end-column="40" />
+            <state relative-caret-position="152">
+              <caret line="216" column="28" selection-start-line="216" selection-start-column="24" selection-end-line="216" selection-end-column="28" />
               <folding>
                 <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#div#10;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
@@ -172,13 +172,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>t396__elem tn-elem tn-elem__2283949271589274586181</find>
-      <find>t838</find>
-      <find>t396</find>
-      <find>&lt;div class='t396'&gt;</find>
-      <find>ytm</find>
-      <find>route(&quot;main&quot;</find>
-      <find>ttps://static.tildacdn.com/tild6434-3765-4161-b931-373761313030/__.p</find>
       <find>https://static.tildacdn.com/tild6434-3765-4161-b931-373761313030/__.png</find>
       <find>include(&quot;for</find>
       <find>&quot;for</find>
@@ -202,6 +195,13 @@
       <find>inf</find>
       <find>$news</find>
       <find>mail</find>
+      <find>2255px</find>
+      <find>tn-atom tn-atom__html</find>
+      <find>2255</find>
+      <find>2376</find>
+      <find>2415</find>
+      <find>2392</find>
+      <find>2820</find>
     </findStrings>
     <replaceStrings>
       <replace>/</replace>
@@ -581,12 +581,12 @@
       <workItem from="1602432779149" duration="56146000" />
       <workItem from="1603734646306" duration="19432000" />
       <workItem from="1604256601636" duration="4570000" />
-      <workItem from="1604341663263" duration="7229000" />
+      <workItem from="1604341663263" duration="9006000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="406120000" />
+    <option name="totallyTimeSpent" value="407897000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1038,8 +1038,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/researches.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="134">
-          <caret line="2941" column="40" selection-start-line="2941" selection-start-column="40" selection-end-line="2941" selection-end-column="40" />
+        <state relative-caret-position="152">
+          <caret line="216" column="28" selection-start-line="216" selection-start-column="24" selection-end-line="216" selection-end-column="28" />
           <folding>
             <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#div#10;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>

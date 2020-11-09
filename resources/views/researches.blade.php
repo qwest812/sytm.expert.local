@@ -214,7 +214,7 @@
     <div id="rec199490826" class="r t-rec" style=" " data-animationappear="off" data-record-type="396">
         <!-- T396 -->
         <style>#rec199490826 .t396__artboard {
-                height: 2820px;
+                height: 2520px;
                 background-color: #ffffff;
             }
 
@@ -2488,7 +2488,7 @@
 
                 <div class='t396__elem tn-elem tn-elem__1994908261589274248122 t-animate' data-elem-id='1589274248122'
                      data-elem-type='image'
-                     data-field-top-value="2392"
+                     data-field-top-value="2000"
                      data-field-top-res-960-value="1799" data-field-top-res-640-value="1549"
                      data-field-top-res-480-value="2164" data-field-top-res-320-value="2285"
 
@@ -2543,7 +2543,7 @@
 
                 <div class='t396__elem tn-elem tn-elem__1994908261590490721647' data-elem-id='1590490721647'
                      data-elem-type='text'
-                     data-field-top-value="2415"
+                     data-field-top-value="2100"
                      data-field-top-res-960-value="1831" data-field-top-res-640-value="1354"
                      data-field-top-res-480-value="2059" data-field-top-res-320-value="2098"
 
@@ -2591,7 +2591,7 @@
 
                 <div class='t396__elem tn-elem tn-elem__1994908261590490861646' data-elem-id='1590490861646'
                      data-elem-type='image'
-                     data-field-top-value="2255"
+                     data-field-top-value="1900"
                      data-field-top-res-960-value="1671" data-field-top-res-640-value="1254"
                      data-field-top-res-480-value="1964" data-field-top-res-320-value="2030"
 
@@ -2641,7 +2641,7 @@
 
                 <div class='t396__elem tn-elem tn-elem__1994908261590491137462' data-elem-id='1590491137462'
                      data-elem-type='text'
-                     data-field-top-value="2376"
+                     data-field-top-value="2000"
                      data-field-top-res-960-value="1796" data-field-top-res-640-value="1314"
                      data-field-top-res-480-value="2024" data-field-top-res-320-value="2070"
 
@@ -2869,9 +2869,9 @@
                 >
 
 
-                    <div class='tn-atom tn-atom__html'>
-                        <a name="contacts" style="font-size:0;"></a>
-                    </div>
+                    {{--<div class='tn-atom tn-atom__html'>--}}
+                        {{--<a name="contacts" style="font-size:0;"></a>--}}
+                    {{--</div>--}}
 
 
                 </div>
@@ -3837,49 +3837,49 @@
                 </div>
 
 
-                <div class='t396__elem tn-elem tn-elem__1994908261592225739914' data-elem-id='1592225739914'
-                     data-elem-type='text'
-                     data-field-top-value="2185"
-                     data-field-top-res-960-value="1665" data-field-top-res-640-value="1235"
-                     data-field-top-res-480-value="1940" data-field-top-res-320-value="2025"
+                {{--<div class='t396__elem tn-elem tn-elem__1994908261592225739914' data-elem-id='1592225739914'--}}
+                     {{--data-elem-type='text'--}}
+                     {{--data-field-top-value="2185"--}}
+                     {{--data-field-top-res-960-value="1665" data-field-top-res-640-value="1235"--}}
+                     {{--data-field-top-res-480-value="1940" data-field-top-res-320-value="2025"--}}
 
-                     data-field-left-value="60"
-                     data-field-left-res-960-value="45" data-field-left-res-640-value="45"
-                     data-field-left-res-480-value="-5" data-field-left-res-320-value="-10"
-
-
-                     data-field-width-value="1080"
-                     data-field-width-res-960-value="871" data-field-width-res-640-value="551"
-                     data-field-width-res-480-value="491" data-field-width-res-320-value="341"
-
-                     data-field-axisy-value="top"
+                     {{--data-field-left-value="60"--}}
+                     {{--data-field-left-res-960-value="45" data-field-left-res-640-value="45"--}}
+                     {{--data-field-left-res-480-value="-5" data-field-left-res-320-value="-10"--}}
 
 
-                     data-field-axisx-value="left"
+                     {{--data-field-width-value="1080"--}}
+                     {{--data-field-width-res-960-value="871" data-field-width-res-640-value="551"--}}
+                     {{--data-field-width-res-480-value="491" data-field-width-res-320-value="341"--}}
+
+                     {{--data-field-axisy-value="top"--}}
 
 
-                     data-field-container-value="grid"
+                     {{--data-field-axisx-value="left"--}}
 
 
-                     data-field-topunits-value=""
+                     {{--data-field-container-value="grid"--}}
 
 
-                     data-field-leftunits-value=""
+                     {{--data-field-topunits-value=""--}}
 
 
-                     data-field-heightunits-value=""
+                     {{--data-field-leftunits-value=""--}}
 
 
-                     data-field-widthunits-value=""
+                     {{--data-field-heightunits-value=""--}}
 
 
-                >
+                     {{--data-field-widthunits-value=""--}}
 
 
-                    <div class='tn-atom' field='tn_text_1592225739914'><br></div>
+                {{-->--}}
 
 
-                </div>
+                    {{--<div class='tn-atom' field='tn_text_1592225739914'><br></div>--}}
+
+
+                {{--</div>--}}
 
 
                 {{--<div class='t396__elem tn-elem tn-elem__1994908261593223063234' data-elem-id='1593223063234' data-elem-type='text'--}}
