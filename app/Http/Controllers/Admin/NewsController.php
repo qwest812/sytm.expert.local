@@ -27,6 +27,26 @@ class NewsController extends Controller
         }
         return view('admin.expert.news.news', compact('news'));
     }
+    function showDeletedNews()
+    {
+        $news = Writenew::where("deleted", true)->get()->toArray();
+        foreach ($news as $key => $new) {
+            $lang = Language::where("id", $new["lang_id"])->first("language_name")->toArray();
+            $url = Url::where("id", $new["url_id"])->first("url")->toArray();
+            $news[$key]["language"] = $lang["language_name"];
+            $news[$key]["url"] = $url["url"];
+        }
+        return view('admin.expert.news.deleted-news', compact('news'));
+    }
+
+    function returnNews(Request $request)
+    {
+        $result = $request->all();
+        $page = Writenew::where("id", $result["id"])->first();
+        $page->deleted =false;
+        $page->save();
+        return redirect()->route('deletedNews');
+    }
 
     public function addNews()
     {
@@ -56,13 +76,7 @@ class NewsController extends Controller
         if (empty($urp)) {
             return Redirect::back()->withErrors(['url']);
         }
-//        if($lang->language_name != NewsController::UA){
-
             $urlPath = $lang->language_name . "/" . $urp;
-//        }else{
-//            $urlPath =$urp;
-//        }
-
         unset($request["url"]);
         if (array_key_exists("files", $request)) {
             unset($request["files"]);
@@ -115,7 +129,6 @@ class NewsController extends Controller
         $page = Writenew::where("id", $result["id"])->first();
         $page->deleted =true;
         $page->save();
-        exit();
         return redirect()->route('news');
     }
 

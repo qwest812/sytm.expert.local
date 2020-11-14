@@ -51,6 +51,8 @@ Route::group(['prefix' => 'admin',], function () {
         Route::post('delete-languages', 'LanguagesController@delete')->name('delete-languages');
 
         Route::get('news', 'NewsController@showNews')->name('news');
+        Route::get('deleted-news', 'NewsController@showDeletedNews')->name('deletedNews');
+        Route::post('return-news', 'NewsController@returnNews')->name('return-news');
         Route::match(['post','put'],'save-news', 'NewsController@saveNews')->name('save-news');
         Route::get('add-news', 'NewsController@addNews')->name('add-news');
         Route::post('dell-news', 'NewsController@dellNews')->name('dell-news');
