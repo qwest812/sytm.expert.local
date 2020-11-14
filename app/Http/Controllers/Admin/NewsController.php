@@ -18,7 +18,7 @@ class NewsController extends Controller
 
     function showNews()
     {
-        $news = Writenew::all()->toArray();
+        $news = Writenew::where("deleted", false)->get()->toArray();
         foreach ($news as $key => $new) {
             $lang = Language::where("id", $new["lang_id"])->first("language_name")->toArray();
             $url = Url::where("id", $new["url_id"])->first("url")->toArray();
@@ -113,9 +113,9 @@ class NewsController extends Controller
     {
         $result = $request->all();
         $page = Writenew::where("id", $result["id"])->first();
-        $url = Url::find($page["url_id"]);
-        $page->delete();
-        $url->delete();
+        $page->deleted =true;
+        $page->save();
+        exit();
         return redirect()->route('news');
     }
 
