@@ -13,7 +13,7 @@ class MainController extends Controller
     {
         $news = Writenew::where("type", 2)->take(3)->orderBy('id', 'desc')->get();
         foreach ($news as $key => $research) {
-            $news[$key]->url = Url::where("id", $news[$key]->url_id)->first()->url;
+            $news[$key]->url = Url::where("id", $news[$key]->url_id)->where("deleted",false)->first()->url;
         }
         return view("main", compact("news"));
     }
@@ -51,7 +51,7 @@ class MainController extends Controller
     {
         $page["title"] = "Новини | YOUR TOTAL MARKET";
         $page["description"] = "Тут можна ознайомитися з останніми новинами ринку, підготованними нашими аналітиками.";
-        $news = Writenew::where("type", NewsController::NEWS)->get()->toArray();
+        $news = Writenew::where("type", NewsController::NEWS)->where("deleted",false)->get()->toArray();
         foreach ($news as $key => $new) {
             $url = Url::where("id", $new["url_id"])->first()->url;
             $news[$key]["url"] = $url;
@@ -65,7 +65,7 @@ class MainController extends Controller
     {
         $page['title'] = "Дослідження | YOUR TOTAL MARKET";
         $page['description'] = "Тут можна ознайомитися з нашими готовими дослідженнями.";
-        $news=Writenew::where("type", NewsController::RESEARCH)->paginate(6);
+        $news=Writenew::where("type", NewsController::RESEARCH)->where("deleted",false)->paginate(6);
         foreach ($news as $key => $new) {
             $url = Url::where("id", $new["url_id"])->first()->url;
             $news[$key]["url"] = $url;
@@ -123,7 +123,7 @@ class MainController extends Controller
     {
         $page['title'] = "Дослідження | YOUR TOTAL MARKET";
         $page['description'] = "Тут можна ознайомитися з нашими готовими дослідженнями.";
-        $news = Writenew::where("type", NewsController::RESEARCH)->take(3)->get()->toArray();
+        $news = Writenew::where("type", NewsController::RESEARCH)->where("deleted",false)->take(3)->get()->toArray();
         foreach ($news as $key => $new) {
             $url = Url::where("id", $new["url_id"])->first()->url;
             $news[$key]["url"] = $url;
