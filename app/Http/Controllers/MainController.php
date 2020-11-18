@@ -13,7 +13,7 @@ class MainController extends Controller
     {
         $news = Writenew::where("type", 2)->take(3)->orderBy('id', 'desc')->get();
         foreach ($news as $key => $research) {
-            $news[$key]->url = Url::where("id", $news[$key]->url_id)->where("deleted",false)->first()->url;
+            $news[$key]->url = Url::where("id", $news[$key]->url_id)->first()->url;
         }
         return view("main", compact("news"));
     }

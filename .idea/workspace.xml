@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d6f22f76-4cab-4883-b7a1-3f2423e519a5" name="Default" comment="test">
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/MainController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/MainController.php" afterDir="false" />
-    </list>
+    <list default="true" id="d6f22f76-4cab-4883-b7a1-3f2423e519a5" name="Default" comment="test" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -28,8 +26,8 @@
       <file leaf-file-name="MainController.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/Http/Controllers/MainController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="236">
-              <caret line="128" column="17" selection-start-line="128" selection-start-column="12" selection-end-line="128" selection-end-column="17" />
+            <state relative-caret-position="1749">
+              <caret line="127" column="16" selection-start-line="127" selection-start-column="13" selection-end-line="127" selection-end-column="16" />
               <folding>
                 <element signature="e#40#86#0#PHP" expanded="true" />
               </folding>
@@ -135,7 +133,6 @@
       <find>component.fo</find>
       <find />
       <find>inf</find>
-      <find>$news</find>
       <find>mail</find>
       <find>2255px</find>
       <find />
@@ -150,6 +147,7 @@
       <find>news</find>
       <find>dele</find>
       <find>&lt;h1&gt;Новости&lt;/h1&gt;</find>
+      <find>$news</find>
     </findStrings>
     <replaceStrings>
       <replace>/</replace>
@@ -563,12 +561,12 @@
       <workItem from="1604256601636" duration="4570000" />
       <workItem from="1604341663263" duration="12071000" />
       <workItem from="1605360172647" duration="5855000" />
-      <workItem from="1605376273789" duration="3151000" />
+      <workItem from="1605376273789" duration="3452000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="419968000" />
+    <option name="totallyTimeSpent" value="420269000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -581,6 +579,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1842" height="1002" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21860987" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3290993" />
@@ -965,8 +964,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/Http/Controllers/MainController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="236">
-          <caret line="128" column="17" selection-start-line="128" selection-start-column="12" selection-end-line="128" selection-end-column="17" />
+        <state relative-caret-position="1749">
+          <caret line="127" column="16" selection-start-line="127" selection-start-column="13" selection-end-line="127" selection-end-column="16" />
           <folding>
             <element signature="e#40#86#0#PHP" expanded="true" />
           </folding>
