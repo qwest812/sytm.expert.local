@@ -20,6 +20,11 @@ class NewsController extends Controller
     {
         $news = Writenew::where("deleted", false)->get()->toArray();
         foreach ($news as $key => $new) {
+            if($new["id"] >=18 && $new["id"] <=30){
+                unset($news[$key]);
+                continue;
+            }
+
             $lang = Language::where("id", $new["lang_id"])->first("language_name")->toArray();
             $url = Url::where("id", $new["url_id"])->first("url")->toArray();
             $news[$key]["language"] = $lang["language_name"];

@@ -2689,7 +2689,7 @@
 
 
 
-                    <a class='tn-atom' href="/services/market-research/statystychnyj-proraxunok-rynku"   >
+                    <a class='tn-atom' href="/statystyka-obiemiv-rynku"   >
                         <img class='tn-atom__img' src='https://static.tildacdn.com/tild3834-3038-4562-a538-646530323962/___70.png'  imgfield='tn_img_1599590506297'>
                     </a>
 
@@ -2790,7 +2790,7 @@
 
 
 
-                    <a class='tn-atom'  href="https://ytm.expert/services/market-research/statystychnyj-proraxunok-rynku"  >Статистичний<br>
+                    <a class='tn-atom'  href="/statystyka-obiemiv-rynku"  >Статистичний<br>
                         огляд ринку</a>
 
 
@@ -2894,7 +2894,7 @@
 
 
 
-                    <a class='tn-atom' href="https://ytm.expert/services/market-research/statystychnyj-proraxunok-rynku"   >
+                    <a class='tn-atom' href="/statystyka-obiemiv-rynku"   >
                         <img class='tn-atom__img' src='https://static.tildacdn.com/tild3063-3563-4965-b833-623030383764/__.png'  imgfield='tn_img_1599590506304'>
                     </a>
 
@@ -2997,7 +2997,7 @@
 
 
 
-                    <a class='tn-atom' href="https://ytm.expert/services/market-research/market-research"   >
+                    <a class='tn-atom' href="/analiz-rynku"   >
                         <img class='tn-atom__img' src='https://static.tildacdn.com/tild3834-3038-4562-a538-646530323962/___70.png'  imgfield='tn_img_1599590506310'>
                     </a>
 
@@ -3098,7 +3098,7 @@
 
 
 
-                    <a class='tn-atom'  href="https://ytm.expert/services/market-research/market-research"  >Аналіз ринку</a>
+                    <a class='tn-atom'  href="/analiz-rynku"  >Аналіз ринку</a>
 
 
 
@@ -3201,7 +3201,7 @@
 
 
 
-                    <a class='tn-atom' href="https://ytm.expert/services/market-research/market-research"   >
+                    <a class='tn-atom' href="/analiz-rynku"   >
                         <img class='tn-atom__img' src='https://static.tildacdn.com/tild3735-3439-4534-a161-303562363464/_.png'  imgfield='tn_img_1599590506317'>
                     </a>
 
@@ -3304,7 +3304,7 @@
 
 
 
-                    <a class='tn-atom' href="https://ytm.expert/services/market-research/naliz-vyrobnycztva"   >
+                    <a class='tn-atom' href="/analiz-vyrobnyctva"   >
                         <img class='tn-atom__img' src='https://static.tildacdn.com/tild3834-3038-4562-a538-646530323962/___70.png'  imgfield='tn_img_1599590506322'>
                     </a>
 
@@ -3405,7 +3405,7 @@
 
 
 
-                    <a class='tn-atom'  href="https://ytm.expert/services/market-research/naliz-vyrobnycztva"  >Аналіз виробництва</a>
+                    <a class='tn-atom'  href="/analiz-vyrobnyctva"  >Аналіз виробництва</a>
 
 
 
@@ -3611,7 +3611,7 @@
 
 
 
-                    <a class='tn-atom' href="https://ytm.expert/services/market-research/analiz-importu"   >
+                    <a class='tn-atom' href="/analiz-importa"   >
                         <img class='tn-atom__img' src='https://static.tildacdn.com/tild3834-3038-4562-a538-646530323962/___70.png'  imgfield='tn_img_1599590506333'>
                     </a>
 
@@ -3712,7 +3712,7 @@
 
 
 
-                    <a class='tn-atom'  href="https://ytm.expert/services/market-research/analiz-importu"  >Аналіз імпорту<br>
+                    <a class='tn-atom'  href="/analiz-importa"  >Аналіз імпорту<br>
                         України</a>
 
 
@@ -3816,7 +3816,7 @@
 
 
 
-                    <a class='tn-atom' href="https://ytm.expert/services/market-research/analiz-importu"   >
+                    <a class='tn-atom' href="/analiz-importa"   >
                         <img class='tn-atom__img' src='https://static.tildacdn.com/tild3935-6636-4037-b161-663632363465/__.png'  imgfield='tn_img_1599590506341'>
                     </a>
 
@@ -3919,7 +3919,7 @@
 
 
 
-                    <a class='tn-atom' href="https://ytm.expert/services/market-research/naliz-eksportu"   >
+                    <a class='tn-atom' href="/analiz-exporta"   >
                         <img class='tn-atom__img' src='https://static.tildacdn.com/tild3834-3038-4562-a538-646530323962/___70.png'  imgfield='tn_img_1599590506346'>
                     </a>
 
@@ -4020,7 +4020,7 @@
 
 
 
-                    <a class='tn-atom'  href="https://ytm.expert/services/market-research/naliz-eksportu"  >Аналіз експорту<br>
+                    <a class='tn-atom'  href="/analiz-exporta"  >Аналіз експорту<br>
                         України</a>
 
 
@@ -4227,7 +4227,7 @@
 
 
 
-                    <a class='tn-atom' href="https://ytm.expert/services/market-research/monitoryng-cin"   >
+                    <a class='tn-atom' href="/monitoryng-cin"   >
                         <img class='tn-atom__img' src='https://static.tildacdn.com/tild3834-3038-4562-a538-646530323962/___70.png'  imgfield='tn_img_1599590506357'>
                     </a>
 
@@ -4328,7 +4328,7 @@
 
 
 
-                    <a class='tn-atom'  href="https://ytm.expert/services/market-research/monitoryng-cin"  >Моніторинг цін</a>
+                    <a class='tn-atom'  href="/monitoryng-cin"  >Моніторинг цін</a>
 
 
 
@@ -4431,7 +4431,7 @@
 
 
 
-                    <a class='tn-atom' href="https://ytm.expert/services/market-research/monitoryng-cin"   >
+                    <a class='tn-atom' href="/monitoryng-cin"   >
                         <img class='tn-atom__img' src='https://static.tildacdn.com/tild3734-6566-4037-b135-643666306430/_.png'  imgfield='tn_img_1599590506364'>
                     </a>
 
@@ -4534,7 +4534,7 @@
 
 
 
-                    <a class='tn-atom' href="https://ytm.expert/services/market-research/analiz-mizhnarodnoyi-torgivli"   >
+                    <a class='tn-atom' href="/analiz-mizhnarodnoi-torgavli"   >
                         <img class='tn-atom__img' src='https://static.tildacdn.com/tild3834-3038-4562-a538-646530323962/___70.png'  imgfield='tn_img_1599590506369'>
                     </a>
 
@@ -4635,7 +4635,7 @@
 
 
 
-                    <a class='tn-atom'  href="https://ytm.expert/services/market-research/analiz-mizhnarodnoyi-torgivli"  >Аналіз міжнародної торгівлі в світі</a>
+                    <a class='tn-atom'  href="/analiz-mizhnarodnoi-torgavli"  >Аналіз міжнародної торгівлі в світі</a>
 
 
 
@@ -4841,7 +4841,7 @@
 
 
 
-                    <a class='tn-atom' href="https://ytm.expert/services/market-research/analysis-of-competitor"   >
+                    <a class='tn-atom' href="/analiz-konkurentiv"   >
                         <img class='tn-atom__img' src='https://static.tildacdn.com/tild3834-3038-4562-a538-646530323962/___70.png'  imgfield='tn_img_1599590506381'>
                     </a>
 
@@ -4942,7 +4942,7 @@
 
 
 
-                    <a class='tn-atom'  href="https://ytm.expert/services/market-research/analysis-of-competitor"  >Аналіз конкурентів</a>
+                    <a class='tn-atom'  href="/analiz-konkurentiv"  >Аналіз конкурентів</a>
 
 
 
@@ -5148,7 +5148,7 @@
 
 
 
-                    <a class='tn-atom' href="https://ytm.expert/services/market-research/analitychna-zapyska"   >
+                    <a class='tn-atom' href="/analitychna-zapyska"   >
                         <img class='tn-atom__img' src='https://static.tildacdn.com/tild3834-3038-4562-a538-646530323962/___70.png'  imgfield='tn_img_1599590506392'>
                     </a>
 
@@ -5249,7 +5249,7 @@
 
 
 
-                    <a class='tn-atom'  href="https://ytm.expert/services/market-research/analitychna-zapyska"  >Аналітична записка по ринку</a>
+                    <a class='tn-atom'  href="/analitychna-zapyska"  >Аналітична записка по ринку</a>
 
 
 
@@ -5455,7 +5455,7 @@
 
 
 
-                    <a class='tn-atom' href="https://ytm.expert/services/market-research/audyt-rozdribnyx-merezh"   >
+                    <a class='tn-atom' href="/analiz-prodazhiv-u-torgivelnyh-merezhah"   >
                         <img class='tn-atom__img' src='https://static.tildacdn.com/tild3834-3038-4562-a538-646530323962/___70.png'  imgfield='tn_img_1599590506405'>
                     </a>
 
@@ -5556,7 +5556,7 @@
 
 
 
-                    <a class='tn-atom'  href="https://ytm.expert/services/market-research/audyt-rozdribnyx-merezh"  >Аудит роздрібної <br>
+                    <a class='tn-atom'  href="/analiz-prodazhiv-u-torgivelnyh-merezhah"  >Аудит роздрібної <br>
                         торгівлі</a>
 
 
@@ -6070,7 +6070,7 @@
 
 
 
-                    <a class='tn-atom' href="https://ytm.expert/services/market-research/prognoz-rynku"   >
+                    <a class='tn-atom' href="/prognoz-rynku"   >
                         <img class='tn-atom__img' src='https://static.tildacdn.com/tild3834-3038-4562-a538-646530323962/___70.png'  imgfield='tn_img_1599590506429'>
                     </a>
 
@@ -6171,7 +6171,7 @@
 
 
 
-                    <a class='tn-atom'  href="https://ytm.expert/services/market-research/prognoz-rynku"  >Прогноз ринку</a>
+                    <a class='tn-atom'  href="/prognoz-rynku"  >Прогноз ринку</a>
 
 
 

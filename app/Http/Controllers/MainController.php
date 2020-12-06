@@ -67,6 +67,10 @@ class MainController extends Controller
         $page['description'] = "Тут можна ознайомитися з нашими готовими дослідженнями.";
         $news=Writenew::where("type", NewsController::RESEARCH)->where("deleted",false)->paginate(6);
         foreach ($news as $key => $new) {
+            if($new["id"] >=18 && $new["id"] <=30){
+                unset($news[$key]);
+                continue;
+            }
             $url = Url::where("id", $new["url_id"])->first()->url;
             $news[$key]["url"] = $url;
             $news[$key]["time"] = explode(" ", $new["created_at"])[0];
@@ -125,6 +129,10 @@ class MainController extends Controller
         $page['description'] = "Тут можна ознайомитися з нашими готовими дослідженнями.";
         $news = Writenew::where("type", NewsController::RESEARCH)->where("deleted",false)->take(3)->get()->toArray();
         foreach ($news as $key => $new) {
+            if($new["id"] >=18 && $new["id"] <=30){
+                unset($news[$key]);
+                continue;
+            }
             $url = Url::where("id", $new["url_id"])->first()->url;
             $news[$key]["url"] = $url;
             $news[$key]["time"] = explode(" ", $new["created_at"])[0];
