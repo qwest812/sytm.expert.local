@@ -2,9 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d6f22f76-4cab-4883-b7a1-3f2423e519a5" name="Default" comment="test">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Admin/NewsController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Admin/NewsController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/MainController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/MainController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/services.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/services.blade.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -43,8 +40,8 @@
       <file leaf-file-name="services.blade.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/resources/views/services.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="142">
-              <caret line="4843" column="111" selection-start-line="4843" selection-start-column="45" selection-end-line="4843" selection-end-column="111" />
+            <state relative-caret-position="152">
+              <caret line="3407" column="68" selection-start-line="3407" selection-start-column="50" selection-end-line="3407" selection-end-column="68" />
             </state>
           </provider>
         </entry>
@@ -126,8 +123,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>data-artboard-recid=&quot;228395109&quot;</find>
-      <find>ytm.expert</find>
       <find>main</find>
       <find>market</find>
       <find>researches</find>
@@ -154,6 +149,10 @@
       <find>['updated_at'</find>
       <find>RESEARCH</find>
       <find>statystychnyj-proraxunok-rynku</find>
+      <find>href=&quot;/</find>
+      <find>statys</find>
+      <find>analiz-rynku</find>
+      <find>analiz-vyrobnyctva</find>
     </findStrings>
     <replaceStrings>
       <replace>/</replace>
@@ -163,6 +162,9 @@
       <replace>/analiz-exporta</replace>
       <replace>/monitoryng-cin</replace>
       <replace>/analiz-mizhnarodnoi-torgavli</replace>
+      <replace>/analiz-konkurentiv</replace>
+      <replace>/analitychna-zapyska</replace>
+      <replace>/prognoz-rynku</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -596,12 +598,12 @@
       <workItem from="1605360172647" duration="5855000" />
       <workItem from="1605376273789" duration="3452000" />
       <workItem from="1605809076899" duration="41000" />
-      <workItem from="1607290755398" duration="2629000" />
+      <workItem from="1607290755398" duration="3370000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="422939000" />
+    <option name="totallyTimeSpent" value="423680000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -621,8 +623,8 @@
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Version Control" order="10" weight="0.608545" />
-      <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.49943945" visible="true" weight="0.3856813" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22309417" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="9" sideWeight="0.49943945" visible="true" weight="0.3856813" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22309417" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32897604" />
@@ -1001,8 +1003,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/services.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="142">
-          <caret line="4843" column="111" selection-start-line="4843" selection-start-column="45" selection-end-line="4843" selection-end-column="111" />
+        <state relative-caret-position="152">
+          <caret line="3407" column="68" selection-start-line="3407" selection-start-column="50" selection-end-line="3407" selection-end-column="68" />
         </state>
       </provider>
     </entry>

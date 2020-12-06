@@ -2689,7 +2689,7 @@
 
 
 
-                    <a class='tn-atom' href="/statystyka-obiemiv-rynku"   >
+                    <a class='tn-atom' href="/ua/statystyka-obiemiv-rynku"   >
                         <img class='tn-atom__img' src='https://static.tildacdn.com/tild3834-3038-4562-a538-646530323962/___70.png'  imgfield='tn_img_1599590506297'>
                     </a>
 
@@ -2790,7 +2790,7 @@
 
 
 
-                    <a class='tn-atom'  href="/statystyka-obiemiv-rynku"  >Статистичний<br>
+                    <a class='tn-atom'  href="/ua/statystyka-obiemiv-rynku"  >Статистичний<br>
                         огляд ринку</a>
 
 
@@ -2894,7 +2894,7 @@
 
 
 
-                    <a class='tn-atom' href="/statystyka-obiemiv-rynku"   >
+                    <a class='tn-atom' href="/ua/statystyka-obiemiv-rynku"   >
                         <img class='tn-atom__img' src='https://static.tildacdn.com/tild3063-3563-4965-b833-623030383764/__.png'  imgfield='tn_img_1599590506304'>
                     </a>
 
@@ -2997,7 +2997,7 @@
 
 
 
-                    <a class='tn-atom' href="/analiz-rynku"   >
+                    <a class='tn-atom' href="/ua/analiz-rynku"   >
                         <img class='tn-atom__img' src='https://static.tildacdn.com/tild3834-3038-4562-a538-646530323962/___70.png'  imgfield='tn_img_1599590506310'>
                     </a>
 
@@ -3098,7 +3098,7 @@
 
 
 
-                    <a class='tn-atom'  href="/analiz-rynku"  >Аналіз ринку</a>
+                    <a class='tn-atom'  href="/ua/analiz-rynku"  >Аналіз ринку</a>
 
 
 
@@ -3201,7 +3201,7 @@
 
 
 
-                    <a class='tn-atom' href="/analiz-rynku"   >
+                    <a class='tn-atom' href="/ua/analiz-rynku"   >
                         <img class='tn-atom__img' src='https://static.tildacdn.com/tild3735-3439-4534-a161-303562363464/_.png'  imgfield='tn_img_1599590506317'>
                     </a>
 
@@ -3304,7 +3304,7 @@
 
 
 
-                    <a class='tn-atom' href="/analiz-vyrobnyctva"   >
+                    <a class='tn-atom' href="/ua/analiz-vyrobnyctva"   >
                         <img class='tn-atom__img' src='https://static.tildacdn.com/tild3834-3038-4562-a538-646530323962/___70.png'  imgfield='tn_img_1599590506322'>
                     </a>
 
@@ -3405,7 +3405,7 @@
 
 
 
-                    <a class='tn-atom'  href="/analiz-vyrobnyctva"  >Аналіз виробництва</a>
+                    <a class='tn-atom'  href="/ua/analiz-vyrobnyctva"  >Аналіз виробництва</a>
 
 
 
