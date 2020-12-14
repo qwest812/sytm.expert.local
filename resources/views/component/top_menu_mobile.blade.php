@@ -17,7 +17,7 @@
                             <ul class="t-menusub__list">
                                 <li class="t-menusub__list-item t-name t-name_xs"><a
                                             class="t-menusub__link-item t-name t-name_xs"
-                                            style="color:#ffffff;" href="/services/market-research"
+                                            style="color:#ffffff;" href="/market-research"
                                             data-menu-item-number="2">ДОСЛІДЖЕННЯ РИНКУ</a></li>
                                 <li class="t-menusub__list-item t-name t-name_xs"><a
                                             class="t-menusub__link-item t-name t-name_xs"
