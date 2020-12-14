@@ -9243,9 +9243,6 @@
                 >
 
 
-
-                    /market-research
-
                     <a class='tn-atom'  href="/ua/analiz-prodazhiv-u-torgivelnyh-merezhah"  >Аудит роздрібної <br>
                         торгівлі</a>
 
