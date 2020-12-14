@@ -3288,7 +3288,7 @@
             }
 
             #rec228395026 .tn-elem[data-elem-id="1599502652476"] .tn-atom {
-                color: #0000;
+                color: #000000;
                 font-size: 12px;
                 font-family: 'Montserrat', Arial, sans-serif;
                 line-height: 1.55;
