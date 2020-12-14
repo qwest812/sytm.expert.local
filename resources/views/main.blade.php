@@ -4902,7 +4902,7 @@
                 >
 
 
-                    <a class='tn-atom' href="#contacts">
+                    <a class='tn-atom' href="{{route("main")}}/#contacts">
                         <img class='tn-atom__img'
                              src='https://static.tildacdn.com/tild6434-3765-4161-b931-373761313030/__.png'
                              imgfield='tn_img_1590657960415'>
@@ -5547,7 +5547,7 @@
                 >
 
 
-                    <a class='tn-atom' href="#contacts">
+                    <a class='tn-atom' href="{{route("main")}}/#contacts">
                         <img class='tn-atom__img'
                              src='https://static.tildacdn.com/tild6434-3765-4161-b931-373761313030/__.png'
                              imgfield='tn_img_1593775047145'>
@@ -6188,7 +6188,7 @@
             }
 
             #rec228394908 .tn-elem[data-elem-id="1599502652476"] .tn-atom {
-                color: #171834;
+                color: #0000;
                 font-size: 12px;
                 font-family: 'Montserrat', Arial, sans-serif;
                 line-height: 1.55;

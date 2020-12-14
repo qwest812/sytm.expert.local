@@ -3,16 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="d6f22f76-4cab-4883-b7a1-3f2423e519a5" name="Default" comment="test">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/MainController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/MainController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/contacts.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/contacts.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/main.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/main.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/main2.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/main2.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/market-research.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/market-research.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/market-research_test.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/market-research_test.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/marketing.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/marketing.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/research.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/research.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/services.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/services.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/transfer-pricing.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/transfer-pricing.blade.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -62,11 +52,8 @@
       <file leaf-file-name="researches.blade.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/resources/views/researches.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="194">
-              <caret line="2965" column="96" selection-start-line="2965" selection-start-column="25" selection-end-line="2965" selection-end-column="96" />
-              <folding>
-                <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#div#10;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
+            <state relative-caret-position="152">
+              <caret line="90" column="92" lean-forward="true" selection-start-line="90" selection-start-column="92" selection-end-line="90" selection-end-column="92" />
             </state>
           </provider>
         </entry>
@@ -119,15 +106,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name=".env" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/.env">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="11" column="21" selection-start-line="11" selection-start-column="12" selection-end-line="11" selection-end-column="21" />
-            </state>
-          </provider>
-        </entry>
-      </file>
     </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
@@ -140,8 +118,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>dele</find>
-      <find>&lt;h1&gt;Новости&lt;/h1&gt;</find>
       <find>$news</find>
       <find>admin</find>
       <find>show</find>
@@ -168,8 +144,10 @@
       <find>https://ytm.expert/services/market-research/аnaliz-eksportu</find>
       <find>/services/market-research</find>
       <find>https://ytm.expert/services/market-research</find>
-      <find>news</find>
       <find>ПЕРЕГЛЯНУТИ ВСІ</find>
+      <find>#allrecords a{</find>
+      <find>news</find>
+      <find>#contacts</find>
     </findStrings>
     <replaceStrings>
       <replace>/</replace>
@@ -202,7 +180,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/database/seeds/DatabaseSeeder.php" />
         <option value="$PROJECT_DIR$/app/Writenew.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/Admin/MotoController.php" />
         <option value="$PROJECT_DIR$/resources/views/admin/expert/news/news.blade.php" />
@@ -253,6 +230,7 @@
         <option value="$PROJECT_DIR$/resources/views/market-research.blade.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/MainController.php" />
         <option value="$PROJECT_DIR$/resources/views/main.blade.php" />
+        <option value="$PROJECT_DIR$/public/css/tilda-blocks-2.12.css" />
       </list>
     </option>
   </component>
@@ -620,12 +598,12 @@
       <workItem from="1605376273789" duration="3452000" />
       <workItem from="1605809076899" duration="41000" />
       <workItem from="1607290755398" duration="4620000" />
-      <workItem from="1607971241801" duration="2967000" />
+      <workItem from="1607971241801" duration="3673000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="427897000" />
+    <option name="totallyTimeSpent" value="428603000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -645,11 +623,11 @@
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="10" weight="0.608545" />
       <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.49943945" weight="0.3856813" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22533633" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="9" sideWeight="0.49943945" visible="true" weight="0.3856813" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22533633" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="3" />
-      <window_info anchor="bottom" id="Find" order="1" visible="true" weight="0.24018475" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.24018475" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
@@ -698,13 +676,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="test" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/Http/Middleware/RedirectIfAuthenticated.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="20" column="45" selection-start-line="20" selection-start-column="45" selection-end-line="20" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/storage/logs/laravel-2020-10-07.log" />
     <entry file="file://$PROJECT_DIR$/app/Http/Middleware/Authenticate.php">
       <provider selected="true" editor-type-id="text-editor">
@@ -1023,13 +994,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/public/css/tilda-blocks-2.12.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="25" lean-forward="true" selection-start-line="16" selection-start-column="25" selection-end-line="16" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/researches.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="194">
-          <caret line="2965" column="96" selection-start-line="2965" selection-start-column="25" selection-end-line="2965" selection-end-column="96" />
-          <folding>
-            <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#div#10;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
+        <state relative-caret-position="152">
+          <caret line="90" column="92" lean-forward="true" selection-start-line="90" selection-start-column="92" selection-end-line="90" selection-end-column="92" />
         </state>
       </provider>
     </entry>

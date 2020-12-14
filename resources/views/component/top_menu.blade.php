@@ -103,7 +103,7 @@
      data-field-heightunits-value=""
      data-field-widthunits-value=""
 >
-    <a class='tn-atom'  href="#contacts"  >КОНТАКТИ</a>
+    <a class='tn-atom'  href="{{route("main")}}/#contacts"  >КОНТАКТИ</a>
 
 </div>
 
@@ -594,7 +594,7 @@
 
 
 
-    <a class='tn-atom' href="/#contacts"   >
+    <a class='tn-atom' href="/{{route("main")}}/#contacts"   >
         <img class='tn-atom__img' src='https://static.tildacdn.com/tild6434-3765-4161-b931-373761313030/__.png'  imgfield='tn_img_1593775265627'>
     </a>
 
@@ -1006,7 +1006,7 @@
 >
 
 
-    <a class='tn-atom' href="#contacts"   >
+    <a class='tn-atom' href="{{route("main")}}/#contacts"   >
         <img class='tn-atom__img' src='https://static.tildacdn.com/tild6434-3765-4161-b931-373761313030/__.png'  imgfield='tn_img_1593775265650'>
     </a>
 </div>

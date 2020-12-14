@@ -475,7 +475,7 @@ data-field-widthunits-value=""
 
 
 
-<a class='tn-atom'  href="#contacts"  >КОНТАКТИ</a>
+<a class='tn-atom'  href="{{route("main")}}/#contacts"  >КОНТАКТИ</a>
 
 
 
@@ -990,7 +990,7 @@ data-animate-sbs-opts="[{'ti':'0','mx':'0','my':'0','sx':'1','sy':'1','op':'1','
 
 
 
-<a class='tn-atom' href="#contacts"   >
+<a class='tn-atom' href="{{route("main")}}/#contacts"   >
 <img class='tn-atom__img' src='https://static.tildacdn.com/tild6434-3765-4161-b931-373761313030/__.png'  imgfield='tn_img_1593775250849'>
 </a>
 
@@ -1505,7 +1505,7 @@ data-animate-sbs-opts="[{'ti':'0','mx':'0','my':'0','sx':'1','sy':'1','op':'1','
 
 
 
-<a class='tn-atom' href="#contacts"   >
+<a class='tn-atom' href="{{route("main")}}/#contacts"   >
 <img class='tn-atom__img' src='https://static.tildacdn.com/tild6434-3765-4161-b931-373761313030/__.png'  imgfield='tn_img_1593775250871'>
 </a>
 

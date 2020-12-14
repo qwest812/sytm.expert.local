@@ -169,7 +169,7 @@
                                                            style="color:#e3cb9f;font-size:15px;font-weight:600;font-family:&apos;Montserrat&apos;;text-transform:uppercase;"
                                                            data-menu-item-number="4">НОВИНИ</a>
                             </li>
-                            <li class="t450__list_item"><a class="t-menu__link-item " href="#contacts"
+                            <li class="t450__list_item"><a class="t-menu__link-item " href="{{route("main")}}/#contacts"
                                                            data-menu-submenu-hook=""
                                                            style="color:#e3cb9f;font-size:15px;font-weight:600;font-family:&apos;Montserrat&apos;;text-transform:uppercase;"
                                                            data-menu-item-number="5">КОНТАКТИ</a>
@@ -4930,7 +4930,7 @@
                 >
 
 
-                    <a class='tn-atom' href="#contacts">КОНТАКТИ</a>
+                    <a class='tn-atom' href="{{route("main")}}/#contacts">КОНТАКТИ</a>
 
 
                 </div>
@@ -5216,7 +5216,7 @@
                 >
 
 
-                    <a class='tn-atom' href="#contacts">
+                    <a class='tn-atom' href="{{route("main")}}/#contacts">
                         <img class='tn-atom__img'
                              src='https://static.tildacdn.com/tild6434-3765-4161-b931-373761313030/__.png'
                              imgfield='tn_img_1590657960415'>
@@ -5857,7 +5857,7 @@
                 >
 
 
-                    <a class='tn-atom' href="#contacts">
+                    <a class='tn-atom' href="{{route("main")}}/#contacts">
                         <img class='tn-atom__img'
                              src='https://static.tildacdn.com/tild6434-3765-4161-b931-373761313030/__.png'
                              imgfield='tn_img_1593775047145'>
@@ -6498,7 +6498,7 @@
             }
 
             #rec228394908 .tn-elem[data-elem-id="1599502652476"] .tn-atom {
-                color: #171834;
+                color: #0000;
                 font-size: 12px;
                 font-family: 'Montserrat', Arial, sans-serif;
                 line-height: 1.55;

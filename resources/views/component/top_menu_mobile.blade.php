@@ -43,7 +43,7 @@
                                            style="color:#e3cb9f;font-size:15px;font-weight:600;font-family:&apos;Montserrat&apos;;text-transform:uppercase;"
                                            data-menu-item-number="4">НОВИНИ</a>
             </li>
-            <li class="t450__list_item"><a class="t-menu__link-item " href="#contacts"
+            <li class="t450__list_item"><a class="t-menu__link-item " href="{{route("main")}}/#contacts"
                                            data-menu-submenu-hook=""
                                            style="color:#e3cb9f;font-size:15px;font-weight:600;font-family:&apos;Montserrat&apos;;text-transform:uppercase;"
                                            data-menu-item-number="5">КОНТАКТИ</a>

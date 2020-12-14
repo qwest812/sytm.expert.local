@@ -106,5 +106,5 @@
      data-field-heightunits-value=""
      data-field-widthunits-value=""
 >
-    <a class='tn-atom' href="#contacts">КОНТАКТИ</a>
+    <a class='tn-atom' href="{{route("main")}}/#contacts">КОНТАКТИ</a>
 </div>
