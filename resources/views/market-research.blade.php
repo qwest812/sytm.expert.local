@@ -9450,7 +9450,7 @@
 
 
 
-                    <a class='tn-atom' href="#pop-up:11/market-research"   >
+                    <a class='tn-atom' href="/market-research"   >
                         <img class='tn-atom__img' src='https://static.tildacdn.com/tild3834-3038-4562-a538-646530323962/___70.png'  imgfield='tn_img_1599803831237'>
                     </a>
 
