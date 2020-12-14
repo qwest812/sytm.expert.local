@@ -3508,7 +3508,7 @@
 
 
 
-                    <a class='tn-atom' href="https://ytm.expert/services/market-research/аnaliz-vyrobnycztva"   >
+                    <a class='tn-atom' href="/ua/analiz-vyrobnyctva"   >
                         <img class='tn-atom__img' src='https://static.tildacdn.com/tild3630-6337-4534-b332-633230626364/_.png'  imgfield='tn_img_1599590506328'>
                     </a>
 
@@ -3611,7 +3611,7 @@
 
 
 
-                    <a class='tn-atom' href="/analiz-importa"   >
+                    <a class='tn-atom' href="/ua/analiz-importa"   >
                         <img class='tn-atom__img' src='https://static.tildacdn.com/tild3834-3038-4562-a538-646530323962/___70.png'  imgfield='tn_img_1599590506333'>
                     </a>
 
@@ -3712,7 +3712,7 @@
 
 
 
-                    <a class='tn-atom'  href="/analiz-importa"  >Аналіз імпорту<br>
+                    <a class='tn-atom'  href="/ua/analiz-importa"  >Аналіз імпорту<br>
                         України</a>
 
 
@@ -4124,7 +4124,7 @@
 
 
 
-                    <a class='tn-atom' href="https://ytm.expert/services/market-research/аnaliz-eksportu"   >
+                    <a class='tn-atom' href="/ua/analiz-exporta"   >
                         <img class='tn-atom__img' src='https://static.tildacdn.com/tild3166-3233-4534-a638-346335626565/__.png'  imgfield='tn_img_1599590506353'>
                     </a>
 
@@ -5763,7 +5763,7 @@
 
 
 
-                    <a class='tn-atom' href="#pop-up:11https://ytm.expert/services/market-research/marketing-research"   >
+                    <a class='tn-atom' href="#pop-up:11/market-research"   >
                         <img class='tn-atom__img' src='https://static.tildacdn.com/tild3834-3038-4562-a538-646530323962/___70.png'  imgfield='tn_img_1599590506417'>
                     </a>
 
@@ -9821,7 +9821,7 @@
 
 
 
-                    {{--<a class='tn-atom'  href="https://ytm.expert/services/market-research"  >ДОСЛІДЖЕННЯ РИНКУ</a>--}}
+                    {{--<a class='tn-atom'  href="/market-research"  >ДОСЛІДЖЕННЯ РИНКУ</a>--}}
 
 
 

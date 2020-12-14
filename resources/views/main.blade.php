@@ -5009,7 +5009,7 @@
                 >
 
 
-                    <a class='tn-atom' href="{{route("researches")}}">ПЕРЕГЛЯНУТИ ВСІ</a>
+                    <a class='tn-atom' href="{{route("all-news")}}">ПЕРЕГЛЯНУТИ ВСІ</a>
 
 
                 </div>

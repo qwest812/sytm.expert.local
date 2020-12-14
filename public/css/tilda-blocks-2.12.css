@@ -8,7 +8,9 @@
 }
 
 #allrecords a{
-    color: #ff8562;
+
+    /*color: #ff8562;*/
+    color: #6368a6;
     text-decoration: none;
 }
 

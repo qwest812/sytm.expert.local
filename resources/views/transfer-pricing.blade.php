@@ -21180,7 +21180,7 @@
 
 
 
-                    {{--<a class='tn-atom'  href="https://ytm.expert/services/market-research"  >ДОСЛІДЖЕННЯ РИНКУ</a>--}}
+                    {{--<a class='tn-atom'  href="/market-research"  >ДОСЛІДЖЕННЯ РИНКУ</a>--}}
 
 
 
