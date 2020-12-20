@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d6f22f76-4cab-4883-b7a1-3f2423e519a5" name="Default" comment="test">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/main.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/main.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/market-research.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/market-research.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/researches.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/researches.blade.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -32,7 +35,7 @@
         <entry file="file://$PROJECT_DIR$/app/Http/Controllers/MainController.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="442">
-              <caret line="26" column="5" lean-forward="true" selection-start-line="26" selection-start-column="5" selection-end-line="26" selection-end-column="5" />
+              <caret line="26" column="5" selection-start-line="26" selection-start-column="5" selection-end-line="26" selection-end-column="5" />
               <folding>
                 <element signature="e#40#86#0#PHP" expanded="true" />
               </folding>
@@ -43,17 +46,17 @@
       <file leaf-file-name="main.blade.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/resources/views/main.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="109">
-              <caret line="5006" lean-forward="true" selection-start-line="5006" selection-end-line="5006" />
+            <state relative-caret-position="84915">
+              <caret line="5006" selection-start-line="5006" selection-end-line="5006" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="researches.blade.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="researches.blade.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/resources/views/researches.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="89" column="33" lean-forward="true" selection-start-line="89" selection-start-column="33" selection-end-line="89" selection-end-column="33" />
+            <state relative-caret-position="237">
+              <caret line="2934" column="45" selection-start-line="2934" selection-start-column="45" selection-end-line="2934" selection-end-column="45" />
             </state>
           </provider>
         </entry>
@@ -62,7 +65,7 @@
         <entry file="file://$PROJECT_DIR$/public/css/tilda-blocks-2.12.css">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="221">
-              <caret line="13" column="26" lean-forward="true" selection-start-line="13" selection-start-column="26" selection-end-line="13" selection-end-column="26" />
+              <caret line="13" column="26" selection-start-line="13" selection-start-column="26" selection-end-line="13" selection-end-column="26" />
             </state>
           </provider>
         </entry>
@@ -70,17 +73,17 @@
       <file leaf-file-name="services.blade.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/resources/views/services.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="220">
+            <state relative-caret-position="59449">
               <caret line="3411" selection-start-line="3411" selection-end-line="3411" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="market-research.blade.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="market-research.blade.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/resources/views/market-research.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="271">
-              <caret line="9243" selection-start-line="9243" selection-end-line="9243" />
+            <state relative-caret-position="289">
+              <caret line="85" selection-start-line="85" selection-end-line="85" />
             </state>
           </provider>
         </entry>
@@ -88,7 +91,7 @@
       <file leaf-file-name="market-research_test.blade.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/resources/views/market-research_test.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="246">
+            <state relative-caret-position="132073">
               <caret line="7650" selection-start-line="7650" selection-end-line="7650" />
             </state>
           </provider>
@@ -127,13 +130,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>RESEARCH</find>
-      <find>statystychnyj-proraxunok-rynku</find>
-      <find>href=&quot;/</find>
-      <find>statys</find>
-      <find>analiz-rynku</find>
-      <find>analiz-vyrobnyctva</find>
-      <find>https://ytm.expert/services/market-research/prognoz-rynku</find>
       <find>https://ytm.expert/services/market-research/statystychnyj-proraxunok-rynku</find>
       <find>https://ytm.expert/services/market-research/market-research</find>
       <find>https://ytm.expert/services/market-research/analiz-importu</find>
@@ -157,6 +153,13 @@
       <find>#rec228395026 .tn-elem[data-elem-id=&quot;1599502652476&quot;] .tn-atom</find>
       <find>/services/market-research</find>
       <find>160px</find>
+      <find>/market-research</find>
+      <find>&lt;p&gt;If you like to play baccarat in a casino, you will find that the baccarat tables are separated from the floor of the casino in general. People who play baccarat are upper class and have high dynamometer to pass. In fact playing blackjack in a land based casino means that you will bankroll a great place to start. If you already have one, then all you have to worry about is the dress code. You can not mix with the upper-class players if you do not dress accordingly.&lt;/p&gt;  &lt;p&gt;Let's look at the rules of baccarat. They are fairly simple and should not have trouble understanding it.&lt;/p&gt;  &lt;p&gt;All cards (Jacks, Queens, Kings) and 10s are valued as 0.&lt;br/&gt;                 All cards 2 through 9 have their face value.&lt;br/&gt;               The main objective of the game is to get as close as possible to 9 without going over. The hand closest to 9 wins.&lt;/p&gt;  &lt;p&gt;The game will start after making their bets. There are 3 types of bets can be placed. You can bet on the player, banking, or a tie. You are then dealt two cards, and so will the dealer. If your hand is 9 has a &amp;quot;natural&amp;quot; and you automatically win. If you receive 5 to 6 for example, does not bust. The value of your hand is counted as one, not 11.&lt;/p&gt;  &lt;p&gt;After your first two cards are dealt, you can draw additional cards if desired. If you want to win at baccarat should be the closest to 9.&lt;/p&gt;  &lt;p&gt;You can expect to pay the same money on a winning bet. Banker bets tend to win more often, but you have to pay a certain percentage to the casino for bets of the dealer wins.&lt;/p&gt;  &lt;p&gt;This is almost all there is to know about baccarat. As you can see that the rules are very simple. Whether you decide to play baccarat in a land based casino, or you decide to play online baccarat, you are sure to have some fun and possibly win a lot of money.&lt;/p&gt;9</find>
+      <find>29%</find>
+      <find>635px</find>
+      <find>height: 635</find>
+      <find>height: 10</find>
+      <find>height: 1000px</find>
     </findStrings>
     <replaceStrings>
       <replace>/</replace>
@@ -239,8 +242,8 @@
         <option value="$PROJECT_DIR$/app/Http/Controllers/MainController.php" />
         <option value="$PROJECT_DIR$/resources/views/main.blade.php" />
         <option value="$PROJECT_DIR$/public/css/tilda-blocks-2.12.css" />
-        <option value="$PROJECT_DIR$/resources/views/researches.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/market-research.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/researches.blade.php" />
       </list>
     </option>
   </component>
@@ -355,8 +358,8 @@
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-112" />
     <option name="y" value="273" />
-    <option name="width" value="3236" />
-    <option name="height" value="1768" />
+    <option name="width" value="3238" />
+    <option name="height" value="1770" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -364,6 +367,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -489,13 +493,12 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="add_unversioned_files" value="$PROJECT_DIR$/.env" />
-    <property name="last_opened_file_path" value="D:/OSPanel/domains/example-blue.local" />
+    <property name="last_opened_file_path" value="D:/OSPanel/domains/cloaca" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -608,12 +611,13 @@
       <workItem from="1605376273789" duration="3452000" />
       <workItem from="1605809076899" duration="41000" />
       <workItem from="1607290755398" duration="4620000" />
-      <workItem from="1607971241801" duration="5782000" />
+      <workItem from="1607971241801" duration="5970000" />
+      <workItem from="1608500861258" duration="1265000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="430712000" />
+    <option name="totallyTimeSpent" value="432165000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -626,20 +630,21 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1842" height="1002" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3290993" />
       <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.5005605" side_tool="true" weight="0.2251732" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="10" weight="0.608545" />
       <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Version Control" order="10" weight="0.608545" />
       <window_info active="true" anchor="bottom" id="Terminal" order="9" sideWeight="0.49943945" visible="true" weight="0.3856813" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22533633" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22757848" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.24018475" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -957,14 +962,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/services.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
+        <state relative-caret-position="59449">
           <caret line="3411" selection-start-line="3411" selection-end-line="3411" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/market-research_test.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="246">
+        <state relative-caret-position="132073">
           <caret line="7650" selection-start-line="7650" selection-end-line="7650" />
         </state>
       </provider>
@@ -972,7 +977,7 @@
     <entry file="file://$PROJECT_DIR$/app/Http/Controllers/MainController.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="442">
-          <caret line="26" column="5" lean-forward="true" selection-start-line="26" selection-start-column="5" selection-end-line="26" selection-end-column="5" />
+          <caret line="26" column="5" selection-start-line="26" selection-start-column="5" selection-end-line="26" selection-end-column="5" />
           <folding>
             <element signature="e#40#86#0#PHP" expanded="true" />
           </folding>
@@ -981,8 +986,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/main.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="109">
-          <caret line="5006" lean-forward="true" selection-start-line="5006" selection-end-line="5006" />
+        <state relative-caret-position="84915">
+          <caret line="5006" selection-start-line="5006" selection-end-line="5006" />
         </state>
       </provider>
     </entry>
@@ -996,24 +1001,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/researches.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="89" column="33" lean-forward="true" selection-start-line="89" selection-start-column="33" selection-end-line="89" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/public/css/tilda-blocks-2.12.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
-          <caret line="13" column="26" lean-forward="true" selection-start-line="13" selection-start-column="26" selection-end-line="13" selection-end-column="26" />
+          <caret line="13" column="26" selection-start-line="13" selection-start-column="26" selection-end-line="13" selection-end-column="26" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/market-research.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="271">
-          <caret line="9243" selection-start-line="9243" selection-end-line="9243" />
+        <state relative-caret-position="289">
+          <caret line="85" selection-start-line="85" selection-end-line="85" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/researches.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="237">
+          <caret line="2934" column="45" selection-start-line="2934" selection-start-column="45" selection-end-line="2934" selection-end-column="45" />
         </state>
       </provider>
     </entry>

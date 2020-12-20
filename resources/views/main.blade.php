@@ -3789,9 +3789,12 @@
     @media screen and (max-width: 639px) {
 
         .research_main{
-            width: 29%;
+            width: 28%;
             margin-left: 115px;
-            height: 635px;
+            height: 1320px !important;
+        }
+        .research_main_div{
+            height: 95%;
         }
 
 
