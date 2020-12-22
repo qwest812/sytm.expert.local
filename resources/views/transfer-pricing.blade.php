@@ -121,7 +121,7 @@
                                         <div class="t-menusub__content">
                                             <ul class="t-menusub__list">
                                                 <li class="t-menusub__list-item t-name t-name_xs"><a class="t-menusub__link-item t-name t-name_xs" style="color:#ffffff;" href="/market-research"  data-menu-item-number="2">ДОСЛІДЖЕННЯ РИНКУ</a></li>
-                                                <li class="t-menusub__list-item t-name t-name_xs"><a class="t-menusub__link-item t-name t-name_xs" style="color:#ffffff;" href="/services/marketing"  data-menu-item-number="2">МАРКЕТИНГ ТА РЕКЛАМА</a></li>
+                                                <li class="t-menusub__list-item t-name t-name_xs"><a class="t-menusub__link-item t-name t-name_xs" style="color:#ffffff;" href="/marketing"  data-menu-item-number="2">МАРКЕТИНГ ТА РЕКЛАМА</a></li>
                                                 <li class="t-menusub__list-item t-name t-name_xs"><a class="t-menusub__link-item t-name t-name_xs" style="color:#ffffff;" href="/services/transfer-pricing"  data-menu-item-number="2">ТРАНСФЕРТНЕ ЦІНОУТВОРЕННЯ ТА КОНСАЛТИНГ</a></li>
                                             </ul>
                                         </div>
@@ -21281,7 +21281,7 @@
 
 
 
-                    {{--<a class='tn-atom'  href="https://ytm.expert/services/marketing"  >МАРКЕТИНГ ТА РЕКЛАМА</a>--}}
+                    {{--<a class='tn-atom'  href="https://ytm.expert/marketing"  >МАРКЕТИНГ ТА РЕКЛАМА</a>--}}
 
 
 

@@ -12502,7 +12502,7 @@
 
 
 
-                    {{--<a class='tn-atom'  href="https://ytm.expert/services/marketing"  >МАРКЕТИНГ ТА РЕКЛАМА</a>--}}
+                    {{--<a class='tn-atom'  href="/marketing"  >МАРКЕТИНГ ТА РЕКЛАМА</a>--}}
 
 
 

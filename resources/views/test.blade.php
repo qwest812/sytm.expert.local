@@ -149,7 +149,7 @@
                                                             data-menu-item-number="2">ДОСЛІДЖЕННЯ РИНКУ</a></li>
                                                 <li class="t-menusub__list-item t-name t-name_xs"><a
                                                             class="t-menusub__link-item t-name t-name_xs"
-                                                            style="color:#ffffff;" href="/services/marketing"
+                                                            style="color:#ffffff;" href="/marketing"
                                                             data-menu-item-number="2">МАРКЕТИНГ ТА РЕКЛАМА</a></li>
                                                 <li class="t-menusub__list-item t-name t-name_xs"><a
                                                             class="t-menusub__link-item t-name t-name_xs"
@@ -3417,7 +3417,7 @@
                 >
 
 
-                    <a class='tn-atom' href="https://ytm.expert/services/marketing">
+                    <a class='tn-atom' href="/marketing">
                         <img class='tn-atom__img'
                              src='https://static.tildacdn.com/tild6261-6434-4261-b163-303530633733/-min.png'
                              imgfield='tn_img_1588920116629'>
@@ -7379,7 +7379,7 @@
         {{-->--}}
 
 
-        {{--<a class='tn-atom' href="/services/marketing">МАРКЕТИНГ ТА РЕКЛАМА</a>--}}
+        {{--<a class='tn-atom' href="/marketing">МАРКЕТИНГ ТА РЕКЛАМА</a>--}}
 
 
         {{--</div>--}}

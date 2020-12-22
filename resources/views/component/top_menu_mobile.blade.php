@@ -21,7 +21,7 @@
                                             data-menu-item-number="2">ДОСЛІДЖЕННЯ РИНКУ</a></li>
                                 <li class="t-menusub__list-item t-name t-name_xs"><a
                                             class="t-menusub__link-item t-name t-name_xs"
-                                            style="color:#ffffff;" href="/services/marketing"
+                                            style="color:#ffffff;" href="/marketing"
                                             data-menu-item-number="2">МАРКЕТИНГ ТА РЕКЛАМА</a></li>
                                 <li class="t-menusub__list-item t-name t-name_xs"><a
                                             class="t-menusub__link-item t-name t-name_xs"

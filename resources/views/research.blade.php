@@ -2825,26 +2825,23 @@
                 </div>
 
                 <div class='t396__elem tn-elem tn-elem__2290826251599833036555' data-elem-id='1599833036555' data-elem-type='text'
+
                      data-field-top-value="170"
-                     data-field-top-res-960-value="180"		data-field-top-res-640-value="520"		data-field-top-res-480-value="437"		data-field-top-res-320-value="390"
+                     data-field-top-res-960-value="180"
+                     data-field-top-res-640-value="520"
+                     data-field-top-res-480-value="437"
+                     data-field-top-res-320-value="138"
 
                      data-field-left-value="90"
-                     data-field-left-res-960-value="30"		data-field-left-res-640-value="55"		data-field-left-res-480-value="5"		data-field-left-res-320-value="25"
-
-
-
+                     data-field-left-res-960-value="30"
+                     data-field-left-res-640-value="55"
+                     data-field-left-res-480-value="5"
+                     data-field-left-res-320-value="25"
                      data-field-width-value="550"
                      data-field-width-res-960-value="570"				data-field-width-res-480-value="470"		data-field-width-res-320-value="270"
-
                      data-field-axisy-value="top"
-
-
                      data-field-axisx-value="left"
-
-
                      data-field-container-value="grid"
-
-
                      data-field-topunits-value=""
 
 
@@ -5198,7 +5195,7 @@
 
 
 
-                    <a class='tn-atom'  href="https://ytm.expert/services/marketing"  >МАРКЕТИНГ ТА РЕКЛАМА</a>
+                    <a class='tn-atom'  href="/marketing"  >МАРКЕТИНГ ТА РЕКЛАМА</a>
 
 
 
