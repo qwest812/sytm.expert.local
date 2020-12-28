@@ -170,9 +170,9 @@
     }
     @media screen and (max-width: 600px) {
         .form_field{
-            width: 420px;
+            width: 324px;
             top: 250px;
-            left: 256px;
+            left: 158px;
             position: absolute;
         }
     }

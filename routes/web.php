@@ -20,6 +20,7 @@ Route::get('services',"MainController@services")->name("services");
 Route::get('/contacts',"MainController@contacts")->name("contacts");
 Route::get('/news',"MainController@news")->name("all-news");
 Route::get('/researches',"MainController@researches")->name("researches");
+Route::get('/search',"MainController@searchr")->name("searchr");
 Route::get('/test',"MainController@test")->name("test");
 Route::get('/marketing',"MainController@marketing")->name("marketing");
 Route::get('/transfer-pricing',"MainController@transferPricing")->name("transfer-pricing");

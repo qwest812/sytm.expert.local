@@ -2364,17 +2364,17 @@
 
                 </div>
 
-
+                <style></style>
                 <div class='t396__elem tn-elem tn-elem__1964039741589265402436' data-elem-id='1589265402436' data-elem-type='image'
                      data-field-top-value="1680"
                      data-field-top-res-960-value="1155"		data-field-top-res-640-value="1645"		data-field-top-res-480-value="2047"		data-field-top-res-320-value="2406"
 
                      data-field-left-value="153"
-                     data-field-left-res-960-value="10"		data-field-left-res-640-value="-10"		data-field-left-res-480-value="-84"		data-field-left-res-320-value="-79"
+                     data-field-left-res-960-value="10"		data-field-left-res-640-value="-10"		data-field-left-res-480-value="-100"		data-field-left-res-320-value="-110"
 
 
 
-                     data-field-width-value="1140"
+                     data-field-width-value="1146"
                      data-field-width-res-960-value="990"		data-field-width-res-640-value="770"		data-field-width-res-480-value="1290"		data-field-width-res-320-value="1140"
 
                      data-field-axisy-value="top"
@@ -2454,7 +2454,7 @@
                             .research_main{
                                 width: 28%;
                                 margin-left: 115px;
-                                height: 1320px !important;
+                                height: 600px !important;
                             }
                             .research_main_div{
                                 height: 95%;
@@ -2468,8 +2468,16 @@
                     <div class='tn-atom'    >
                         <div class="research_main">
                             <div class="research_main_div">
+                                <style>
+                                    @media screen and (max-width: 639px) {
+                                        .news_link:nth-child(n+3) {
+                                        display:none;
+                                        }
+                                    }
+
+                                </style>
                                 @foreach($news as $new)
-                                    <a href="{{$new["url"]}}" style="margin: 30px 50px 30px 50px">
+                                    <a href="{{$new["url"]}}" style="margin: 30px 50px 30px 50px" class="news_link">
                                         <div style="width: 280px">
                                             <div style="background-image: url('{{$new["main_img"]}}');
                                                     width: 100%; height: 204px; background-size: cover"></div>
@@ -2480,7 +2488,7 @@
     font-weight: 400;
     background-position: center center;
     border-color: transparent;
-    border-style: solid; margin-top: 15px">{{$new["h1"]}}</div>
+    border-style: solid; margin-top: 15px; text-align: center">{{$new["h1"]}}</div>
                                         </div>
                                     </a>
                                 @endforeach
@@ -11424,65 +11432,66 @@
     </div>
 
 
-    <div id="rec228394927" class="r t-rec" style=" " data-animationappear="off" data-record-type="396"   >
+    <div id="rec229082629" class="r t-rec" style=" " data-animationappear="off" data-record-type="396"   >
         <!-- T396 -->
-        <style>#rec228394927 .t396__artboard{height: 150px;background-color: #ffffff;}#rec228394927 .t396__filter{height: 150px;}#rec228394927 .t396__carrier{height: 150px;background-position: center center;background-attachment: scroll;background-image: url('https://static.tildacdn.com/tild6337-3334-4264-b962-646537306139/__.png');background-size:cover;background-repeat:no-repeat;}@media screen and (max-width: 1199px){#rec228394927 .t396__artboard{}#rec228394927 .t396__filter{}#rec228394927 .t396__carrier{background-attachment:scroll;}}@media screen and (max-width: 959px){#rec228394927 .t396__artboard{height: 290px;}#rec228394927 .t396__filter{height: 290px;}#rec228394927 .t396__carrier{height: 290px;}}@media screen and (max-width: 639px){#rec228394927 .t396__artboard{height: 430px;}#rec228394927 .t396__filter{height: 430px;}#rec228394927 .t396__carrier{height: 430px;}}@media screen and (max-width: 479px){#rec228394927 .t396__artboard{height: 440px;background-color: #ffffff;}#rec228394927 .t396__filter{height: 440px;}#rec228394927 .t396__carrier{height: 440px;background-position: center center;background-image: url('https://static.tildacdn.com/tild6337-3334-4264-b962-646537306139/__.png');}}#rec228394927 .tn-elem[data-elem-id="1589274586181"]{z-index:14;top: 46px;left: calc(50% - 600px + 816px);width:360px;height:78px;}#rec228394927 .tn-elem[data-elem-id="1589274586181"] .tn-atom{background-position:center center;border-color:transparent;border-style:solid;}@media screen and (max-width: 1199px){#rec228394927 .tn-elem[data-elem-id="1589274586181"]{top: 35px;left: calc(50% - 480px + 646px);width:331px;height:81px;}}@media screen and (max-width: 959px){#rec228394927 .tn-elem[data-elem-id="1589274586181"]{top: 165px;left: calc(50% - 320px + 140px);}}@media screen and (max-width: 639px){#rec228394927 .tn-elem[data-elem-id="1589274586181"]{top: 275px;left: calc(50% - 240px + 60px);}}@media screen and (max-width: 479px){#rec228394927 .tn-elem[data-elem-id="1589274586181"]{top: 295px;left: calc(50% - 160px + -20px);}}#rec228394927 .tn-elem[data-elem-id="1589274721159"]{z-index:13;top: 25px;left: calc(50% - 600px + 80px);width:140px;}#rec228394927 .tn-elem[data-elem-id="1589274721159"] .tn-atom{background-position:center center;border-color:transparent;border-style:solid;}@media screen and (max-width: 1199px){#rec228394927 .tn-elem[data-elem-id="1589274721159"]{top: 22px;left: calc(50% - 480px + 10px);}}@media screen and (max-width: 959px){}@media screen and (max-width: 639px){#rec228394927 .tn-elem[data-elem-id="1589274721159"]{top: 22px;left: calc(50% - 240px + 10px);}}@media screen and (max-width: 479px){#rec228394927 .tn-elem[data-elem-id="1589274721159"]{top: 22px;left: calc(50% - 160px + 0px);}}#rec228394927 .tn-elem[data-elem-id="1589274760881"]{z-index:2;top: 30px;left: calc(50% - 600px + 640px);width:20px;}#rec228394927 .tn-elem[data-elem-id="1589274760881"] .tn-atom{background-position:center center;border-color:transparent;border-style:solid;}@media screen and (max-width: 1199px){#rec228394927 .tn-elem[data-elem-id="1589274760881"]{top: 28px;left: calc(50% - 480px + 475px);}}@media screen and (max-width: 959px){}@media screen and (max-width: 639px){#rec228394927 .tn-elem[data-elem-id="1589274760881"]{top: 165px;left: calc(50% - 240px + 135px);}}@media screen and (max-width: 479px){#rec228394927 .tn-elem[data-elem-id="1589274760881"]{top: 35px;left: calc(50% - 160px + 155px);}}#rec228394927 .tn-elem[data-elem-id="1589274777104"]{z-index:1;top: 60px;left: calc(50% - 600px + 640px);width:20px;}#rec228394927 .tn-elem[data-elem-id="1589274777104"] .tn-atom{background-position:center center;border-color:transparent;border-style:solid;}@media screen and (max-width: 1199px){#rec228394927 .tn-elem[data-elem-id="1589274777104"]{top: 61px;left: calc(50% - 480px + 475px);}}@media screen and (max-width: 959px){}@media screen and (max-width: 639px){#rec228394927 .tn-elem[data-elem-id="1589274777104"]{top: 196px;left: calc(50% - 240px + 135px);}}@media screen and (max-width: 479px){#rec228394927 .tn-elem[data-elem-id="1589274777104"]{top: 66px;left: calc(50% - 160px + 155px);}}#rec228394927 .tn-elem[data-elem-id="1589274783044"]{z-index:3;top: 90px;left: calc(50% - 600px + 640px);width:20px;}#rec228394927 .tn-elem[data-elem-id="1589274783044"] .tn-atom{background-position:center center;border-color:transparent;border-style:solid;}@media screen and (max-width: 1199px){#rec228394927 .tn-elem[data-elem-id="1589274783044"]{top: 96px;left: calc(50% - 480px + 475px);}}@media screen and (max-width: 959px){}@media screen and (max-width: 639px){#rec228394927 .tn-elem[data-elem-id="1589274783044"]{top: 229px;left: calc(50% - 240px + 135px);}}@media screen and (max-width: 479px){#rec228394927 .tn-elem[data-elem-id="1589274783044"]{top: 99px;left: calc(50% - 160px + 155px);}}#rec228394927 .tn-elem[data-elem-id="1589274848042"]{color:#000000;z-index:6;top: 30px;left: calc(50% - 600px + 670px);width:180px;}#rec228394927 .tn-elem[data-elem-id="1589274848042"] .tn-atom{color:#000000;font-size:13px;font-family:'Montserrat',Arial,sans-serif;line-height:1.55;font-weight:400;background-position:center center;border-color:transparent;border-style:solid;}@media screen and (max-width: 1199px){#rec228394927 .tn-elem[data-elem-id="1589274848042"]{top: 27px;left: calc(50% - 480px + 505px);}}@media screen and (max-width: 959px){}@media screen and (max-width: 639px){#rec228394927 .tn-elem[data-elem-id="1589274848042"]{top: 164px;left: calc(50% - 240px + 165px);}#rec228394927 .tn-elem[data-elem-id="1589274848042"] .tn-atom{font-size:15px;}}@media screen and (max-width: 479px){#rec228394927 .tn-elem[data-elem-id="1589274848042"]{top: 34px;left: calc(50% - 160px + 185px);}}#rec228394927 .tn-elem[data-elem-id="1589274891204"]{color:#000000;z-index:5;top: 60px;left: calc(50% - 600px + 670px);width:180px;}#rec228394927 .tn-elem[data-elem-id="1589274891204"] .tn-atom{color:#000000;font-size:13px;font-family:'Montserrat',Arial,sans-serif;line-height:1.55;font-weight:400;background-position:center center;border-color:transparent;border-style:solid;}@media screen and (max-width: 1199px){#rec228394927 .tn-elem[data-elem-id="1589274891204"]{top: 60px;left: calc(50% - 480px + 505px);}}@media screen and (max-width: 959px){}@media screen and (max-width: 639px){#rec228394927 .tn-elem[data-elem-id="1589274891204"]{top: 195px;left: calc(50% - 240px + 165px);}#rec228394927 .tn-elem[data-elem-id="1589274891204"] .tn-atom{font-size:15px;}}@media screen and (max-width: 479px){#rec228394927 .tn-elem[data-elem-id="1589274891204"]{top: 65px;left: calc(50% - 160px + 185px);}}#rec228394927 .tn-elem[data-elem-id="1589274923563"]{color:#000000;z-index:4;top: 90px;left: calc(50% - 600px + 670px);width:180px;}#rec228394927 .tn-elem[data-elem-id="1589274923563"] .tn-atom{color:#000000;font-size:13px;font-family:'Montserrat',Arial,sans-serif;line-height:1.55;font-weight:400;background-position:center center;border-color:transparent;border-style:solid;}@media screen and (max-width: 1199px){#rec228394927 .tn-elem[data-elem-id="1589274923563"]{top: 93px;left: calc(50% - 480px + 505px);}}@media screen and (max-width: 959px){}@media screen and (max-width: 639px){#rec228394927 .tn-elem[data-elem-id="1589274923563"]{top: 226px;left: calc(50% - 240px + 165px);}#rec228394927 .tn-elem[data-elem-id="1589274923563"] .tn-atom{font-size:15px;}}@media screen and (max-width: 479px){#rec228394927 .tn-elem[data-elem-id="1589274923563"]{top: 96px;left: calc(50% - 160px + 185px);}}#rec228394927 .tn-elem[data-elem-id="1589275802285"]{z-index:15;top: 94px;left: calc(50% - 600px + 861px);width:16px;}#rec228394927 .tn-elem[data-elem-id="1589275802285"] .tn-atom{background-position:center center;border-color:transparent;border-style:solid;}@media screen and (max-width: 1199px){#rec228394927 .tn-elem[data-elem-id="1589275802285"]{top: 83px;left: calc(50% - 480px + 688px);}}@media screen and (max-width: 959px){#rec228394927 .tn-elem[data-elem-id="1589275802285"]{top: 241px;left: calc(50% - 320px + 210px);}}@media screen and (max-width: 639px){#rec228394927 .tn-elem[data-elem-id="1589275802285"]{top: 352px;left: calc(50% - 240px + 130px);}}@media screen and (max-width: 479px){#rec228394927 .tn-elem[data-elem-id="1589275802285"]{top: 372px;left: calc(50% - 160px + 50px);}}#rec228394927 .tn-elem[data-elem-id="1589275836269"]{z-index:16;top: 94px;left: calc(50% - 600px + 933px);width:32px;}#rec228394927 .tn-elem[data-elem-id="1589275836269"] .tn-atom{background-position:center center;border-color:transparent;border-style:solid;}@media screen and (max-width: 1199px){#rec228394927 .tn-elem[data-elem-id="1589275836269"]{top: 83px;left: calc(50% - 480px + 760px);}}@media screen and (max-width: 959px){#rec228394927 .tn-elem[data-elem-id="1589275836269"]{top: 241px;left: calc(50% - 320px + 296px);}}@media screen and (max-width: 639px){#rec228394927 .tn-elem[data-elem-id="1589275836269"]{top: 352px;left: calc(50% - 240px + 216px);}}@media screen and (max-width: 479px){#rec228394927 .tn-elem[data-elem-id="1589275836269"]{top: 372px;left: calc(50% - 160px + 136px);}}#rec228394927 .tn-elem[data-elem-id="1589275849108"]{z-index:17;top: 94px;left: calc(50% - 600px + 1021px);width:32px;}#rec228394927 .tn-elem[data-elem-id="1589275849108"] .tn-atom{background-position:center center;border-color:transparent;border-style:solid;}@media screen and (max-width: 1199px){#rec228394927 .tn-elem[data-elem-id="1589275849108"]{top: 83px;left: calc(50% - 480px + 848px);}}@media screen and (max-width: 959px){#rec228394927 .tn-elem[data-elem-id="1589275849108"]{top: 241px;left: calc(50% - 320px + 398px);}}@media screen and (max-width: 639px){#rec228394927 .tn-elem[data-elem-id="1589275849108"]{top: 352px;left: calc(50% - 240px + 318px);}}@media screen and (max-width: 479px){#rec228394927 .tn-elem[data-elem-id="1589275849108"]{top: 372px;left: calc(50% - 160px + 238px);}}#rec228394927 .tn-elem[data-elem-id="1599502637460"]{color:#000000;z-index:18;top: 20px;left: calc(50% - 600px + 20px);width:560px;}#rec228394927 .tn-elem[data-elem-id="1599502637460"] .tn-atom{color:#000000;font-size:20px;font-family:'Montserrat',Arial,sans-serif;line-height:1.55;font-weight:400;background-position:center center;border-color:transparent;border-style:solid;}@media screen and (max-width: 1199px){}@media screen and (max-width: 959px){}@media screen and (max-width: 639px){}@media screen and (max-width: 479px){}#rec228394927 .tn-elem[data-elem-id="1599502652476"]{color:#171834;z-index:12;top: 30px;left: calc(50% - 600px + 270px);width:150px;}#rec228394927 .tn-elem[data-elem-id="1599502652476"] .tn-atom{color:#171834;font-size:12px;font-family:'Montserrat',Arial,sans-serif;line-height:1.55;font-weight:500;background-position:center center;border-color:transparent;border-style:solid;}@media screen and (max-width: 1199px){#rec228394927 .tn-elem[data-elem-id="1599502652476"]{top: 30px;left: calc(50% - 480px + 170px);}}@media screen and (max-width: 959px){}@media screen and (max-width: 639px){}@media screen and (max-width: 479px){#rec228394927 .tn-elem[data-elem-id="1599502652476"]{top: 160px;left: calc(50% - 160px + 10px);}}#rec228394927 .tn-elem[data-elem-id="1599502698828"]{color:#000000;z-index:11;top: 59px;left: calc(50% - 600px + 270px);width:170px;}#rec228394927 .tn-elem[data-elem-id="1599502698828"] .tn-atom{color:#000000;font-size:12px;font-family:'Montserrat',Arial,sans-serif;line-height:1.55;font-weight:500;background-position:center center;border-color:transparent;border-style:solid;}@media screen and (max-width: 1199px){#rec228394927 .tn-elem[data-elem-id="1599502698828"]{top: 59px;left: calc(50% - 480px + 170px);}}@media screen and (max-width: 959px){}@media screen and (max-width: 639px){}@media screen and (max-width: 479px){#rec228394927 .tn-elem[data-elem-id="1599502698828"]{top: 189px;left: calc(50% - 160px + 10px);}}#rec228394927 .tn-elem[data-elem-id="1599502715798"]{color:#000000;z-index:10;top: 88px;left: calc(50% - 600px + 270px);width:220px;}#rec228394927 .tn-elem[data-elem-id="1599502715798"] .tn-atom{color:#000000;font-size:12px;font-family:'Montserrat',Arial,sans-serif;line-height:1.55;font-weight:500;background-position:center center;border-color:transparent;border-style:solid;}@media screen and (max-width: 1199px){#rec228394927 .tn-elem[data-elem-id="1599502715798"]{top: 88px;left: calc(50% - 480px + 170px);width:189px;}}@media screen and (max-width: 959px){}@media screen and (max-width: 639px){}@media screen and (max-width: 479px){#rec228394927 .tn-elem[data-elem-id="1599502715798"]{top: 218px;left: calc(50% - 160px + 10px);}}#rec228394927 .tn-elem[data-elem-id="1599502823356"]{color:#000000;z-index:9;top: 30px;left: calc(50% - 600px + 500px);width:110px;}#rec228394927 .tn-elem[data-elem-id="1599502823356"] .tn-atom{color:#000000;font-size:12px;font-family:'Montserrat',Arial,sans-serif;line-height:1.55;font-weight:500;background-position:center center;border-color:transparent;border-style:solid;}@media screen and (max-width: 1199px){#rec228394927 .tn-elem[data-elem-id="1599502823356"]{top: 30px;left: calc(50% - 480px + 350px);}}@media screen and (max-width: 959px){}@media screen and (max-width: 639px){}@media screen and (max-width: 479px){#rec228394927 .tn-elem[data-elem-id="1599502823356"]{top: 160px;left: calc(50% - 160px + 190px);}}#rec228394927 .tn-elem[data-elem-id="1599502823362"]{color:#000000;z-index:8;top: 59px;left: calc(50% - 600px + 500px);width:100px;}#rec228394927 .tn-elem[data-elem-id="1599502823362"] .tn-atom{color:#000000;font-size:12px;font-family:'Montserrat',Arial,sans-serif;line-height:1.55;font-weight:500;background-position:center center;border-color:transparent;border-style:solid;}@media screen and (max-width: 1199px){#rec228394927 .tn-elem[data-elem-id="1599502823362"]{top: 59px;left: calc(50% - 480px + 350px);}}@media screen and (max-width: 959px){}@media screen and (max-width: 639px){}@media screen and (max-width: 479px){#rec228394927 .tn-elem[data-elem-id="1599502823362"]{top: 189px;left: calc(50% - 160px + 190px);}}#rec228394927 .tn-elem[data-elem-id="1599502823366"]{color:#000000;z-index:7;top: 88px;left: calc(50% - 600px + 500px);width:100px;}#rec228394927 .tn-elem[data-elem-id="1599502823366"] .tn-atom{color:#000000;font-size:12px;font-family:'Montserrat',Arial,sans-serif;line-height:1.55;font-weight:500;background-position:center center;border-color:transparent;border-style:solid;}@media screen and (max-width: 1199px){#rec228394927 .tn-elem[data-elem-id="1599502823366"]{top: 88px;left: calc(50% - 480px + 350px);}}@media screen and (max-width: 959px){}@media screen and (max-width: 639px){}@media screen and (max-width: 479px){#rec228394927 .tn-elem[data-elem-id="1599502823366"]{top: 218px;left: calc(50% - 160px + 190px);}}
+        <style>#rec229082629 .t396__artboard{height: 150px;background-color: #ffffff;}#rec229082629 .t396__filter{height: 150px;}#rec229082629 .t396__carrier{height: 150px;background-position: center center;background-attachment: scroll;background-image: url('https://static.tildacdn.com/tild6337-3334-4264-b962-646537306139/__.png');background-size:cover;background-repeat:no-repeat;}@media screen and (max-width: 1199px){#rec229082629 .t396__artboard{}#rec229082629 .t396__filter{}#rec229082629 .t396__carrier{background-attachment:scroll;}}@media screen and (max-width: 959px){#rec229082629 .t396__artboard{height: 290px;}#rec229082629 .t396__filter{height: 290px;}#rec229082629 .t396__carrier{height: 290px;}}@media screen and (max-width: 639px){#rec229082629 .t396__artboard{height: 430px;}#rec229082629 .t396__filter{height: 430px;}#rec229082629 .t396__carrier{height: 430px;}}@media screen and (max-width: 479px){#rec229082629 .t396__artboard{height: 440px;background-color: #ffffff;}#rec229082629 .t396__filter{height: 440px;}#rec229082629 .t396__carrier{height: 440px;background-position: center center;background-image: url('https://static.tildacdn.com/tild6337-3334-4264-b962-646537306139/__.png');}}#rec229082629 .tn-elem[data-elem-id="1589274586181"]{z-index:14;top: 46px;left: calc(50% - 600px + 816px);width:360px;height:78px;}#rec229082629 .tn-elem[data-elem-id="1589274586181"] .tn-atom{background-position:center center;border-color:transparent;border-style:solid;}@media screen and (max-width: 1199px){#rec229082629 .tn-elem[data-elem-id="1589274586181"]{top: 35px;left: calc(50% - 480px + 646px);width:331px;height:81px;}}@media screen and (max-width: 959px){#rec229082629 .tn-elem[data-elem-id="1589274586181"]{top: 165px;left: calc(50% - 320px + 140px);}}@media screen and (max-width: 639px){#rec229082629 .tn-elem[data-elem-id="1589274586181"]{top: 275px;left: calc(50% - 240px + 60px);}}@media screen and (max-width: 479px){#rec229082629 .tn-elem[data-elem-id="1589274586181"]{top: 295px;left: calc(50% - 160px + -20px);}}#rec229082629 .tn-elem[data-elem-id="1589274721159"]{z-index:13;top: 25px;left: calc(50% - 600px + 80px);width:140px;}#rec229082629 .tn-elem[data-elem-id="1589274721159"] .tn-atom{background-position:center center;border-color:transparent;border-style:solid;}@media screen and (max-width: 1199px){#rec229082629 .tn-elem[data-elem-id="1589274721159"]{top: 22px;left: calc(50% - 480px + 10px);}}@media screen and (max-width: 959px){}@media screen and (max-width: 639px){#rec229082629 .tn-elem[data-elem-id="1589274721159"]{top: 22px;left: calc(50% - 240px + 10px);}}@media screen and (max-width: 479px){#rec229082629 .tn-elem[data-elem-id="1589274721159"]{top: 22px;left: calc(50% - 160px + 0px);}}#rec229082629 .tn-elem[data-elem-id="1589274760881"]{z-index:2;top: 30px;left: calc(50% - 600px + 640px);width:20px;}#rec229082629 .tn-elem[data-elem-id="1589274760881"] .tn-atom{background-position:center center;border-color:transparent;border-style:solid;}@media screen and (max-width: 1199px){#rec229082629 .tn-elem[data-elem-id="1589274760881"]{top: 28px;left: calc(50% - 480px + 475px);}}@media screen and (max-width: 959px){}@media screen and (max-width: 639px){#rec229082629 .tn-elem[data-elem-id="1589274760881"]{top: 165px;left: calc(50% - 240px + 135px);}}@media screen and (max-width: 479px){#rec229082629 .tn-elem[data-elem-id="1589274760881"]{top: 35px;left: calc(50% - 160px + 155px);}}#rec229082629 .tn-elem[data-elem-id="1589274777104"]{z-index:1;top: 60px;left: calc(50% - 600px + 640px);width:20px;}#rec229082629 .tn-elem[data-elem-id="1589274777104"] .tn-atom{background-position:center center;border-color:transparent;border-style:solid;}@media screen and (max-width: 1199px){#rec229082629 .tn-elem[data-elem-id="1589274777104"]{top: 61px;left: calc(50% - 480px + 475px);}}@media screen and (max-width: 959px){}@media screen and (max-width: 639px){#rec229082629 .tn-elem[data-elem-id="1589274777104"]{top: 196px;left: calc(50% - 240px + 135px);}}@media screen and (max-width: 479px){#rec229082629 .tn-elem[data-elem-id="1589274777104"]{top: 66px;left: calc(50% - 160px + 155px);}}#rec229082629 .tn-elem[data-elem-id="1589274783044"]{z-index:3;top: 90px;left: calc(50% - 600px + 640px);width:20px;}#rec229082629 .tn-elem[data-elem-id="1589274783044"] .tn-atom{background-position:center center;border-color:transparent;border-style:solid;}@media screen and (max-width: 1199px){#rec229082629 .tn-elem[data-elem-id="1589274783044"]{top: 96px;left: calc(50% - 480px + 475px);}}@media screen and (max-width: 959px){}@media screen and (max-width: 639px){#rec229082629 .tn-elem[data-elem-id="1589274783044"]{top: 229px;left: calc(50% - 240px + 135px);}}@media screen and (max-width: 479px){#rec229082629 .tn-elem[data-elem-id="1589274783044"]{top: 99px;left: calc(50% - 160px + 155px);}}#rec229082629 .tn-elem[data-elem-id="1589274848042"]{color:#000000;z-index:6;top: 30px;left: calc(50% - 600px + 670px);width:180px;}#rec229082629 .tn-elem[data-elem-id="1589274848042"] .tn-atom{color:#000000;font-size:13px;font-family:'Montserrat',Arial,sans-serif;line-height:1.55;font-weight:400;background-position:center center;border-color:transparent;border-style:solid;}@media screen and (max-width: 1199px){#rec229082629 .tn-elem[data-elem-id="1589274848042"]{top: 27px;left: calc(50% - 480px + 505px);}}@media screen and (max-width: 959px){}@media screen and (max-width: 639px){#rec229082629 .tn-elem[data-elem-id="1589274848042"]{top: 164px;left: calc(50% - 240px + 165px);}#rec229082629 .tn-elem[data-elem-id="1589274848042"] .tn-atom{font-size:15px;}}@media screen and (max-width: 479px){#rec229082629 .tn-elem[data-elem-id="1589274848042"]{top: 34px;left: calc(50% - 160px + 185px);}}#rec229082629 .tn-elem[data-elem-id="1589274891204"]{color:#000000;z-index:5;top: 60px;left: calc(50% - 600px + 670px);width:180px;}#rec229082629 .tn-elem[data-elem-id="1589274891204"] .tn-atom{color:#000000;font-size:13px;font-family:'Montserrat',Arial,sans-serif;line-height:1.55;font-weight:400;background-position:center center;border-color:transparent;border-style:solid;}@media screen and (max-width: 1199px){#rec229082629 .tn-elem[data-elem-id="1589274891204"]{top: 60px;left: calc(50% - 480px + 505px);}}@media screen and (max-width: 959px){}@media screen and (max-width: 639px){#rec229082629 .tn-elem[data-elem-id="1589274891204"]{top: 195px;left: calc(50% - 240px + 165px);}#rec229082629 .tn-elem[data-elem-id="1589274891204"] .tn-atom{font-size:15px;}}@media screen and (max-width: 479px){#rec229082629 .tn-elem[data-elem-id="1589274891204"]{top: 65px;left: calc(50% - 160px + 185px);}}#rec229082629 .tn-elem[data-elem-id="1589274923563"]{color:#000000;z-index:4;top: 90px;left: calc(50% - 600px + 670px);width:180px;}#rec229082629 .tn-elem[data-elem-id="1589274923563"] .tn-atom{color:#000000;font-size:13px;font-family:'Montserrat',Arial,sans-serif;line-height:1.55;font-weight:400;background-position:center center;border-color:transparent;border-style:solid;}@media screen and (max-width: 1199px){#rec229082629 .tn-elem[data-elem-id="1589274923563"]{top: 93px;left: calc(50% - 480px + 505px);}}@media screen and (max-width: 959px){}@media screen and (max-width: 639px){#rec229082629 .tn-elem[data-elem-id="1589274923563"]{top: 226px;left: calc(50% - 240px + 165px);}#rec229082629 .tn-elem[data-elem-id="1589274923563"] .tn-atom{font-size:15px;}}@media screen and (max-width: 479px){#rec229082629 .tn-elem[data-elem-id="1589274923563"]{top: 96px;left: calc(50% - 160px + 185px);}}#rec229082629 .tn-elem[data-elem-id="1589275802285"]{z-index:15;top: 94px;left: calc(50% - 600px + 861px);width:16px;}#rec229082629 .tn-elem[data-elem-id="1589275802285"] .tn-atom{background-position:center center;border-color:transparent;border-style:solid;}@media screen and (max-width: 1199px){#rec229082629 .tn-elem[data-elem-id="1589275802285"]{top: 83px;left: calc(50% - 480px + 688px);}}@media screen and (max-width: 959px){#rec229082629 .tn-elem[data-elem-id="1589275802285"]{top: 241px;left: calc(50% - 320px + 210px);}}@media screen and (max-width: 639px){#rec229082629 .tn-elem[data-elem-id="1589275802285"]{top: 352px;left: calc(50% - 240px + 130px);}}@media screen and (max-width: 479px){#rec229082629 .tn-elem[data-elem-id="1589275802285"]{top: 372px;left: calc(50% - 160px + 50px);}}#rec229082629 .tn-elem[data-elem-id="1589275836269"]{z-index:16;top: 94px;left: calc(50% - 600px + 933px);width:32px;}#rec229082629 .tn-elem[data-elem-id="1589275836269"] .tn-atom{background-position:center center;border-color:transparent;border-style:solid;}@media screen and (max-width: 1199px){#rec229082629 .tn-elem[data-elem-id="1589275836269"]{top: 83px;left: calc(50% - 480px + 760px);}}@media screen and (max-width: 959px){#rec229082629 .tn-elem[data-elem-id="1589275836269"]{top: 241px;left: calc(50% - 320px + 296px);}}@media screen and (max-width: 639px){#rec229082629 .tn-elem[data-elem-id="1589275836269"]{top: 352px;left: calc(50% - 240px + 216px);}}@media screen and (max-width: 479px){#rec229082629 .tn-elem[data-elem-id="1589275836269"]{top: 372px;left: calc(50% - 160px + 136px);}}#rec229082629 .tn-elem[data-elem-id="1589275849108"]{z-index:17;top: 94px;left: calc(50% - 600px + 1021px);width:32px;}#rec229082629 .tn-elem[data-elem-id="1589275849108"] .tn-atom{background-position:center center;border-color:transparent;border-style:solid;}@media screen and (max-width: 1199px){#rec229082629 .tn-elem[data-elem-id="1589275849108"]{top: 83px;left: calc(50% - 480px + 848px);}}@media screen and (max-width: 959px){#rec229082629 .tn-elem[data-elem-id="1589275849108"]{top: 241px;left: calc(50% - 320px + 398px);}}@media screen and (max-width: 639px){#rec229082629 .tn-elem[data-elem-id="1589275849108"]{top: 352px;left: calc(50% - 240px + 318px);}}@media screen and (max-width: 479px){#rec229082629 .tn-elem[data-elem-id="1589275849108"]{top: 372px;left: calc(50% - 160px + 238px);}}#rec229082629 .tn-elem[data-elem-id="1599502637460"]{color:#000000;z-index:18;top: 20px;left: calc(50% - 600px + 20px);width:560px;}#rec229082629 .tn-elem[data-elem-id="1599502637460"] .tn-atom{color:#000000;font-size:20px;font-family:'Montserrat',Arial,sans-serif;line-height:1.55;font-weight:400;background-position:center center;border-color:transparent;border-style:solid;}@media screen and (max-width: 1199px){}@media screen and (max-width: 959px){}@media screen and (max-width: 639px){}@media screen and (max-width: 479px){}#rec229082629 .tn-elem[data-elem-id="1599502652476"]{color:#171834;z-index:12;top: 30px;left: calc(50% - 600px + 270px);width:150px;}#rec229082629 .tn-elem[data-elem-id="1599502652476"] .tn-atom{color:#171834;font-size:12px;font-family:'Montserrat',Arial,sans-serif;line-height:1.55;font-weight:500;background-position:center center;border-color:transparent;border-style:solid;}@media screen and (max-width: 1199px){#rec229082629 .tn-elem[data-elem-id="1599502652476"]{top: 30px;left: calc(50% - 480px + 170px);}}@media screen and (max-width: 959px){}@media screen and (max-width: 639px){}@media screen and (max-width: 479px){#rec229082629 .tn-elem[data-elem-id="1599502652476"]{top: 160px;left: calc(50% - 160px + 10px);}}#rec229082629 .tn-elem[data-elem-id="1599502698828"]{color:#000000;z-index:11;top: 59px;left: calc(50% - 600px + 270px);width:170px;}#rec229082629 .tn-elem[data-elem-id="1599502698828"] .tn-atom{color:#000000;font-size:12px;font-family:'Montserrat',Arial,sans-serif;line-height:1.55;font-weight:500;background-position:center center;border-color:transparent;border-style:solid;}@media screen and (max-width: 1199px){#rec229082629 .tn-elem[data-elem-id="1599502698828"]{top: 59px;left: calc(50% - 480px + 170px);}}@media screen and (max-width: 959px){}@media screen and (max-width: 639px){}@media screen and (max-width: 479px){#rec229082629 .tn-elem[data-elem-id="1599502698828"]{top: 189px;left: calc(50% - 160px + 10px);}}#rec229082629 .tn-elem[data-elem-id="1599502715798"]{color:#000000;z-index:10;top: 88px;left: calc(50% - 600px + 270px);width:220px;}#rec229082629 .tn-elem[data-elem-id="1599502715798"] .tn-atom{color:#000000;font-size:12px;font-family:'Montserrat',Arial,sans-serif;line-height:1.55;font-weight:500;background-position:center center;border-color:transparent;border-style:solid;}@media screen and (max-width: 1199px){#rec229082629 .tn-elem[data-elem-id="1599502715798"]{top: 88px;left: calc(50% - 480px + 170px);width:189px;}}@media screen and (max-width: 959px){}@media screen and (max-width: 639px){}@media screen and (max-width: 479px){#rec229082629 .tn-elem[data-elem-id="1599502715798"]{top: 218px;left: calc(50% - 160px + 10px);}}#rec229082629 .tn-elem[data-elem-id="1599502823356"]{color:#000000;z-index:9;top: 30px;left: calc(50% - 600px + 500px);width:110px;}#rec229082629 .tn-elem[data-elem-id="1599502823356"] .tn-atom{color:#000000;font-size:12px;font-family:'Montserrat',Arial,sans-serif;line-height:1.55;font-weight:500;background-position:center center;border-color:transparent;border-style:solid;}@media screen and (max-width: 1199px){#rec229082629 .tn-elem[data-elem-id="1599502823356"]{top: 30px;left: calc(50% - 480px + 350px);}}@media screen and (max-width: 959px){}@media screen and (max-width: 639px){}@media screen and (max-width: 479px){#rec229082629 .tn-elem[data-elem-id="1599502823356"]{top: 160px;left: calc(50% - 160px + 190px);}}#rec229082629 .tn-elem[data-elem-id="1599502823362"]{color:#000000;z-index:8;top: 59px;left: calc(50% - 600px + 500px);width:100px;}#rec229082629 .tn-elem[data-elem-id="1599502823362"] .tn-atom{color:#000000;font-size:12px;font-family:'Montserrat',Arial,sans-serif;line-height:1.55;font-weight:500;background-position:center center;border-color:transparent;border-style:solid;}@media screen and (max-width: 1199px){#rec229082629 .tn-elem[data-elem-id="1599502823362"]{top: 59px;left: calc(50% - 480px + 350px);}}@media screen and (max-width: 959px){}@media screen and (max-width: 639px){}@media screen and (max-width: 479px){#rec229082629 .tn-elem[data-elem-id="1599502823362"]{top: 189px;left: calc(50% - 160px + 190px);}}#rec229082629 .tn-elem[data-elem-id="1599502823366"]{color:#000000;z-index:7;top: 88px;left: calc(50% - 600px + 500px);width:100px;}#rec229082629 .tn-elem[data-elem-id="1599502823366"] .tn-atom{color:#000000;font-size:12px;font-family:'Montserrat',Arial,sans-serif;line-height:1.55;font-weight:500;background-position:center center;border-color:transparent;border-style:solid;}@media screen and (max-width: 1199px){#rec229082629 .tn-elem[data-elem-id="1599502823366"]{top: 88px;left: calc(50% - 480px + 350px);}}@media screen and (max-width: 959px){}@media screen and (max-width: 639px){}@media screen and (max-width: 479px){#rec229082629 .tn-elem[data-elem-id="1599502823366"]{top: 218px;left: calc(50% - 160px + 190px);}}</style>
 
-        </style>
 
 
 
+        <div class='t396'>
 
-        {{--<div class='t396'>--}}
+            <div class="t396__artboard" data-artboard-recid="229082629"
+                 data-artboard-height="150"
+                 data-artboard-height-res-640="290"		data-artboard-height-res-480="430"		data-artboard-height-res-320="440"
+                 data-artboard-height_vh=""
 
-            {{--<div class="t396__artboard" data-artboard-recid="228394927"--}}
-                 {{--data-artboard-height="150"--}}
-                 {{--data-artboard-height-res-640="290"		data-artboard-height-res-480="430"		data-artboard-height-res-320="440"--}}
-                 {{--data-artboard-height_vh=""--}}
+                 data-artboard-valign="center"
 
-                 {{--data-artboard-valign="center"--}}
+                 data-artboard-ovrflw=""
+            >
 
-                 {{--data-artboard-ovrflw=""--}}
-            {{-->--}}
+                <div class="t396__carrier" data-artboard-recid="229082629"></div>
 
-                {{--<div class="t396__carrier" data-artboard-recid="228394927"></div>--}}
+                <div class="t396__filter" data-artboard-recid="229082629"></div>
 
-                {{--<div class="t396__filter" data-artboard-recid="228394927"></div>--}}
 
+                <div class='t396__elem tn-elem tn-elem__2290826291589274586181' data-elem-id='1589274586181' data-elem-type='html'
+                     data-field-top-value="46"
+                     data-field-top-res-960-value="35"		data-field-top-res-640-value="165"		data-field-top-res-480-value="275"		data-field-top-res-320-value="295"
 
+                     data-field-left-value="816"
+                     data-field-left-res-960-value="646"		data-field-left-res-640-value="140"		data-field-left-res-480-value="60"		data-field-left-res-320-value="-20"
 
+                     data-field-height-value="78"		data-field-height-res-960-value="81"
 
-                {{--<div class='t396__elem tn-elem tn-elem__2283949271589274721159' data-elem-id='1589274721159' data-elem-type='image'--}}
-                     {{--data-field-top-value="25"--}}
-                     {{--data-field-top-res-960-value="22"				data-field-top-res-480-value="22"		data-field-top-res-320-value="22"--}}
+                     data-field-width-value="360"
+                     data-field-width-res-960-value="331"
 
-                     {{--data-field-left-value="80"--}}
-                     {{--data-field-left-res-960-value="10"				data-field-left-res-480-value="10"		data-field-left-res-320-value="0"--}}
+                     data-field-axisy-value="top"
 
 
+                     data-field-axisx-value="left"
 
-                     {{--data-field-width-value="140"--}}
 
+                     data-field-container-value="grid"
 
-                     {{--data-field-axisy-value="top"--}}
 
+                     data-field-topunits-value=""
 
-                     {{--data-field-axisx-value="left"--}}
 
+                     data-field-leftunits-value=""
 
-                     {{--data-field-container-value="grid"--}}
 
+                     data-field-heightunits-value=""
 
-                     {{--data-field-topunits-value=""--}}
 
+                     data-field-widthunits-value=""
 
-                     {{--data-field-leftunits-value=""--}}
 
 
-                     {{--data-field-heightunits-value=""--}}
 
 
-                     {{--data-field-widthunits-value=""--}}
 
 
 
@@ -11514,12 +11523,12 @@
 
 
 
+                >
 
 
 
 
 
-                {{-->--}}
 
 
 
@@ -11527,21 +11536,56 @@
 
 
 
-                    {{--<a class='tn-atom' href="https://ytm.expert/"   >--}}
-                        {{--<img class='tn-atom__img' src='https://static.tildacdn.com/tild3162-3365-4834-b732-616134373136/_.png'  imgfield='tn_img_1589274721159'>--}}
-                    {{--</a>--}}
 
 
 
 
 
+                    <div class='tn-atom tn-atom__html'>
+                        <div class = "searchinput">
+                            <div id="rec196403977" class="r t-rec t-rec_pt_0 t-rec_pb_0" style="padding-top:0px;padding-bottom:0px; " data-animationappear="off" data-record-type="838">
+                                <!-- t838 -->
 
+                                <div class="t838">
+                                    <div class="t-container">
+                                        <div class="t-col t-col_5">
+                                            <div class="t838__wrapper t-site-search-input">
+                                                <div class="t838__blockinput">
+                                                    <input type="text" class="t838__input t-input " placeholder=" " style="color:#171834; border:2px solid #e3cb9f;  border-radius: 3px; -moz-border-radius: 3px; -webkit-border-radius: 3px;"><img width="18px" class="t-site-search-close" src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAxIiBoZWlnaHQ9IjEwMSIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48cGF0aCBkPSJNOTguNjUgOTYuNTVMNTIuMTEgNDkuOTMgOTguMzYgMy41Yy41OS0uNTkuNTktMS40NyAwLTIuMDZhMS40MiAxLjQyIDAgMDAtMi4wNiAwTDUwLjA1IDQ3Ljg3IDMuNjkgMS40NGExLjQyIDEuNDIgMCAwMC0yLjA1IDAgMS40MiAxLjQyIDAgMDAwIDIuMDZsNDYuMzUgNDYuNDNMMS40NCA5Ni41NUExLjQyIDEuNDIgMCAwMDMuNCA5OC42bDQ2LjU1LTQ2LjYyTDk2LjUgOTguNmMuMy4zLjY4LjM5Ljk4LjM5LjMgMCAuNjgtLjEuOTgtLjQuNjgtLjU4LjY4LTEuNDYuMi0yLjA1eiIgZmlsbD0iIzExMSIgc3Ryb2tlPSIjMTExIi8+PC9zdmc+"><img width="18px" class="t-site-search-loader" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI2NCIgaGVpZ2h0PSI2NCIgdmlld0JveD0iMCAwIDY0IDY0IiBmaWxsPSJub25lIj48c3R5bGU+LmF7c3Ryb2tlLXdpZHRoOjI7c3Ryb2tlOiM3RjdGN0Y7fS5ie3N0cm9rZS1saW5lam9pbjpiZXZlbDtzdHJva2Utd2lkdGg6MjtzdHJva2U6IzdGN0Y3Rjt9PC9zdHlsZT48cGF0aCBkPSJNMzMgMUM0MC43IDEgNDguNCAzLjkgNTQuMiA5LjggNjQuOSAyMC41IDY1LjggMzcuMiA1NyA0OUw1MSA1NSIgY2xhc3M9ImEiLz48cGF0aCBkPSJNMzEgNjNDMjMuMyA2MyAxNS42IDYwLjEgOS44IDU0LjIgLTAuOSA0My41LTEuOCAyNi44IDcgMTVMMTMgOSIgY2xhc3M9ImEiLz48cGF0aCBkPSJNNTEgNDRWNTVINjIiIGNsYXNzPSJiIi8+PHBhdGggZD0iTTEzIDIwVjlIMiIgY2xhc3M9ImIiLz48L3N2Zz4=">
+                                                    <svg class="t838__search-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 88 88">
+                                                        <path fill="#e3cb9f" d="M85 31.1c-.5-8.7-4.4-16.6-10.9-22.3C67.6 3 59.3 0 50.6.6c-8.7.5-16.7 4.4-22.5 11-11.2 12.7-10.7 31.7.6 43.9l-5.3 6.1-2.5-2.2-17.8 20 9 8.1 17.8-20.2-2.1-1.8 5.3-6.1c5.8 4.2 12.6 6.3 19.3 6.3 9 0 18-3.7 24.4-10.9 5.9-6.6 8.8-15 8.2-23.7zM72.4 50.8c-9.7 10.9-26.5 11.9-37.6 2.3-10.9-9.8-11.9-26.6-2.3-37.6 4.7-5.4 11.3-8.5 18.4-8.9h1.6c6.5 0 12.7 2.4 17.6 6.8 5.3 4.7 8.5 11.1 8.9 18.2.5 7-1.9 13.8-6.6 19.2z"></path>
+                                                    </svg>
+                                                </div>
+                                                <style> .search_button:hover{
+                                                        background-color: #e3cb9f !important;
+                                                    }</style>
+                                                <div class="t838__blockbutton">
+                                                    <input type="button" class="search_button" style="color:#171834;border:1px solid #171834;border-radius:3px; -moz-border-radius:3px; -webkit-border-radius:3px;font-family:Montserrat;font-weight:300; height: 25px"  value="ПОШУК"/>
+                                                </div>
+                                            </div>
+                                        </div>
 
+                                    </div>
+                                </div>
 
 
+                                <script>
+                                    $(document).ready(function() {
+                                        var tildaSearch = "https://static.tilda" + "cdn.com/js/tilda-search-";
+                                        if ($("script[src^='https://search.tildacdn.com/static/tilda-search-']").length === 0 && $("script[src^='" + tildaSearch + "']").length === 0) {
+                                            $("body").append("<script src='" + tildaSearch + "1.2.min.js' type='text/javascript'><\/script>");
+                                        }
+                                    });
+                                </script>
 
 
 
+                                <style>
+                                    #rec196403977 input::-webkit-input-placeholder {color:#171834; opacity: 0.5;}
+                                    #rec196403977 input::-moz-placeholder          {color:#171834; opacity: 0.5;}
+                                    #rec196403977 input:-moz-placeholder           {color:#171834; opacity: 0.5;}
+                                    #rec196403977 input:-ms-input-placeholder      {color:#171834; opacity: 0.5;}
+                                </style>
 
 
 
@@ -11549,57 +11593,69 @@
 
 
 
+                                <style>
+                                    #rec196403977 .t-submit:hover{
+                                        background-color: #e3cb9f !important;
+                                        color: #171834 !important;
 
 
+                                    }
+                                    #rec196403977 .t-submit{
+                                        -webkit-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out, border-color 0.2s ease-in-out, box-shadow 0.2s ease-in-out; transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out, border-color 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+                                    }
+                                </style>
 
-                {{--</div>--}}
 
 
-                {{--<div class='t396__elem tn-elem tn-elem__2283949271589274760881' data-elem-id='1589274760881' data-elem-type='image'--}}
-                     {{--data-field-top-value="30"--}}
-                     {{--data-field-top-res-960-value="28"				data-field-top-res-480-value="165"		data-field-top-res-320-value="35"--}}
+                            </div>
+                        </div>
+                    </div>
 
-                     {{--data-field-left-value="640"--}}
-                     {{--data-field-left-res-960-value="475"				data-field-left-res-480-value="135"		data-field-left-res-320-value="155"--}}
 
 
 
-                     {{--data-field-width-value="20"--}}
 
 
-                     {{--data-field-axisy-value="top"--}}
 
 
-                     {{--data-field-axisx-value="left"--}}
 
 
-                     {{--data-field-container-value="grid"--}}
 
 
-                     {{--data-field-topunits-value=""--}}
+                </div>
 
 
-                     {{--data-field-leftunits-value=""--}}
+                <div class='t396__elem tn-elem tn-elem__2290826291589274721159' data-elem-id='1589274721159' data-elem-type='image'
+                     data-field-top-value="25"
+                     data-field-top-res-960-value="22"				data-field-top-res-480-value="22"		data-field-top-res-320-value="22"
 
+                     data-field-left-value="80"
+                     data-field-left-res-960-value="10"				data-field-left-res-480-value="10"		data-field-left-res-320-value="0"
 
-                     {{--data-field-heightunits-value=""--}}
 
 
-                     {{--data-field-widthunits-value=""--}}
+                     data-field-width-value="140"
 
 
+                     data-field-axisy-value="top"
 
 
+                     data-field-axisx-value="left"
 
 
+                     data-field-container-value="grid"
 
 
+                     data-field-topunits-value=""
 
 
+                     data-field-leftunits-value=""
 
 
+                     data-field-heightunits-value=""
 
 
+                     data-field-widthunits-value=""
 
 
 
@@ -11622,7 +11678,6 @@
 
 
 
-                {{-->--}}
 
 
 
@@ -11630,9 +11685,6 @@
 
 
 
-                    {{--<div class='tn-atom'    >--}}
-                        {{--<img class='tn-atom__img' src='https://static.tildacdn.com/tild6166-3837-4336-b331-333039316436/___.png'  imgfield='tn_img_1589274760881'>--}}
-                    {{--</div>--}}
 
 
 
@@ -11640,6 +11692,7 @@
 
 
 
+                >
 
 
 
@@ -11647,6 +11700,9 @@
 
 
 
+                    <a class='tn-atom' href="https://ytm.expert/"   >
+                        <img class='tn-atom__img' src='https://static.tildacdn.com/tild3162-3365-4834-b732-616134373136/_.png'  imgfield='tn_img_1589274721159'>
+                    </a>
 
 
 
@@ -11655,54 +11711,54 @@
 
 
 
-                {{--</div>--}}
 
 
-                {{--<div class='t396__elem tn-elem tn-elem__2283949271589274777104' data-elem-id='1589274777104' data-elem-type='image'--}}
-                     {{--data-field-top-value="60"--}}
-                     {{--data-field-top-res-960-value="61"				data-field-top-res-480-value="196"		data-field-top-res-320-value="66"--}}
 
-                     {{--data-field-left-value="640"--}}
-                     {{--data-field-left-res-960-value="475"				data-field-left-res-480-value="135"		data-field-left-res-320-value="155"--}}
 
 
 
-                     {{--data-field-width-value="20"--}}
 
 
-                     {{--data-field-axisy-value="top"--}}
 
 
-                     {{--data-field-axisx-value="left"--}}
 
 
-                     {{--data-field-container-value="grid"--}}
 
 
-                     {{--data-field-topunits-value=""--}}
+                </div>
 
 
-                     {{--data-field-leftunits-value=""--}}
+                <div class='t396__elem tn-elem tn-elem__2290826291589274760881' data-elem-id='1589274760881' data-elem-type='image'
+                     data-field-top-value="30"
+                     data-field-top-res-960-value="28"				data-field-top-res-480-value="165"		data-field-top-res-320-value="35"
 
+                     data-field-left-value="640"
+                     data-field-left-res-960-value="475"				data-field-left-res-480-value="135"		data-field-left-res-320-value="155"
 
-                     {{--data-field-heightunits-value=""--}}
 
 
-                     {{--data-field-widthunits-value=""--}}
+                     data-field-width-value="20"
 
 
+                     data-field-axisy-value="top"
 
 
+                     data-field-axisx-value="left"
 
 
+                     data-field-container-value="grid"
 
 
+                     data-field-topunits-value=""
 
 
+                     data-field-leftunits-value=""
 
 
+                     data-field-heightunits-value=""
 
 
+                     data-field-widthunits-value=""
 
 
 
@@ -11725,7 +11781,6 @@
 
 
 
-                {{-->--}}
 
 
 
@@ -11733,9 +11788,6 @@
 
 
 
-                    {{--<div class='tn-atom'    >--}}
-                        {{--<img class='tn-atom__img' src='https://static.tildacdn.com/tild6439-6435-4737-a535-323433346266/___.png'  imgfield='tn_img_1589274777104'>--}}
-                    {{--</div>--}}
 
 
 
@@ -11743,6 +11795,7 @@
 
 
 
+                >
 
 
 
@@ -11750,6 +11803,9 @@
 
 
 
+                    <div class='tn-atom'    >
+                        <img class='tn-atom__img' src='https://static.tildacdn.com/tild6166-3837-4336-b331-333039316436/___.png'  imgfield='tn_img_1589274760881'>
+                    </div>
 
 
 
@@ -11758,54 +11814,54 @@
 
 
 
-                {{--</div>--}}
 
 
-                {{--<div class='t396__elem tn-elem tn-elem__2283949271589274783044' data-elem-id='1589274783044' data-elem-type='image'--}}
-                     {{--data-field-top-value="90"--}}
-                     {{--data-field-top-res-960-value="96"				data-field-top-res-480-value="229"		data-field-top-res-320-value="99"--}}
 
-                     {{--data-field-left-value="640"--}}
-                     {{--data-field-left-res-960-value="475"				data-field-left-res-480-value="135"		data-field-left-res-320-value="155"--}}
 
 
 
-                     {{--data-field-width-value="20"--}}
 
 
-                     {{--data-field-axisy-value="top"--}}
 
 
-                     {{--data-field-axisx-value="left"--}}
 
 
-                     {{--data-field-container-value="grid"--}}
 
 
-                     {{--data-field-topunits-value=""--}}
+                </div>
 
 
-                     {{--data-field-leftunits-value=""--}}
+                <div class='t396__elem tn-elem tn-elem__2290826291589274777104' data-elem-id='1589274777104' data-elem-type='image'
+                     data-field-top-value="60"
+                     data-field-top-res-960-value="61"				data-field-top-res-480-value="196"		data-field-top-res-320-value="66"
 
+                     data-field-left-value="640"
+                     data-field-left-res-960-value="475"				data-field-left-res-480-value="135"		data-field-left-res-320-value="155"
 
-                     {{--data-field-heightunits-value=""--}}
 
 
-                     {{--data-field-widthunits-value=""--}}
+                     data-field-width-value="20"
 
 
+                     data-field-axisy-value="top"
 
 
+                     data-field-axisx-value="left"
 
 
+                     data-field-container-value="grid"
 
 
+                     data-field-topunits-value=""
 
 
+                     data-field-leftunits-value=""
 
 
+                     data-field-heightunits-value=""
 
 
+                     data-field-widthunits-value=""
 
 
 
@@ -11828,7 +11884,6 @@
 
 
 
-                {{-->--}}
 
 
 
@@ -11836,9 +11891,6 @@
 
 
 
-                    {{--<div class='tn-atom'    >--}}
-                        {{--<img class='tn-atom__img' src='https://static.tildacdn.com/tild6630-6163-4165-b534-626463326166/___.png'  imgfield='tn_img_1589274783044'>--}}
-                    {{--</div>--}}
 
 
 
@@ -11846,6 +11898,7 @@
 
 
 
+                >
 
 
 
@@ -11853,6 +11906,9 @@
 
 
 
+                    <div class='tn-atom'    >
+                        <img class='tn-atom__img' src='https://static.tildacdn.com/tild6439-6435-4737-a535-323433346266/___.png'  imgfield='tn_img_1589274777104'>
+                    </div>
 
 
 
@@ -11861,54 +11917,54 @@
 
 
 
-                {{--</div>--}}
 
 
-                {{--<div class='t396__elem tn-elem tn-elem__2283949271589274848042' data-elem-id='1589274848042' data-elem-type='text'--}}
-                     {{--data-field-top-value="30"--}}
-                     {{--data-field-top-res-960-value="27"				data-field-top-res-480-value="164"		data-field-top-res-320-value="34"--}}
 
-                     {{--data-field-left-value="670"--}}
-                     {{--data-field-left-res-960-value="505"				data-field-left-res-480-value="165"		data-field-left-res-320-value="185"--}}
 
 
 
-                     {{--data-field-width-value="180"--}}
 
 
-                     {{--data-field-axisy-value="top"--}}
 
 
-                     {{--data-field-axisx-value="left"--}}
 
 
-                     {{--data-field-container-value="grid"--}}
 
 
-                     {{--data-field-topunits-value=""--}}
+                </div>
 
 
-                     {{--data-field-leftunits-value=""--}}
+                <div class='t396__elem tn-elem tn-elem__2290826291589274783044' data-elem-id='1589274783044' data-elem-type='image'
+                     data-field-top-value="90"
+                     data-field-top-res-960-value="96"				data-field-top-res-480-value="229"		data-field-top-res-320-value="99"
 
+                     data-field-left-value="640"
+                     data-field-left-res-960-value="475"				data-field-left-res-480-value="135"		data-field-left-res-320-value="155"
 
-                     {{--data-field-heightunits-value=""--}}
 
 
-                     {{--data-field-widthunits-value=""--}}
+                     data-field-width-value="20"
 
 
+                     data-field-axisy-value="top"
 
 
+                     data-field-axisx-value="left"
 
 
+                     data-field-container-value="grid"
 
 
+                     data-field-topunits-value=""
 
 
+                     data-field-leftunits-value=""
 
 
+                     data-field-heightunits-value=""
 
 
+                     data-field-widthunits-value=""
 
 
 
@@ -11931,13 +11987,11 @@
 
 
 
-                {{-->--}}
 
 
 
 
 
-                    {{--<a class='tn-atom'  href="tel:+380983133862"  >+380 98 31 338 62</a>--}}
 
 
 
@@ -11947,6 +12001,7 @@
 
 
 
+                >
 
 
 
@@ -11954,6 +12009,9 @@
 
 
 
+                    <div class='tn-atom'    >
+                        <img class='tn-atom__img' src='https://static.tildacdn.com/tild6630-6163-4165-b534-626463326166/___.png'  imgfield='tn_img_1589274783044'>
+                    </div>
 
 
 
@@ -11962,54 +12020,54 @@
 
 
 
-                {{--</div>--}}
 
 
-                {{--<div class='t396__elem tn-elem tn-elem__2283949271589274891204' data-elem-id='1589274891204' data-elem-type='text'--}}
-                     {{--data-field-top-value="60"--}}
-                     {{--data-field-top-res-960-value="60"				data-field-top-res-480-value="195"		data-field-top-res-320-value="65"--}}
 
-                     {{--data-field-left-value="670"--}}
-                     {{--data-field-left-res-960-value="505"				data-field-left-res-480-value="165"		data-field-left-res-320-value="185"--}}
 
 
 
-                     {{--data-field-width-value="180"--}}
 
 
-                     {{--data-field-axisy-value="top"--}}
 
 
-                     {{--data-field-axisx-value="left"--}}
 
 
-                     {{--data-field-container-value="grid"--}}
 
 
-                     {{--data-field-topunits-value=""--}}
+                </div>
 
 
-                     {{--data-field-leftunits-value=""--}}
+                <div class='t396__elem tn-elem tn-elem__2290826291589274848042' data-elem-id='1589274848042' data-elem-type='text'
+                     data-field-top-value="30"
+                     data-field-top-res-960-value="27"				data-field-top-res-480-value="164"		data-field-top-res-320-value="34"
 
+                     data-field-left-value="670"
+                     data-field-left-res-960-value="505"				data-field-left-res-480-value="165"		data-field-left-res-320-value="185"
 
-                     {{--data-field-heightunits-value=""--}}
 
 
-                     {{--data-field-widthunits-value=""--}}
+                     data-field-width-value="180"
 
 
+                     data-field-axisy-value="top"
 
 
+                     data-field-axisx-value="left"
 
 
+                     data-field-container-value="grid"
 
 
+                     data-field-topunits-value=""
 
 
+                     data-field-leftunits-value=""
 
 
+                     data-field-heightunits-value=""
 
 
+                     data-field-widthunits-value=""
 
 
 
@@ -12032,13 +12090,11 @@
 
 
 
-                {{-->--}}
 
 
 
 
 
-                    {{--<a class='tn-atom'  href="tel:+380956518601"  >+380 95 65 186 01</a>--}}
 
 
 
@@ -12048,11 +12104,13 @@
 
 
 
+                >
 
 
 
 
 
+                    <a class='tn-atom'  href="tel:+380983133862"  >+380 98 31 338 62</a>
 
 
 
@@ -12063,54 +12121,54 @@
 
 
 
-                {{--</div>--}}
 
 
-                {{--<div class='t396__elem tn-elem tn-elem__2283949271589274923563' data-elem-id='1589274923563' data-elem-type='text'--}}
-                     {{--data-field-top-value="90"--}}
-                     {{--data-field-top-res-960-value="93"				data-field-top-res-480-value="226"		data-field-top-res-320-value="96"--}}
 
-                     {{--data-field-left-value="670"--}}
-                     {{--data-field-left-res-960-value="505"				data-field-left-res-480-value="165"		data-field-left-res-320-value="185"--}}
 
 
 
-                     {{--data-field-width-value="180"--}}
 
 
-                     {{--data-field-axisy-value="top"--}}
 
 
-                     {{--data-field-axisx-value="left"--}}
 
 
-                     {{--data-field-container-value="grid"--}}
 
 
-                     {{--data-field-topunits-value=""--}}
+                </div>
 
 
-                     {{--data-field-leftunits-value=""--}}
+                <div class='t396__elem tn-elem tn-elem__2290826291589274891204' data-elem-id='1589274891204' data-elem-type='text'
+                     data-field-top-value="60"
+                     data-field-top-res-960-value="60"				data-field-top-res-480-value="195"		data-field-top-res-320-value="65"
 
+                     data-field-left-value="670"
+                     data-field-left-res-960-value="505"				data-field-left-res-480-value="165"		data-field-left-res-320-value="185"
 
-                     {{--data-field-heightunits-value=""--}}
 
 
-                     {{--data-field-widthunits-value=""--}}
+                     data-field-width-value="180"
 
 
+                     data-field-axisy-value="top"
 
 
+                     data-field-axisx-value="left"
 
 
+                     data-field-container-value="grid"
 
 
+                     data-field-topunits-value=""
 
 
+                     data-field-leftunits-value=""
 
 
+                     data-field-heightunits-value=""
 
 
+                     data-field-widthunits-value=""
 
 
 
@@ -12133,13 +12191,11 @@
 
 
 
-                {{-->--}}
 
 
 
 
 
-                    {{--<a class='tn-atom'  href="malito:info@ytm.expert"  >info@ytm.expert</a>--}}
 
 
 
@@ -12149,11 +12205,13 @@
 
 
 
+                >
 
 
 
 
 
+                    <a class='tn-atom'  href="tel:+380956518601"  >+380 95 65 186 01</a>
 
 
 
@@ -12164,54 +12222,54 @@
 
 
 
-                {{--</div>--}}
 
 
-                {{--<div class='t396__elem tn-elem tn-elem__2283949271589275802285' data-elem-id='1589275802285' data-elem-type='image'--}}
-                     {{--data-field-top-value="94"--}}
-                     {{--data-field-top-res-960-value="83"		data-field-top-res-640-value="241"		data-field-top-res-480-value="352"		data-field-top-res-320-value="372"--}}
 
-                     {{--data-field-left-value="861"--}}
-                     {{--data-field-left-res-960-value="688"		data-field-left-res-640-value="210"		data-field-left-res-480-value="130"		data-field-left-res-320-value="50"--}}
 
 
 
-                     {{--data-field-width-value="16"--}}
 
 
-                     {{--data-field-axisy-value="top"--}}
 
 
-                     {{--data-field-axisx-value="left"--}}
 
 
-                     {{--data-field-container-value="grid"--}}
 
 
-                     {{--data-field-topunits-value=""--}}
+                </div>
 
 
-                     {{--data-field-leftunits-value=""--}}
+                <div class='t396__elem tn-elem tn-elem__2290826291589274923563' data-elem-id='1589274923563' data-elem-type='text'
+                     data-field-top-value="90"
+                     data-field-top-res-960-value="93"				data-field-top-res-480-value="226"		data-field-top-res-320-value="96"
 
+                     data-field-left-value="670"
+                     data-field-left-res-960-value="505"				data-field-left-res-480-value="165"		data-field-left-res-320-value="185"
 
-                     {{--data-field-heightunits-value=""--}}
 
 
-                     {{--data-field-widthunits-value=""--}}
+                     data-field-width-value="180"
 
 
+                     data-field-axisy-value="top"
 
 
+                     data-field-axisx-value="left"
 
 
+                     data-field-container-value="grid"
 
 
+                     data-field-topunits-value=""
 
 
+                     data-field-leftunits-value=""
 
 
+                     data-field-heightunits-value=""
 
 
+                     data-field-widthunits-value=""
 
 
 
@@ -12234,7 +12292,6 @@
 
 
 
-                {{-->--}}
 
 
 
@@ -12242,9 +12299,6 @@
 
 
 
-                    {{--<a class='tn-atom' href="https://www.facebook.com/yourtotalmarket"  target="_blank" >--}}
-                        {{--<img class='tn-atom__img' src='https://static.tildacdn.com/tild6533-3233-4162-b433-663332343932/f.png'  imgfield='tn_img_1589275802285'>--}}
-                    {{--</a>--}}
 
 
 
@@ -12252,11 +12306,13 @@
 
 
 
+                >
 
 
 
 
 
+                    <a class='tn-atom'  href="malito:info@ytm.expert"  >info@ytm.expert</a>
 
 
 
@@ -12267,54 +12323,54 @@
 
 
 
-                {{--</div>--}}
 
 
-                {{--<div class='t396__elem tn-elem tn-elem__2283949271589275836269' data-elem-id='1589275836269' data-elem-type='image'--}}
-                     {{--data-field-top-value="94"--}}
-                     {{--data-field-top-res-960-value="83"		data-field-top-res-640-value="241"		data-field-top-res-480-value="352"		data-field-top-res-320-value="372"--}}
 
-                     {{--data-field-left-value="933"--}}
-                     {{--data-field-left-res-960-value="760"		data-field-left-res-640-value="296"		data-field-left-res-480-value="216"		data-field-left-res-320-value="136"--}}
 
 
 
-                     {{--data-field-width-value="32"--}}
 
 
-                     {{--data-field-axisy-value="top"--}}
 
 
-                     {{--data-field-axisx-value="left"--}}
 
 
-                     {{--data-field-container-value="grid"--}}
 
 
-                     {{--data-field-topunits-value=""--}}
+                </div>
 
 
-                     {{--data-field-leftunits-value=""--}}
+                <div class='t396__elem tn-elem tn-elem__2290826291589275802285' data-elem-id='1589275802285' data-elem-type='image'
+                     data-field-top-value="94"
+                     data-field-top-res-960-value="83"		data-field-top-res-640-value="241"		data-field-top-res-480-value="352"		data-field-top-res-320-value="372"
 
+                     data-field-left-value="861"
+                     data-field-left-res-960-value="688"		data-field-left-res-640-value="210"		data-field-left-res-480-value="130"		data-field-left-res-320-value="50"
 
-                     {{--data-field-heightunits-value=""--}}
 
 
-                     {{--data-field-widthunits-value=""--}}
+                     data-field-width-value="16"
 
 
+                     data-field-axisy-value="top"
 
 
+                     data-field-axisx-value="left"
 
 
+                     data-field-container-value="grid"
 
 
+                     data-field-topunits-value=""
 
 
+                     data-field-leftunits-value=""
 
 
+                     data-field-heightunits-value=""
 
 
+                     data-field-widthunits-value=""
 
 
 
@@ -12337,7 +12393,6 @@
 
 
 
-                {{-->--}}
 
 
 
@@ -12345,9 +12400,6 @@
 
 
 
-                    {{--<a class='tn-atom' href="https://www.instagram.com/yourtotalmarket"  target="_blank" >--}}
-                        {{--<img class='tn-atom__img' src='https://static.tildacdn.com/tild6131-3934-4238-b938-393465616232/_2.png'  imgfield='tn_img_1589275836269'>--}}
-                    {{--</a>--}}
 
 
 
@@ -12355,6 +12407,7 @@
 
 
 
+                >
 
 
 
@@ -12362,6 +12415,9 @@
 
 
 
+                    <a class='tn-atom' href="https://www.facebook.com/yourtotalmarket"  target="_blank" >
+                        <img class='tn-atom__img' src='https://static.tildacdn.com/tild6533-3233-4162-b433-663332343932/f.png'  imgfield='tn_img_1589275802285'>
+                    </a>
 
 
 
@@ -12370,54 +12426,54 @@
 
 
 
-                {{--</div>--}}
 
 
-                {{--<div class='t396__elem tn-elem tn-elem__2283949271589275849108' data-elem-id='1589275849108' data-elem-type='image'--}}
-                     {{--data-field-top-value="94"--}}
-                     {{--data-field-top-res-960-value="83"		data-field-top-res-640-value="241"		data-field-top-res-480-value="352"		data-field-top-res-320-value="372"--}}
 
-                     {{--data-field-left-value="1021"--}}
-                     {{--data-field-left-res-960-value="848"		data-field-left-res-640-value="398"		data-field-left-res-480-value="318"		data-field-left-res-320-value="238"--}}
 
 
 
-                     {{--data-field-width-value="32"--}}
 
 
-                     {{--data-field-axisy-value="top"--}}
 
 
-                     {{--data-field-axisx-value="left"--}}
 
 
-                     {{--data-field-container-value="grid"--}}
 
 
-                     {{--data-field-topunits-value=""--}}
+                </div>
 
 
-                     {{--data-field-leftunits-value=""--}}
+                <div class='t396__elem tn-elem tn-elem__2290826291589275836269' data-elem-id='1589275836269' data-elem-type='image'
+                     data-field-top-value="94"
+                     data-field-top-res-960-value="83"		data-field-top-res-640-value="241"		data-field-top-res-480-value="352"		data-field-top-res-320-value="372"
 
+                     data-field-left-value="933"
+                     data-field-left-res-960-value="760"		data-field-left-res-640-value="296"		data-field-left-res-480-value="216"		data-field-left-res-320-value="136"
 
-                     {{--data-field-heightunits-value=""--}}
 
 
-                     {{--data-field-widthunits-value=""--}}
+                     data-field-width-value="32"
 
 
+                     data-field-axisy-value="top"
 
 
+                     data-field-axisx-value="left"
 
 
+                     data-field-container-value="grid"
 
 
+                     data-field-topunits-value=""
 
 
+                     data-field-leftunits-value=""
 
 
+                     data-field-heightunits-value=""
 
 
+                     data-field-widthunits-value=""
 
 
 
@@ -12440,7 +12496,6 @@
 
 
 
-                {{-->--}}
 
 
 
@@ -12448,9 +12503,6 @@
 
 
 
-                    {{--<a class='tn-atom' href="https://www.linkedin.com/company/your-total-market"  target="_blank" >--}}
-                        {{--<img class='tn-atom__img' src='https://static.tildacdn.com/tild3139-3462-4762-b838-663266626337/in.png'  imgfield='tn_img_1589275849108'>--}}
-                    {{--</a>--}}
 
 
 
@@ -12458,6 +12510,7 @@
 
 
 
+                >
 
 
 
@@ -12465,6 +12518,9 @@
 
 
 
+                    <a class='tn-atom' href="https://www.instagram.com/yourtotalmarket"  target="_blank" >
+                        <img class='tn-atom__img' src='https://static.tildacdn.com/tild6131-3934-4238-b938-393465616232/_2.png'  imgfield='tn_img_1589275836269'>
+                    </a>
 
 
 
@@ -12473,52 +12529,54 @@
 
 
 
-                {{--</div>--}}
 
 
-                {{--<div class='t396__elem tn-elem tn-elem__2283949271599502637460' data-elem-id='1599502637460' data-elem-type='text'--}}
-                     {{--data-field-top-value="20"--}}
 
 
-                     {{--data-field-left-value="20"--}}
 
 
 
 
-                     {{--data-field-width-value="560"--}}
 
 
-                     {{--data-field-axisy-value="top"--}}
 
 
-                     {{--data-field-axisx-value="left"--}}
 
 
-                     {{--data-field-container-value="grid"--}}
+                </div>
 
 
-                     {{--data-field-topunits-value=""--}}
+                <div class='t396__elem tn-elem tn-elem__2290826291589275849108' data-elem-id='1589275849108' data-elem-type='image'
+                     data-field-top-value="94"
+                     data-field-top-res-960-value="83"		data-field-top-res-640-value="241"		data-field-top-res-480-value="352"		data-field-top-res-320-value="372"
 
+                     data-field-left-value="1021"
+                     data-field-left-res-960-value="848"		data-field-left-res-640-value="398"		data-field-left-res-480-value="318"		data-field-left-res-320-value="238"
 
-                     {{--data-field-leftunits-value=""--}}
 
 
-                     {{--data-field-heightunits-value=""--}}
+                     data-field-width-value="32"
 
 
-                     {{--data-field-widthunits-value=""--}}
+                     data-field-axisy-value="top"
 
 
+                     data-field-axisx-value="left"
 
 
+                     data-field-container-value="grid"
 
 
+                     data-field-topunits-value=""
 
 
+                     data-field-leftunits-value=""
 
 
+                     data-field-heightunits-value=""
 
 
+                     data-field-widthunits-value=""
 
 
 
@@ -12543,13 +12601,11 @@
 
 
 
-                {{-->--}}
 
 
 
 
 
-                    {{--<div class='tn-atom' field='tn_text_1599502637460'   ></div>--}}
 
 
 
@@ -12557,6 +12613,7 @@
 
 
 
+                >
 
 
 
@@ -12564,6 +12621,9 @@
 
 
 
+                    <a class='tn-atom' href="https://www.linkedin.com/company/your-total-market"  target="_blank" >
+                        <img class='tn-atom__img' src='https://static.tildacdn.com/tild3139-3462-4762-b838-663266626337/in.png'  imgfield='tn_img_1589275849108'>
+                    </a>
 
 
 
@@ -12574,54 +12634,52 @@
 
 
 
-                {{--</div>--}}
 
 
-                {{--<div class='t396__elem tn-elem tn-elem__2283949271599502652476' data-elem-id='1599502652476' data-elem-type='text'--}}
-                     {{--data-field-top-value="30"--}}
-                     {{--data-field-top-res-960-value="30"						data-field-top-res-320-value="160"--}}
 
-                     {{--data-field-left-value="270"--}}
-                     {{--data-field-left-res-960-value="170"						data-field-left-res-320-value="10"--}}
 
 
 
-                     {{--data-field-width-value="150"--}}
 
 
-                     {{--data-field-axisy-value="top"--}}
 
 
-                     {{--data-field-axisx-value="left"--}}
 
 
-                     {{--data-field-container-value="grid"--}}
+                </div>
 
 
-                     {{--data-field-topunits-value=""--}}
+                <div class='t396__elem tn-elem tn-elem__2290826291599502637460' data-elem-id='1599502637460' data-elem-type='text'
+                     data-field-top-value="20"
 
 
-                     {{--data-field-leftunits-value=""--}}
+                     data-field-left-value="20"
 
 
-                     {{--data-field-heightunits-value=""--}}
 
 
-                     {{--data-field-widthunits-value=""--}}
+                     data-field-width-value="560"
 
 
+                     data-field-axisy-value="top"
 
 
+                     data-field-axisx-value="left"
 
 
+                     data-field-container-value="grid"
 
 
+                     data-field-topunits-value=""
 
 
+                     data-field-leftunits-value=""
 
 
+                     data-field-heightunits-value=""
 
 
+                     data-field-widthunits-value=""
 
 
 
@@ -12644,13 +12702,11 @@
 
 
 
-                {{-->--}}
 
 
 
 
 
-                    {{--<a class='tn-atom'  href="/market-research"  >ДОСЛІДЖЕННЯ РИНКУ</a>--}}
 
 
 
@@ -12660,11 +12716,13 @@
 
 
 
+                >
 
 
 
 
 
+                    <div class='tn-atom' field='tn_text_1599502637460'   ></div>
 
 
 
@@ -12675,54 +12733,54 @@
 
 
 
-                {{--</div>--}}
 
 
-                {{--<div class='t396__elem tn-elem tn-elem__2283949271599502698828' data-elem-id='1599502698828' data-elem-type='text'--}}
-                     {{--data-field-top-value="59"--}}
-                     {{--data-field-top-res-960-value="59"						data-field-top-res-320-value="189"--}}
 
-                     {{--data-field-left-value="270"--}}
-                     {{--data-field-left-res-960-value="170"						data-field-left-res-320-value="10"--}}
 
 
 
-                     {{--data-field-width-value="170"--}}
 
 
-                     {{--data-field-axisy-value="top"--}}
 
 
-                     {{--data-field-axisx-value="left"--}}
 
 
-                     {{--data-field-container-value="grid"--}}
 
 
-                     {{--data-field-topunits-value=""--}}
+                </div>
 
 
-                     {{--data-field-leftunits-value=""--}}
+                <div class='t396__elem tn-elem tn-elem__2290826291599502652476' data-elem-id='1599502652476' data-elem-type='text'
+                     data-field-top-value="30"
+                     data-field-top-res-960-value="30"						data-field-top-res-320-value="160"
 
+                     data-field-left-value="270"
+                     data-field-left-res-960-value="170"						data-field-left-res-320-value="10"
 
-                     {{--data-field-heightunits-value=""--}}
 
 
-                     {{--data-field-widthunits-value=""--}}
+                     data-field-width-value="150"
 
 
+                     data-field-axisy-value="top"
 
 
+                     data-field-axisx-value="left"
 
 
+                     data-field-container-value="grid"
 
 
+                     data-field-topunits-value=""
 
 
+                     data-field-leftunits-value=""
 
 
+                     data-field-heightunits-value=""
 
 
+                     data-field-widthunits-value=""
 
 
 
@@ -12745,13 +12803,11 @@
 
 
 
-                {{-->--}}
 
 
 
 
 
-                    {{--<a class='tn-atom'  href="https://ytm.expert/marketing"  >МАРКЕТИНГ ТА РЕКЛАМА</a>--}}
 
 
 
@@ -12761,11 +12817,13 @@
 
 
 
+                >
 
 
 
 
 
+                    <a class='tn-atom'  href="/market-research"  >ДОСЛІДЖЕННЯ РИНКУ</a>
 
 
 
@@ -12776,55 +12834,54 @@
 
 
 
-                {{--</div>--}}
 
 
-                {{--<div class='t396__elem tn-elem tn-elem__2283949271599502715798' data-elem-id='1599502715798' data-elem-type='text'--}}
-                     {{--data-field-top-value="88"--}}
-                     {{--data-field-top-res-960-value="88"						data-field-top-res-320-value="218"--}}
 
-                     {{--data-field-left-value="270"--}}
-                     {{--data-field-left-res-960-value="170"						data-field-left-res-320-value="10"--}}
 
 
 
-                     {{--data-field-width-value="220"--}}
-                     {{--data-field-width-res-960-value="189"--}}
 
-                     {{--data-field-axisy-value="top"--}}
 
 
-                     {{--data-field-axisx-value="left"--}}
 
 
-                     {{--data-field-container-value="grid"--}}
 
 
-                     {{--data-field-topunits-value=""--}}
 
+                </div>
 
-                     {{--data-field-leftunits-value=""--}}
 
+                <div class='t396__elem tn-elem tn-elem__2290826291599502698828' data-elem-id='1599502698828' data-elem-type='text'
+                     data-field-top-value="59"
+                     data-field-top-res-960-value="59"						data-field-top-res-320-value="189"
 
-                     {{--data-field-heightunits-value=""--}}
+                     data-field-left-value="270"
+                     data-field-left-res-960-value="170"						data-field-left-res-320-value="10"
 
 
-                     {{--data-field-widthunits-value=""--}}
 
+                     data-field-width-value="170"
 
 
+                     data-field-axisy-value="top"
 
 
+                     data-field-axisx-value="left"
 
 
+                     data-field-container-value="grid"
 
 
+                     data-field-topunits-value=""
 
 
+                     data-field-leftunits-value=""
 
 
+                     data-field-heightunits-value=""
 
 
+                     data-field-widthunits-value=""
 
 
 
@@ -12846,13 +12903,11 @@
 
 
 
-                {{-->--}}
 
 
 
 
 
-                    {{--<a class='tn-atom'  href="https://ytm.expert/services/transfer-pricing"  >ТРАНСФЕРТНЕ ЦІНОУТВОРЕННЯ</a>--}}
 
 
 
@@ -12863,11 +12918,13 @@
 
 
 
+                >
 
 
 
 
 
+                    <a class='tn-atom'  href="/marketing"  >МАРКЕТИНГ ТА РЕКЛАМА</a>
 
 
 
@@ -12877,54 +12934,55 @@
 
 
 
-                {{--</div>--}}
 
 
-                {{--<div class='t396__elem tn-elem tn-elem__2283949271599502823356' data-elem-id='1599502823356' data-elem-type='text'--}}
-                     {{--data-field-top-value="30"--}}
-                     {{--data-field-top-res-960-value="30"						data-field-top-res-320-value="160"--}}
 
-                     {{--data-field-left-value="500"--}}
-                     {{--data-field-left-res-960-value="350"						data-field-left-res-320-value="190"--}}
 
 
 
-                     {{--data-field-width-value="110"--}}
 
 
-                     {{--data-field-axisy-value="top"--}}
 
 
-                     {{--data-field-axisx-value="left"--}}
 
 
-                     {{--data-field-container-value="grid"--}}
 
 
-                     {{--data-field-topunits-value=""--}}
 
+                </div>
 
-                     {{--data-field-leftunits-value=""--}}
 
+                <div class='t396__elem tn-elem tn-elem__2290826291599502715798' data-elem-id='1599502715798' data-elem-type='text'
+                     data-field-top-value="88"
+                     data-field-top-res-960-value="88"						data-field-top-res-320-value="218"
 
-                     {{--data-field-heightunits-value=""--}}
+                     data-field-left-value="270"
+                     data-field-left-res-960-value="170"						data-field-left-res-320-value="10"
 
 
-                     {{--data-field-widthunits-value=""--}}
 
+                     data-field-width-value="220"
+                     data-field-width-res-960-value="189"
 
+                     data-field-axisy-value="top"
 
 
+                     data-field-axisx-value="left"
 
 
+                     data-field-container-value="grid"
 
 
+                     data-field-topunits-value=""
 
 
+                     data-field-leftunits-value=""
 
 
+                     data-field-heightunits-value=""
 
 
+                     data-field-widthunits-value=""
 
 
 
@@ -12947,13 +13005,11 @@
 
 
 
-                {{-->--}}
 
 
 
 
 
-                    {{--<a class='tn-atom'  href="https://ytm.expert/"  >ПРО КОМПАНІЮ</a>--}}
 
 
 
@@ -12963,11 +13019,13 @@
 
 
 
+                >
 
 
 
 
 
+                    <a class='tn-atom'  href="{{route("transfer-pricing")}}"  >ТРАНСФЕРТНЕ ЦІНОУТВОРЕННЯ</a>
 
 
 
@@ -12978,54 +13036,54 @@
 
 
 
-                {{--</div>--}}
 
 
-                {{--<div class='t396__elem tn-elem tn-elem__2283949271599502823362' data-elem-id='1599502823362' data-elem-type='text'--}}
-                     {{--data-field-top-value="59"--}}
-                     {{--data-field-top-res-960-value="59"						data-field-top-res-320-value="189"--}}
 
-                     {{--data-field-left-value="500"--}}
-                     {{--data-field-left-res-960-value="350"						data-field-left-res-320-value="190"--}}
 
 
 
-                     {{--data-field-width-value="100"--}}
 
 
-                     {{--data-field-axisy-value="top"--}}
 
 
-                     {{--data-field-axisx-value="left"--}}
 
 
-                     {{--data-field-container-value="grid"--}}
 
 
-                     {{--data-field-topunits-value=""--}}
+                </div>
 
 
-                     {{--data-field-leftunits-value=""--}}
+                <div class='t396__elem tn-elem tn-elem__2290826291599502823356' data-elem-id='1599502823356' data-elem-type='text'
+                     data-field-top-value="30"
+                     data-field-top-res-960-value="30"						data-field-top-res-320-value="160"
 
+                     data-field-left-value="500"
+                     data-field-left-res-960-value="350"						data-field-left-res-320-value="190"
 
-                     {{--data-field-heightunits-value=""--}}
 
 
-                     {{--data-field-widthunits-value=""--}}
+                     data-field-width-value="110"
 
 
+                     data-field-axisy-value="top"
 
 
+                     data-field-axisx-value="left"
 
 
+                     data-field-container-value="grid"
 
 
+                     data-field-topunits-value=""
 
 
+                     data-field-leftunits-value=""
 
 
+                     data-field-heightunits-value=""
 
 
+                     data-field-widthunits-value=""
 
 
 
@@ -13048,13 +13106,11 @@
 
 
 
-                {{-->--}}
 
 
 
 
 
-                    {{--<a class='tn-atom'  href="https://ytm.expert/researches"  >ДОСЛІДЖЕННЯ</a>--}}
 
 
 
@@ -13064,11 +13120,13 @@
 
 
 
+                >
 
 
 
 
 
+                    <a class='tn-atom'  href="https://ytm.expert/"  >ПРО КОМПАНІЮ</a>
 
 
 
@@ -13079,54 +13137,54 @@
 
 
 
-                {{--</div>--}}
 
 
-                {{--<div class='t396__elem tn-elem tn-elem__2283949271599502823366' data-elem-id='1599502823366' data-elem-type='text'--}}
-                     {{--data-field-top-value="88"--}}
-                     {{--data-field-top-res-960-value="88"						data-field-top-res-320-value="218"--}}
 
-                     {{--data-field-left-value="500"--}}
-                     {{--data-field-left-res-960-value="350"						data-field-left-res-320-value="190"--}}
 
 
 
-                     {{--data-field-width-value="100"--}}
 
 
-                     {{--data-field-axisy-value="top"--}}
 
 
-                     {{--data-field-axisx-value="left"--}}
 
 
-                     {{--data-field-container-value="grid"--}}
 
 
-                     {{--data-field-topunits-value=""--}}
+                </div>
 
 
-                     {{--data-field-leftunits-value=""--}}
+                <div class='t396__elem tn-elem tn-elem__2290826291599502823362' data-elem-id='1599502823362' data-elem-type='text'
+                     data-field-top-value="59"
+                     data-field-top-res-960-value="59"						data-field-top-res-320-value="189"
 
+                     data-field-left-value="500"
+                     data-field-left-res-960-value="350"						data-field-left-res-320-value="190"
 
-                     {{--data-field-heightunits-value=""--}}
 
 
-                     {{--data-field-widthunits-value=""--}}
+                     data-field-width-value="100"
 
 
+                     data-field-axisy-value="top"
 
 
+                     data-field-axisx-value="left"
 
 
+                     data-field-container-value="grid"
 
 
+                     data-field-topunits-value=""
 
 
+                     data-field-leftunits-value=""
 
 
+                     data-field-heightunits-value=""
 
 
+                     data-field-widthunits-value=""
 
 
 
@@ -13149,13 +13207,11 @@
 
 
 
-                {{-->--}}
 
 
 
 
 
-                    {{--<a class='tn-atom'  href="https://ytm.expert/news"  >НОВИНИ</a>--}}
 
 
 
@@ -13165,11 +13221,13 @@
 
 
 
+                >
 
 
 
 
 
+                    <a class='tn-atom'  href="https://ytm.expert/researches"  >ДОСЛІДЖЕННЯ</a>
 
 
 
@@ -13180,17 +13238,132 @@
 
 
 
-                {{--</div>--}}
 
 
-            {{--</div>--}}
 
-        {{--</div>--}}
-@include("component.footer")
+
+
+
+
+
+
+
+
+
+
+
+                </div>
+
+
+                <div class='t396__elem tn-elem tn-elem__2290826291599502823366' data-elem-id='1599502823366' data-elem-type='text'
+                     data-field-top-value="88"
+                     data-field-top-res-960-value="88"						data-field-top-res-320-value="218"
+
+                     data-field-left-value="500"
+                     data-field-left-res-960-value="350"						data-field-left-res-320-value="190"
+
+
+
+                     data-field-width-value="100"
+
+
+                     data-field-axisy-value="top"
+
+
+                     data-field-axisx-value="left"
+
+
+                     data-field-container-value="grid"
+
+
+                     data-field-topunits-value=""
+
+
+                     data-field-leftunits-value=""
+
+
+                     data-field-heightunits-value=""
+
+
+                     data-field-widthunits-value=""
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                >
+
+
+
+
+
+                    <a class='tn-atom'  href="https://ytm.expert/news"  >НОВИНИ</a>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                </div>
+
+
+            </div>
+
+        </div>
+
 
         <script>
             $( document ).ready(function() {
-                t396_init('228394927');
+                t396_init('229082629');
             });
         </script>
 
@@ -25211,6 +25384,19 @@
 
 
 </script>
-
+<script>
+    let search = $(".t838__input.t-input ")
+    console.log(search);
+    let search_button = $(".search_button");
+    search_button.on("click", function (e) {
+        let searchVal = search.val();
+        if (searchVal.length <3){
+            search.css("border", "2px solid red");
+        }else {
+            window.location.href ="/search?search="+searchVal
+        }
+        console.log(searchVal);
+    })
+</script>
 </body>
 </html>

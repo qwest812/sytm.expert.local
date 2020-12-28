@@ -6,12 +6,13 @@ use App\Http\Controllers\Admin\NewsController;
 use App\Url;
 use App\Writenew;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\DB;
 
 class MainController extends Controller
 {
     public function index()
     {
-        $news = Writenew::where("type", 1)->take(3)->orderBy('id', 'desc')->get();
+        $news = Writenew::where("type", NewsController::NEWS)->take(3)->orderBy('id', 'desc')->get();
         foreach ($news as $key => $research) {
             $news[$key]->url = Url::where("id", $news[$key]->url_id)->first()->url;
         }
@@ -51,7 +52,7 @@ class MainController extends Controller
     {
         $page["title"] = "Новини | YOUR TOTAL MARKET";
         $page["description"] = "Тут можна ознайомитися з останніми новинами ринку, підготованними нашими аналітиками.";
-        $news = Writenew::where("type", NewsController::NEWS)->where("deleted",false)->get()->toArray();
+        $news = Writenew::where("type", NewsController::NEWS)->where("deleted", false)->get()->toArray();
         foreach ($news as $key => $new) {
             $url = Url::where("id", $new["url_id"])->first()->url;
             $news[$key]["url"] = $url;
@@ -65,9 +66,9 @@ class MainController extends Controller
     {
         $page['title'] = "Дослідження | YOUR TOTAL MARKET";
         $page['description'] = "Тут можна ознайомитися з нашими готовими дослідженнями.";
-        $news=Writenew::where("type", NewsController::RESEARCH)->where("deleted",false)->paginate(6);
+        $news = Writenew::where("type", NewsController::RESEARCH)->where("deleted", false)->paginate(6);
         foreach ($news as $key => $new) {
-            if($new["id"] >=18 && $new["id"] <=30){
+            if ($new["id"] >= 18 && $new["id"] <= 30) {
                 unset($news[$key]);
                 continue;
             }
@@ -76,7 +77,7 @@ class MainController extends Controller
             $news[$key]["time"] = explode(" ", $new["created_at"])[0];
 
         }
-        return view("researches", compact('page', "news","news"));
+        return view("researches", compact('page', "news", "news"));
     }
 
     public function marketing()
@@ -127,9 +128,9 @@ class MainController extends Controller
     {
         $page['title'] = "Дослідження | YOUR TOTAL MARKET";
         $page['description'] = "Тут можна ознайомитися з нашими готовими дослідженнями.";
-        $news = Writenew::where("type", NewsController::RESEARCH)->where("deleted",false)->take(3)->get()->toArray();
+        $news = Writenew::where("type", NewsController::RESEARCH)->where("deleted", false)->orWhere("id", "<=", 18)->orWhere("id", ">=", 30)->orderBy('id', 'desc')->take(3)->get()->toArray();
         foreach ($news as $key => $new) {
-            if($new["id"] >=18 && $new["id"] <=30){
+            if ($new["id"] >= 18 && $new["id"] <= 30) {
                 unset($news[$key]);
                 continue;
             }
@@ -139,5 +140,36 @@ class MainController extends Controller
 
         }
         return view("market-research", compact('news'));
+    }
+
+    public function searchr()
+    {
+        $page['title'] = "Пошук | YOUR TOTAL MARKET";
+        $page['description'] = "Пошук данних";
+        $page['h1'] = "Пошук данних";
+        $searchRequest = "";
+        $err = "";
+        if (!empty($_GET["search"]) && strlen($_GET["search"]) > 3) {
+            $searchRequest = $_GET["search"];
+            $res = DB::select('SELECT `id`, `h1`,`text`, `main_img`,`url_id` FROM writenews WHERE MATCH (text) AGAINST ("' . $searchRequest . '") ORDER by `id` DESC LIMIT 6');
+
+            $shortText = [];
+
+            if (!empty($res)) {
+                foreach ($res as $key => $elem) {
+                    $url = Url::where("id", $elem->url_id)->first()->url;
+                    $shortText[$key]["id"] = $elem->id;
+                    $shortText[$key]["main_img"] = $elem->main_img;
+                    $shortText[$key]["url"] = $url;
+                    $shortText[$key]["text"] = mb_substr(
+                            preg_replace('/\s+/', ' ', str_replace('&nbsp;', ' ', strip_tags($elem->text)))
+                            , 0, 200) . "...";
+                }
+            } else {
+                $err = "По запиту \"". $searchRequest."\" нічого не знайдено";
+            }
+        }
+
+        return view("search", compact("page", "shortText", "err"));
     }
 }

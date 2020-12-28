@@ -1882,7 +1882,7 @@
             }
             @media screen and (max-width: 639px) {
                 .news_main{
-                    max-width: 360px;
+                    max-width: 230px;
                      margin:  0 auto;
                 }
             }
@@ -1897,6 +1897,14 @@
                             <div class="item_news">
                                 <div class="news_img" style="background-image: url('{{$new["main_img"]}}');
                                         width: 100%; height: 239px; background-size: contain"></div>
+                                <style>
+                                    @media screen and (max-width: 639px) {
+                                        .t404__title{
+                                            padding: 0;
+                                            width: 250px;
+                                        }
+                                    }
+                                </style>
                                 <div class="t404__textwrapper t404__paddingsmall"
                                      style="background-color: rgb(23, 24, 52); height: 214px;">
                                     <div class="t404__uptitle t-uptitle" style="text-transform:uppercase;">

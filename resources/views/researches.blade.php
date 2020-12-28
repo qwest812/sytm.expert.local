@@ -2881,7 +2881,7 @@
                      data-elem-type='image'
                      data-field-top-value="1045"
                      data-field-top-res-960-value="720" data-field-top-res-640-value="565"
-                     data-field-top-res-480-value="649" data-field-top-res-320-value="875"
+                     data-field-top-res-480-value="649" data-field-top-res-320-value="666"
 
                      data-field-left-value="30"
                      data-field-left-res-960-value="30" data-field-left-res-640-value="20"
@@ -2928,7 +2928,7 @@
 
                             .research_main{
                                 width: 28%;
-                                margin-left: 84px;
+                                margin-left: 30px;
                                 height: 1320px;
                             }
                             .research_main_div{

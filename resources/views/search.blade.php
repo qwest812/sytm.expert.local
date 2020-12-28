@@ -35,7 +35,7 @@
                 </div>
             </div>
             <div class="t450__container t-align_right">
-               @include('component.menu')
+                @include('component.menu')
 
                 <div class="t450__rightside">
                     <div class="t450__rightcontainer">
@@ -167,7 +167,7 @@
 
 
                      data-field-width-value="1130"
-                     data-field-width-res-960-value="1120"		data-field-width-res-640-value="1630"		data-field-width-res-480-value="1600"		data-field-width-res-320-value="1860"
+                     data-field-width-res-960-value="1120"		data-field-width-res-640-value="600"		data-field-width-res-480-value="350"		data-field-width-res-320-value="350"
 
                      data-field-axisy-value="top"
 
@@ -2566,107 +2566,6 @@
 
                 </div>
 
-                <div class='t396__elem tn-elem tn-elem__2290826251599833036542' data-elem-id='1599833036542' data-elem-type='image'
-                     data-field-top-value="210"
-                     data-field-top-res-960-value="240"		data-field-top-res-640-value="140"		data-field-top-res-480-value="160"		data-field-top-res-320-value="160"
-
-                     data-field-left-value="660"
-                     data-field-left-res-960-value="560"		data-field-left-res-640-value="85"		data-field-left-res-480-value="55"		data-field-left-res-320-value="5"
-
-
-
-                     data-field-width-value="480"
-                     data-field-width-res-960-value="420"		data-field-width-res-640-value="510"		data-field-width-res-480-value="370"		data-field-width-res-320-value="310"
-
-                     data-field-axisy-value="top"
-
-
-                     data-field-axisx-value="left"
-
-
-                     data-field-container-value="grid"
-
-
-                     data-field-topunits-value=""
-
-
-                     data-field-leftunits-value=""
-
-
-                     data-field-heightunits-value=""
-
-
-                     data-field-widthunits-value=""
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-                >
-
-
-
-
-
-
-
-                    <div class='tn-atom'    >
-                        <img class='tn-atom__img' src='{{$page["main_img"]}}' alt='Прогноз ринку від YTM ' imgfield='tn_img_1599833036542'>
-                    </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-                </div>
 
                 <div class='t396__elem tn-elem tn-elem__2290826251599833036551' data-elem-id='1599833036551' data-elem-type='text'
                      data-field-top-value="505"
@@ -2742,62 +2641,62 @@
 
 
                     {{--<h3 class='tn-atom'    ><strong>Розглянуті питання:</strong><br>--}}
-                        {{--1. Рівень експорту дизеля з України;<br>--}}
-                        {{--2. Який дизель, скільки і куди експортуэться; 3. Найбільші компанії-експортери;<br>--}}
-                        {{--4. Обсяг імпорту дизельного палива;<br>--}}
-                        {{--5. Імпорт в розрізі видів дизеля і компаній-одержувачів;<br>--}}
-                        {{--6. Звідки імпортують дизель;<br>--}}
-                        {{--7. Динаміка цін імпортерів та експортерів.<br>--}}
-                        {{--<br>--}}
-                        {{--<strong>Структура:</strong><br>--}}
-                        {{--<strong>1. Експорт</strong><br>--}}
-                        {{--- Експорт дизельного палива, тонн<br>--}}
-                        {{--- Експорт дизельного палива, тис. грн<br>--}}
-                        {{--- Географія експорту дизельного палива (січень-груд. 2019, тонн), %<br>--}}
-                        {{--- Найбільші експортери дизельного палива (січень- груд. 2019, тонн), %<br>--}}
-                        {{--- Динаміка експорту дизельного палива з України (в натуральному вираженні)<br>--}}
-                        {{--- Динаміка експорту дизельного палива з України (в грошовому вираженні)<br>--}}
-                        {{--- Експорт дизельного палива з України за компаніями-відправниками<br>--}}
-                        {{--- Структура експорту дизельного палива за компаніями-відправниками (тонн), %<br>--}}
-                        {{--- Структура експорту дизельного палива за компаніями-відправниками (тис. грн), %<br>--}}
-                        {{--- Експорт дизельного палива з України за країнами-отримувачами<br>--}}
-                        {{--- Структура експорту дизельного палива за країнами-отримувачами (тонн), %<br>--}}
-                        {{--- Структура експорту дизельного палива за країнами-отримувачами (тис. грн), %<br>--}}
-                        {{--- Експорт дизельного палива з України за видами<br>--}}
-                        {{--- Структура експорту дизельного палива за видами (тонн), %<br>--}}
-                        {{--- Структура експорту дизельного палива за видами (тис. грн), %<br>--}}
-                        {{--- Експорт дизельного палива з України за компаніями-отримувачами<br>--}}
-                        {{--- Структура експорту дизельного палива за компаніями-отримувачами (тонн), %<br>--}}
-                        {{--- Структура експорту дизельного палива за компаніями-отримувачами (тис. грн), %<br>--}}
-                        {{--<br>--}}
-                        {{--<strong>2. Імпорт</strong><br>--}}
-                        {{--- Імпорт дизельного палива, тонн<br>--}}
-                        {{--- Імпорт дизельного палива, тис. грн<br>--}}
-                        {{--- Географія імпорту дизельного палива (січень- груд. 2019, тонн), %<br>--}}
-                        {{--- Найбільші імпортери дизельного палива (січень- груд. 2019, тонн), %<br>--}}
-                        {{--- Динаміка імпорту дизельного палива в Україну (в натуральному вираженні)<br>--}}
-                        {{--- Динаміка імпорту дизельного палива в Україну (в грошовому вираженні)<br>--}}
-                        {{--- Імпорт дизельного палива в Україну за компаніями-отримувачами<br>--}}
-                        {{--- Структура імпорту дизельного палива за компаніями-отримувачами (тонн), %<br>--}}
-                        {{--- Структура імпорту дизельного палива за компаніями-отримувачами (тис. грн), %<br>--}}
-                        {{--- Імпорт дизельного палива в Україну за країнами-виробниками<br>--}}
-                        {{--- Структура імпорту дизельного палива за країнами-виробниками (тонн), %<br>--}}
-                        {{--- Структура імпорту дизельного палива за країнами-виробниками (тис. грн), %<br>--}}
-                        {{--- Імпорт дизельного палива в Україну за видами<br>--}}
-                        {{--- Структура імпорту дизельного палива за видами (тонн), %<br>--}}
-                        {{--- Структура імпорту дизельного палива за видами (тис. грн), %<br>--}}
-                        {{--- Імпорт дизельного палива в Україну за компаніями-відправниками<br>--}}
-                        {{--- Структура імпорту дизельного палива за компаніями-відправниками (тонн), %<br>--}}
-                        {{--- Структура імпорту дизельного палива за компаніями-відправниками (тис. грн), %<br>--}}
-                        {{--<br>--}}
-                        {{--<strong>3. Ціни</strong><br>--}}
-                        {{--- Динаміка середньозважених цін експортерів дизельного палива (FOB, без ПДВ), грн/кг<br>--}}
-                        {{--- Динаміка середньозважених цін імпортерів дизельного палива (CIF, без ПДВ и мита), грн/кг<br>--}}
-                        {{--- Середньозважені ціни експортерів дизельного палива (FOB, без ПДВ)<br>--}}
-                        {{--- Середньозважені ціни імпортерів дизельного палива (CIF, без ПДВ и мита)<br>--}}
-                        {{--<br>--}}
-                        {{--<br>--}}
-                        {{--<strong><span style="font-weight: 600;" data-redactor-tag="span">Ви можете вказати, що саме Вас цікавить і ми надамо приклад готового або розповімо як отримати новий звіт по ринку.</span></strong></h3>--}}
+                    {{--1. Рівень експорту дизеля з України;<br>--}}
+                    {{--2. Який дизель, скільки і куди експортуэться; 3. Найбільші компанії-експортери;<br>--}}
+                    {{--4. Обсяг імпорту дизельного палива;<br>--}}
+                    {{--5. Імпорт в розрізі видів дизеля і компаній-одержувачів;<br>--}}
+                    {{--6. Звідки імпортують дизель;<br>--}}
+                    {{--7. Динаміка цін імпортерів та експортерів.<br>--}}
+                    {{--<br>--}}
+                    {{--<strong>Структура:</strong><br>--}}
+                    {{--<strong>1. Експорт</strong><br>--}}
+                    {{--- Експорт дизельного палива, тонн<br>--}}
+                    {{--- Експорт дизельного палива, тис. грн<br>--}}
+                    {{--- Географія експорту дизельного палива (січень-груд. 2019, тонн), %<br>--}}
+                    {{--- Найбільші експортери дизельного палива (січень- груд. 2019, тонн), %<br>--}}
+                    {{--- Динаміка експорту дизельного палива з України (в натуральному вираженні)<br>--}}
+                    {{--- Динаміка експорту дизельного палива з України (в грошовому вираженні)<br>--}}
+                    {{--- Експорт дизельного палива з України за компаніями-відправниками<br>--}}
+                    {{--- Структура експорту дизельного палива за компаніями-відправниками (тонн), %<br>--}}
+                    {{--- Структура експорту дизельного палива за компаніями-відправниками (тис. грн), %<br>--}}
+                    {{--- Експорт дизельного палива з України за країнами-отримувачами<br>--}}
+                    {{--- Структура експорту дизельного палива за країнами-отримувачами (тонн), %<br>--}}
+                    {{--- Структура експорту дизельного палива за країнами-отримувачами (тис. грн), %<br>--}}
+                    {{--- Експорт дизельного палива з України за видами<br>--}}
+                    {{--- Структура експорту дизельного палива за видами (тонн), %<br>--}}
+                    {{--- Структура експорту дизельного палива за видами (тис. грн), %<br>--}}
+                    {{--- Експорт дизельного палива з України за компаніями-отримувачами<br>--}}
+                    {{--- Структура експорту дизельного палива за компаніями-отримувачами (тонн), %<br>--}}
+                    {{--- Структура експорту дизельного палива за компаніями-отримувачами (тис. грн), %<br>--}}
+                    {{--<br>--}}
+                    {{--<strong>2. Імпорт</strong><br>--}}
+                    {{--- Імпорт дизельного палива, тонн<br>--}}
+                    {{--- Імпорт дизельного палива, тис. грн<br>--}}
+                    {{--- Географія імпорту дизельного палива (січень- груд. 2019, тонн), %<br>--}}
+                    {{--- Найбільші імпортери дизельного палива (січень- груд. 2019, тонн), %<br>--}}
+                    {{--- Динаміка імпорту дизельного палива в Україну (в натуральному вираженні)<br>--}}
+                    {{--- Динаміка імпорту дизельного палива в Україну (в грошовому вираженні)<br>--}}
+                    {{--- Імпорт дизельного палива в Україну за компаніями-отримувачами<br>--}}
+                    {{--- Структура імпорту дизельного палива за компаніями-отримувачами (тонн), %<br>--}}
+                    {{--- Структура імпорту дизельного палива за компаніями-отримувачами (тис. грн), %<br>--}}
+                    {{--- Імпорт дизельного палива в Україну за країнами-виробниками<br>--}}
+                    {{--- Структура імпорту дизельного палива за країнами-виробниками (тонн), %<br>--}}
+                    {{--- Структура імпорту дизельного палива за країнами-виробниками (тис. грн), %<br>--}}
+                    {{--- Імпорт дизельного палива в Україну за видами<br>--}}
+                    {{--- Структура імпорту дизельного палива за видами (тонн), %<br>--}}
+                    {{--- Структура імпорту дизельного палива за видами (тис. грн), %<br>--}}
+                    {{--- Імпорт дизельного палива в Україну за компаніями-відправниками<br>--}}
+                    {{--- Структура імпорту дизельного палива за компаніями-відправниками (тонн), %<br>--}}
+                    {{--- Структура імпорту дизельного палива за компаніями-відправниками (тис. грн), %<br>--}}
+                    {{--<br>--}}
+                    {{--<strong>3. Ціни</strong><br>--}}
+                    {{--- Динаміка середньозважених цін експортерів дизельного палива (FOB, без ПДВ), грн/кг<br>--}}
+                    {{--- Динаміка середньозважених цін імпортерів дизельного палива (CIF, без ПДВ и мита), грн/кг<br>--}}
+                    {{--- Середньозважені ціни експортерів дизельного палива (FOB, без ПДВ)<br>--}}
+                    {{--- Середньозважені ціни імпортерів дизельного палива (CIF, без ПДВ и мита)<br>--}}
+                    {{--<br>--}}
+                    {{--<br>--}}
+                    {{--<strong><span style="font-weight: 600;" data-redactor-tag="span">Ви можете вказати, що саме Вас цікавить і ми надамо приклад готового або розповімо як отримати новий звіт по ринку.</span></strong></h3>--}}
 
 
 
@@ -2837,7 +2736,7 @@
                      data-field-left-res-640-value="55"
                      data-field-left-res-480-value="5"
                      data-field-left-res-320-value="25"
-                     data-field-width-value="550"
+                     data-field-width-value="1014"
                      data-field-width-res-960-value="570"				data-field-width-res-480-value="470"		data-field-width-res-320-value="270"
                      data-field-axisy-value="top"
                      data-field-axisx-value="left"
@@ -2894,7 +2793,7 @@
 
 
 
-                    <h2 class='tn-atom'    >{{$page["h1"]}}</h2>
+                    <h2 class='tn-atom'   style="text-align: center" >{{$page["h1"]}}</h2>
 
 
 
@@ -2923,14 +2822,14 @@
 
                 <div class='t396__elem tn-elem tn-elem__2290826251599833036536' data-elem-id='1599833036536' data-elem-type='text'
                      data-field-top-value="255"
-                     data-field-top-res-960-value="255"		data-field-top-res-640-value="605"		data-field-top-res-480-value="495"		data-field-top-res-320-value="496"
+                     data-field-top-res-960-value="255"		data-field-top-res-640-value="175"		data-field-top-res-480-value="175"		data-field-top-res-320-value="175"
 
                      data-field-left-value="90"
                      data-field-left-res-960-value="30"		data-field-left-res-640-value="30"		data-field-left-res-480-value="15"		data-field-left-res-320-value="12"
 
 
 
-                     data-field-width-value="560"
+                     data-field-width-value="1000"
                      data-field-width-res-960-value="500"		data-field-width-res-640-value="590"		data-field-width-res-480-value="450"		data-field-width-res-320-value="310"
 
                      data-field-axisy-value="top"
@@ -2953,7 +2852,164 @@
 
                      data-field-widthunits-value=""
                 >
-                    {!! $page["text"] !!}
+                    <style>
+                        .search_elem{
+                            display: flex;
+                        }
+                        .search_elem_text{
+                            line-height: 40px;
+                            margin-left: 20px;
+                        }
+                        .search_elem:nth-child(n+2){
+                            margin-top: 20px;
+                        }
+
+                        @media screen and (max-width: 639px) {
+                            .search_elem{
+                                display: block;
+                            }
+                            .search_elem_img{
+                                text-align: center;
+                            }
+                            .search_elem_text{
+                                margin-left: 0;
+                            }
+                        }
+                    </style>
+                    <div>
+                    <div class="tn-atom tn-atom__html" style="padding-bottom: 20px">
+                        <div class="searchinput">
+                            <div id="rec196403977" class="r t-rec t-rec_pt_0 t-rec_pb_0" style="padding-top:0px;padding-bottom:0px; " data-animationappear="off" data-record-type="838">
+                                <!-- t838 -->
+
+                                <div class="t838">
+                                    <div class="t-container">
+                                        <div class="t-col t-col_5">
+                                            <div class="t838__wrapper t-site-search-input">
+                                                <div class="t838__blockinput">
+                                                    <input type="text" class="t838__input t-input " placeholder=" " style="color:#171834; border:2px solid black;  border-radius: 3px; -moz-border-radius: 3px; -webkit-border-radius: 3px;"><img width="18px" class="t-site-search-close" src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAxIiBoZWlnaHQ9IjEwMSIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48cGF0aCBkPSJNOTguNjUgOTYuNTVMNTIuMTEgNDkuOTMgOTguMzYgMy41Yy41OS0uNTkuNTktMS40NyAwLTIuMDZhMS40MiAxLjQyIDAgMDAtMi4wNiAwTDUwLjA1IDQ3Ljg3IDMuNjkgMS40NGExLjQyIDEuNDIgMCAwMC0yLjA1IDAgMS40MiAxLjQyIDAgMDAwIDIuMDZsNDYuMzUgNDYuNDNMMS40NCA5Ni41NUExLjQyIDEuNDIgMCAwMDMuNCA5OC42bDQ2LjU1LTQ2LjYyTDk2LjUgOTguNmMuMy4zLjY4LjM5Ljk4LjM5LjMgMCAuNjgtLjEuOTgtLjQuNjgtLjU4LjY4LTEuNDYuMi0yLjA1eiIgZmlsbD0iIzExMSIgc3Ryb2tlPSIjMTExIi8+PC9zdmc+"><img width="18px" class="t-site-search-loader" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI2NCIgaGVpZ2h0PSI2NCIgdmlld0JveD0iMCAwIDY0IDY0IiBmaWxsPSJub25lIj48c3R5bGU+LmF7c3Ryb2tlLXdpZHRoOjI7c3Ryb2tlOiM3RjdGN0Y7fS5ie3N0cm9rZS1saW5lam9pbjpiZXZlbDtzdHJva2Utd2lkdGg6MjtzdHJva2U6IzdGN0Y3Rjt9PC9zdHlsZT48cGF0aCBkPSJNMzMgMUM0MC43IDEgNDguNCAzLjkgNTQuMiA5LjggNjQuOSAyMC41IDY1LjggMzcuMiA1NyA0OUw1MSA1NSIgY2xhc3M9ImEiLz48cGF0aCBkPSJNMzEgNjNDMjMuMyA2MyAxNS42IDYwLjEgOS44IDU0LjIgLTAuOSA0My41LTEuOCAyNi44IDcgMTVMMTMgOSIgY2xhc3M9ImEiLz48cGF0aCBkPSJNNTEgNDRWNTVINjIiIGNsYXNzPSJiIi8+PHBhdGggZD0iTTEzIDIwVjlIMiIgY2xhc3M9ImIiLz48L3N2Zz4=">
+
+                                                </div>
+                                                <style> .search_button:hover{
+                                                        background-color: #e3cb9f !important;
+                                                    }</style>
+                                                <div class="t838__blockbutton">
+                                                    <style>
+                                                        @media screen and (max-width: 600px) {
+                                                            .search_btn{
+                                                                width: 96%;
+                                                            }
+                                                        }
+                                                    </style>
+                                                    <input type="button" class="search_button search_btn" style="color:#171834;border:1px solid #171834;border-radius:3px; -moz-border-radius:3px; -webkit-border-radius:3px;font-family:Montserrat;font-weight:300; height: 25px" value="ПОШУК">
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </div>
+
+
+                                <script>
+                                    $(document).ready(function() {
+                                        var tildaSearch = "https://static.tilda" + "cdn.com/js/tilda-search-";
+                                        if ($("script[src^='https://search.tildacdn.com/static/tilda-search-']").length === 0 && $("script[src^='" + tildaSearch + "']").length === 0) {
+                                            $("body").append("<script src='" + tildaSearch + "1.2.min.js' type='text/javascript'><\/script>");
+                                        }
+                                    });
+                                </script>
+
+
+
+                                <style>
+                                    #rec196403977 input::-webkit-input-placeholder {color:#171834; opacity: 0.5;}
+                                    #rec196403977 input::-moz-placeholder          {color:#171834; opacity: 0.5;}
+                                    #rec196403977 input:-moz-placeholder           {color:#171834; opacity: 0.5;}
+                                    #rec196403977 input:-ms-input-placeholder      {color:#171834; opacity: 0.5;}
+                                </style>
+
+
+
+
+
+
+
+                                <style>
+                                    #rec196403977 .t-submit:hover{
+                                        background-color: #e3cb9f !important;
+                                        color: #171834 !important;
+
+
+                                    }
+                                    #rec196403977 .t-submit{
+                                        -webkit-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out, border-color 0.2s ease-in-out, box-shadow 0.2s ease-in-out; transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out, border-color 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+                                    }
+                                </style>
+
+
+
+                            </div>
+                            <div id="rec229082630" class="r t-rec t-rec_pt_0 t-rec_pb_0" style="padding-top:0px;padding-bottom:0px; " data-animationappear="off" data-record-type="838">
+                                <!-- t838 -->
+
+
+
+                                <script>
+                                    $(document).ready(function() {
+                                        var tildaSearch = "https://static.tilda" + "cdn.com/js/tilda-search-";
+                                        if ($("script[src^='https://search.tildacdn.com/static/tilda-search-']").length === 0 && $("script[src^='" + tildaSearch + "']").length === 0) {
+                                            $("body").append("<script src='" + tildaSearch + "1.2.min.js' type='text/javascript'><\/script>");
+                                        }
+                                    });
+                                </script>
+
+
+
+                                <style>
+                                    #rec229082630 input::-webkit-input-placeholder {color:#171834; opacity: 0.5;}
+                                    #rec229082630 input::-moz-placeholder          {color:#171834; opacity: 0.5;}
+                                    #rec229082630 input:-moz-placeholder           {color:#171834; opacity: 0.5;}
+                                    #rec229082630 input:-ms-input-placeholder      {color:#171834; opacity: 0.5;}
+                                </style>
+
+
+
+
+
+
+
+                                <style>
+                                    #rec229082630 .t-submit:hover{
+                                        background-color: #e3cb9f !important;
+                                        color: #171834 !important;
+
+
+                                    }
+                                    #rec229082630 .t-submit{
+                                        -webkit-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out, border-color 0.2s ease-in-out, box-shadow 0.2s ease-in-out; transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out, border-color 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+                                    }
+                                </style>
+
+
+
+                            </div></div>
+                    </div>
+                    @if(!empty($shortText))
+
+                        @foreach($shortText as $elem)
+                            <div class="search_elem">
+                                <div class="search_elem_img"><a href="{{$elem["url"]}}"><img src="{{$elem["main_img"]}}" alt="" style="height: 100px; width: 100px"></a></div>
+                                <div class="search_elem_text">{{$elem["text"]}} <a href="{{$elem["url"]}}"> Читати більше</a></div>
+
+                            </div>
+                            @endforeach
+
+                        @else
+                        @if(!empty($err))
+                            <div>{{$err}}</div>
+                            @endif
+                        @endif
+                        </div>
                 </div>
 
             </div>
@@ -5863,7 +5919,6 @@
 </script>
 <script>
     let search = $(".t838__input.t-input ")
-    console.log(search);
     let search_button = $(".search_button");
     search_button.on("click", function (e) {
         let searchVal = search.val();

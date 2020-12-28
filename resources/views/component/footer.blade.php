@@ -826,6 +826,8 @@
         elem.removeEventListener("click", function () {
 
         });
+
     };
+
 
 </script>
