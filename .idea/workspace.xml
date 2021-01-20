@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d6f22f76-4cab-4883-b7a1-3f2423e519a5" name="Default" comment="test">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/main.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/main.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/research.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/research.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/services.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/services.blade.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -52,8 +49,8 @@
       <file leaf-file-name="research.blade.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/resources/views/research.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="199">
-              <caret line="230" lean-forward="true" selection-start-line="230" selection-end-line="230" />
+            <state relative-caret-position="253">
+              <caret line="152" column="13" lean-forward="true" selection-start-line="152" selection-start-column="13" selection-end-line="152" selection-end-column="13" />
               <folding>
                 <element signature="n#style#0;n#a#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#1;n#div#3;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#a#0;n#div#1;n#div#0;n#div#1;n#div#0;n#div#0;n#div#1;n#div#3;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -122,7 +119,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>rec229093509</find>
       <find>MEDIA</find>
       <find>rec229082629</find>
       <find>search_elem_text</find>
@@ -152,6 +148,7 @@
       <find>https://static.tildacdn.com/tild3937-6138-4335-b961-613330666439/__.png</find>
       <find>media screen</find>
       <find>@media screen and</find>
+      <find>2890</find>
     </findStrings>
     <replaceStrings>
       <replace>/</replace>
@@ -568,12 +565,12 @@
       <workItem from="1609095202698" duration="27392000" />
       <workItem from="1610270312909" duration="103000" />
       <workItem from="1610386038840" duration="85000" />
-      <workItem from="1611176807057" duration="2222000" />
+      <workItem from="1611176807057" duration="3016000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="466241000" />
+    <option name="totallyTimeSpent" value="467035000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -591,10 +588,10 @@
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3290993" />
       <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.5011211" side_tool="true" weight="0.29330254" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="10" visible="true" weight="0.23210162" />
+      <window_info anchor="bottom" id="Version Control" order="10" weight="0.23210162" />
       <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.49887893" weight="0.39030024" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16591929" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="9" sideWeight="0.49887893" visible="true" weight="0.39030024" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16591929" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.24018475" />
@@ -972,8 +969,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/research.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="199">
-          <caret line="230" lean-forward="true" selection-start-line="230" selection-end-line="230" />
+        <state relative-caret-position="253">
+          <caret line="152" column="13" lean-forward="true" selection-start-line="152" selection-start-column="13" selection-end-line="152" selection-end-column="13" />
           <folding>
             <element signature="n#style#0;n#a#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#1;n#div#3;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#a#0;n#div#1;n#div#0;n#div#1;n#div#0;n#div#0;n#div#1;n#div#3;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
