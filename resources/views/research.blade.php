@@ -233,7 +233,22 @@
 
 
                     <div class='tn-atom'    >
-                        <img class='tn-atom__img' src='https://static.tildacdn.com/tild6230-3739-4036-a233-306261663731/noroot.png'  imgfield='tn_img_1599504384486'>
+                        <style>
+                            .img_background{
+                                height: 1000px;
+                            }
+                            @media screen and (max-width: 980px) {
+                                .img_background {
+                                    height: 1300px;
+                                }
+                            }
+                            @media screen and (max-width: 479px) {
+                                .img_background {
+                                    height: 1550px;
+                                }
+                            }
+                        </style>
+                        <img class='tn-atom__img img_background' src='https://static.tildacdn.com/tild6230-3739-4036-a233-306261663731/noroot.png'  imgfield='tn_img_1599504384486'>
                     </div>
 
 

@@ -5864,7 +5864,7 @@
 
 
 
-                    <a class='tn-atom'  href="{{route("market-research")}}"  >Маркетингове дослідження ринку</a>
+                    <a class='tn-atom'  href="/market-research"  >Маркетингове дослідження ринку</a>
 
 
 
