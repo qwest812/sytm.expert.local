@@ -227,13 +227,23 @@
                 >
 
 
+                    <style>
+                        @media screen and (max-width: 980px) {
+                            .img_background {
+                                height: 1300px;
+                            }
+                        }
+                        @media screen and (max-width: 480px) {
+                            .img_search {
+                                height: 2500px;
+                            }
+                        }
+                        .img_search{
 
-
-
-
-
+                        }
+                    </style>
                     <div class='tn-atom'    >
-                        <img class='tn-atom__img' src='https://static.tildacdn.com/tild6230-3739-4036-a233-306261663731/noroot.png'  imgfield='tn_img_1599504384486'>
+                        <img class='tn-atom__img img_search' src='https://static.tildacdn.com/tild6230-3739-4036-a233-306261663731/noroot.png'  imgfield='tn_img_1599504384486'>
                     </div>
 
 

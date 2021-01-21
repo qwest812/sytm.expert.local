@@ -151,8 +151,8 @@ class MainController extends Controller
         $err = "";
         if (!empty($_GET["search"]) && strlen($_GET["search"]) > 3) {
             $searchRequest = $_GET["search"];
-            $res = DB::select('SELECT `id`, `h1`,`text`, `main_img`,`url_id` FROM writenews WHERE MATCH (text) AGAINST ("' . $searchRequest . '") ORDER by `id` DESC LIMIT 6');
-
+//            $res = DB::select('SELECT `id`, `h1`,`text`, `main_img`,`url_id` FROM writenews WHERE MATCH (text) AGAINST ("' . $searchRequest . '") ORDER by `id` DESC LIMIT 6');
+            $res = DB::select('SELECT * FROM `writenews` WHERE `text` LIKE "%аналіз%" ORDER by `id` DESC LIMIT 6');
             $shortText = [];
 
             if (!empty($res)) {
