@@ -3809,7 +3809,7 @@
                         <div class="research_main">
                             <div class="research_main_div">
                                 @foreach($news as $new)
-                                    <a href="{{$new["url"]}}" style="margin: 30px 50px 30px 50px" class="research_img">
+                                    <a href="{{$new["url"]}}" style="margin: 40px 45px 30px 45px" class="research_img">
                                         <div style="width: 280px">
                                             <div style="background-image: url('{{$new["main_img"]}}');
                                                     width: 100%; height: 204px; background-size: cover"></div>

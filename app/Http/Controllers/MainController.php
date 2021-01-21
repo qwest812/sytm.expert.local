@@ -52,7 +52,7 @@ class MainController extends Controller
     {
         $page["title"] = "Новини | YOUR TOTAL MARKET";
         $page["description"] = "Тут можна ознайомитися з останніми новинами ринку, підготованними нашими аналітиками.";
-        $news = Writenew::where("type", NewsController::NEWS)->where("deleted", false)->get()->toArray();
+        $news = Writenew::where("type", NewsController::NEWS)->where("deleted", false)->take(3)->orderBy('id', 'desc')->get()->toArray();
         foreach ($news as $key => $new) {
             $url = Url::where("id", $new["url_id"])->first()->url;
             $news[$key]["url"] = $url;
@@ -66,12 +66,8 @@ class MainController extends Controller
     {
         $page['title'] = "Дослідження | YOUR TOTAL MARKET";
         $page['description'] = "Тут можна ознайомитися з нашими готовими дослідженнями.";
-        $news = Writenew::where("type", NewsController::RESEARCH)->where("deleted", false)->paginate(6);
+        $news = Writenew::where("type", NewsController::RESEARCH)->where("deleted", false)->where("id","<",18)->orWhere("id",">",30)->paginate(6);
         foreach ($news as $key => $new) {
-            if ($new["id"] >= 18 && $new["id"] <= 30) {
-                unset($news[$key]);
-                continue;
-            }
             $url = Url::where("id", $new["url_id"])->first()->url;
             $news[$key]["url"] = $url;
             $news[$key]["time"] = explode(" ", $new["created_at"])[0];
@@ -152,7 +148,7 @@ class MainController extends Controller
         if (!empty($_GET["search"]) && strlen($_GET["search"]) > 3) {
             $searchRequest = $_GET["search"];
 //            $res = DB::select('SELECT `id`, `h1`,`text`, `main_img`,`url_id` FROM writenews WHERE MATCH (text) AGAINST ("' . $searchRequest . '") ORDER by `id` DESC LIMIT 6');
-            $res = DB::select('SELECT * FROM `writenews` WHERE `text` LIKE "%аналіз%" ORDER by `id` DESC LIMIT 6');
+            $res = DB::select('SELECT * FROM `writenews` WHERE `text` LIKE "%' . $searchRequest . '%" ORDER by `id` DESC LIMIT 6');
             $shortText = [];
 
             if (!empty($res)) {
