@@ -3,8 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="d6f22f76-4cab-4883-b7a1-3f2423e519a5" name="Default" comment="test">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/MainController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/MainController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/researches.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/researches.blade.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -18,15 +16,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="transfer-pricing.blade.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resources/views/transfer-pricing.blade.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="384693">
-              <caret line="22435" column="9" selection-start-line="22435" selection-start-column="9" selection-end-line="22435" selection-end-column="9" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="MainController.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/Http/Controllers/MainController.php">
           <provider selected="true" editor-type-id="text-editor">
@@ -97,11 +86,23 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main.blade.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="main.blade.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/resources/views/main.blade.php">
           <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="363">
+              <caret line="3830" lean-forward="true" selection-start-line="3830" selection-end-line="3830" />
+              <folding>
+                <element signature="e#138251#138286#0#HTML" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="services.blade.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/resources/views/services.blade.php">
+          <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="151">
-              <caret line="3779" column="18" selection-start-line="3779" selection-start-column="4" selection-end-line="3779" selection-end-column="18" />
+              <caret line="5866" column="96" selection-start-line="5866" selection-start-column="66" selection-end-line="5866" selection-end-column="96" />
             </state>
           </provider>
         </entry>
@@ -139,8 +140,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>{{$p</find>
-      <find>{{</find>
       <find>media</find>
       <find>id=&quot;rec228394927&quot;</find>
       <find>t838__input t-input</find>
@@ -169,6 +168,8 @@
       <find>rec229082629</find>
       <find>rec228395065</find>
       <find>аналіз</find>
+      <find>services</find>
+      <find>margin: 30px 50px 30px 50px</find>
     </findStrings>
     <replaceStrings>
       <replace>/</replace>
@@ -249,11 +250,11 @@
         <option value="$PROJECT_DIR$/resources/views/services.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/transfer-pricing.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/market-research.blade.php" />
-        <option value="$PROJECT_DIR$/resources/views/main.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/research.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/search.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/researches.blade.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/MainController.php" />
+        <option value="$PROJECT_DIR$/resources/views/main.blade.php" />
       </list>
     </option>
   </component>
@@ -585,12 +586,12 @@
       <workItem from="1609095202698" duration="27392000" />
       <workItem from="1610270312909" duration="103000" />
       <workItem from="1610386038840" duration="85000" />
-      <workItem from="1611176807057" duration="8612000" />
+      <workItem from="1611176807057" duration="9129000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="472631000" />
+    <option name="totallyTimeSpent" value="473148000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -911,13 +912,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/services.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="701">
-          <caret line="10761" column="9" selection-start-line="10761" selection-start-column="9" selection-end-line="10761" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/transfer-pricing.blade.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="384693">
@@ -1002,8 +996,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/main.blade.php">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="363">
+          <caret line="3830" lean-forward="true" selection-start-line="3830" selection-end-line="3830" />
+          <folding>
+            <element signature="e#138251#138286#0#HTML" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/services.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="151">
-          <caret line="3779" column="18" selection-start-line="3779" selection-start-column="4" selection-end-line="3779" selection-end-column="18" />
+          <caret line="5866" column="96" selection-start-line="5866" selection-start-column="66" selection-end-line="5866" selection-end-column="96" />
         </state>
       </provider>
     </entry>

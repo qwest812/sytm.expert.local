@@ -5864,7 +5864,7 @@
 
 
 
-                    <a class='tn-atom'  href="/market-research"  >Маркетингове дослідження ринку</a>
+                    <a class='tn-atom'  href="/ua/marketyngove-doslidzhennya"  >Маркетингове дослідження ринку</a>
 
 
 
