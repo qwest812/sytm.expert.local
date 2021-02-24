@@ -42,7 +42,7 @@ class MainController extends Controller
                 return view('page', compact("page"));
                 break;
             case NewsController::RESEARCH :
-                return view('research', compact("page"));
+                return view('page', compact("page"));
                 break;
         }
         abort(404);
@@ -66,12 +66,15 @@ class MainController extends Controller
     {
         $page['title'] = "Дослідження | YOUR TOTAL MARKET";
         $page['description'] = "Тут можна ознайомитися з нашими готовими дослідженнями.";
-        $news = Writenew::where("type", NewsController::RESEARCH)->where("deleted", false)->where("id","<",18)->orWhere("id",">",30)->paginate(6);
+//        $news = Writenew::where("type", NewsController::RESEARCH)->where("deleted", false)->where("id","<",18)->orWhere("id",">",30)->paginate(6);
+//        $news = DB::select("select * from `writenews` where `type` = 2 and `deleted` = 0 and (`id` < 18 or `id` > 30) limit 6 offset 0")->get()->paginate(6);
+        $news = Writenew::where("type", NewsController::RESEARCH)->where("deleted", false)->where(function($query) {
+            $query->where("id","<",18)->orWhere("id",">",30);
+        })->paginate(6);
         foreach ($news as $key => $new) {
             $url = Url::where("id", $new["url_id"])->first()->url;
             $news[$key]["url"] = $url;
             $news[$key]["time"] = explode(" ", $new["created_at"])[0];
-
         }
         return view("researches", compact('page', "news", "news"));
     }
