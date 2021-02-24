@@ -67,12 +67,9 @@ class NewsController extends Controller
             unset($request["main_img"]);
             $originalName = $image->getClientOriginalName();
             $pathImg = $image->storeAS('images', $originalName);
-            dump($pathImg);
             $request['main_img'] = '/storage/' . $pathImg;
-
         }
-dump($request);
-        exit;
+
 
         if (!isset($request['lang_id'])) {
             return Redirect::back()->withErrors(['language']);
