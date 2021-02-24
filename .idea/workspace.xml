@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d6f22f76-4cab-4883-b7a1-3f2423e519a5" name="Default" comment="test">
-      <change beforePath="$PROJECT_DIR$/.idea/motosite.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/motosite.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/MainController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/MainController.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -476,7 +474,7 @@
       <workItem from="1610386038840" duration="85000" />
       <workItem from="1611176807057" duration="12071000" />
       <workItem from="1611783056629" duration="1014000" />
-      <workItem from="1614029134640" duration="4275000" />
+      <workItem from="1614029134640" duration="5832000" />
     </task>
     <servers />
   </component>
