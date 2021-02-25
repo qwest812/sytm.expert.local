@@ -1469,7 +1469,7 @@
             @media screen and (max-width: 479px) {
                 #rec229093505 .tn-elem[data-elem-id="1599833036536"] {
                     top: 466px;
-                    left: calc(50% - 172px);
+                    /*left: calc(50% - 172px);*/
                     width: 310px;
                 }
             }
