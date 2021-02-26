@@ -1919,6 +1919,14 @@
                         </a>
                     @endforeach
                 </div>
+                <style>
+                    .list ul li{
+                        display: inline;
+                    }
+                </style>
+                <div class="list" style="text-align: center; font-size: 20px; padding: 10px 0; font-weight: bold">
+                    {{$news->links()}}
+                </div>
             </div>
         </div>
 

@@ -52,7 +52,7 @@ class MainController extends Controller
     {
         $page["title"] = "Новини | YOUR TOTAL MARKET";
         $page["description"] = "Тут можна ознайомитися з останніми новинами ринку, підготованними нашими аналітиками.";
-        $news = Writenew::where("type", NewsController::NEWS)->where("deleted", false)->take(3)->orderBy('id', 'desc')->get()->toArray();
+        $news = Writenew::where("type", NewsController::NEWS)->where("deleted", false)->orderBy('id', 'desc')->paginate(3);
         foreach ($news as $key => $new) {
             $url = Url::where("id", $new["url_id"])->first()->url;
             $news[$key]["url"] = $url;
