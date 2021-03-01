@@ -12,7 +12,8 @@ class MainController extends Controller
 {
     public function index()
     {
-        $news = Writenew::where("type", NewsController::NEWS)->take(3)->orderBy('id', 'desc')->get();
+
+        $news = Writenew::where("type", NewsController::RESEARCH)->take(3)->orderBy('id', 'desc')->get();
         foreach ($news as $key => $research) {
             $news[$key]->url = Url::where("id", $news[$key]->url_id)->first()->url;
         }
