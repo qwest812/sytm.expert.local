@@ -43,13 +43,13 @@
     <link href="{{ asset('/css/tilda-zoom-2.0.min.css') }}" rel="stylesheet">
     <link href="{{ asset('/css/tilda-popup-1.1.min.css') }}" rel="stylesheet">
 
-    {{--<link rel="stylesheet" href="https://static.tildacdn.com/css/tilda-grid-3.0.min.css" type="text/css" media="all" />--}}
+    {{--<link href="{{ asset('/css/tilda-grid-3.0.min.css') }}" rel="stylesheet">--}}
     {{--<link rel="stylesheet" href="https://tilda.ws/project2157208/tilda-blocks-2.12.css?t=1599987646" type="text/css" media="all" />--}}
     {{----}}
-    {{--<link rel="stylesheet" href="https://static.tildacdn.com/css/tilda-animation-1.0.min.css" type="text/css" media="all" />--}}
-    {{--<link rel="stylesheet" href="https://static.tildacdn.com/css/tilda-menusub-1.0.min.css" type="text/css" media="all" />--}}
-    {{--<link rel="stylesheet" href="https://static.tildacdn.com/css/tilda-slds-1.4.min.css" type="text/css" media="all" />--}}
-    {{--<link rel="stylesheet" href="https://static.tildacdn.com/css/tilda-zoom-2.0.min.css" type="text/css" media="all" />--}}
+    {{--<link href="{{ asset('/css/tilda-animation-1.0.min.css') }}" rel="stylesheet">--}}
+    {{--<link href="{{ asset('/css/tilda-menusub-1.0.min.css') }}" rel="stylesheet">--}}
+    {{--<link href="{{ asset('/css/tilda-slds-1.4.min.css') }}" rel="stylesheet">--}}
+    {{--<link href="{{ asset('/css/tilda-zoom-2.0.min.css') }}" rel="stylesheet">--}}
     {{----}}
 
     <script src="https://static.tildacdn.com/js/jquery-1.10.2.min.js"></script>

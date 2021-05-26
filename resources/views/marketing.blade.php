@@ -36,13 +36,13 @@
     <link rel="apple-touch-startup-image" href="https://static.tildacdn.com/tild6238-3438-4432-b766-373637326666/152152.png">
     <meta name="msapplication-TileColor" content="#ffffff">
     <meta name="msapplication-TileImage" content="https://static.tildacdn.com/tild3130-3961-4433-b931-623838306235/270270.png">
-    <link rel="stylesheet" href="https://static.tildacdn.com/css/tilda-grid-3.0.min.css" type="text/css" media="all" />
-    <link rel="stylesheet" href="https://tilda.ws/project2157208/tilda-blocks-2.12.css?t=1599987641" type="text/css" media="all" />
+    <link href="{{ asset('/css/tilda-grid-3.0.min.css') }}" rel="stylesheet">
+    <link href="{{ asset('/css/tilda-blocks-2.12.css') }}" rel="stylesheet">
 
-    <link rel="stylesheet" href="https://static.tildacdn.com/css/tilda-animation-1.0.min.css" type="text/css" media="all" />
-    <link rel="stylesheet" href="https://static.tildacdn.com/css/tilda-menusub-1.0.min.css" type="text/css" media="all" />
-    <link rel="stylesheet" href="https://static.tildacdn.com/css/tilda-slds-1.4.min.css" type="text/css" media="all" />
-    <link rel="stylesheet" href="https://static.tildacdn.com/css/tilda-zoom-2.0.min.css" type="text/css" media="all" />
+    <link href="{{ asset('/css/tilda-animation-1.0.min.css') }}" rel="stylesheet">
+    <link href="{{ asset('/css/tilda-menusub-1.0.min.css') }}" rel="stylesheet">
+    <link href="{{ asset('/css/tilda-slds-1.4.min.css') }}" rel="stylesheet">
+    <link href="{{ asset('/css/tilda-zoom-2.0.min.css') }}" rel="stylesheet">
     <link rel="stylesheet" href="https://static.tildacdn.com/css/tilda-popup-1.1.min.css" type="text/css" media="all" />
 
 

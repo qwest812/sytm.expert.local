@@ -3,6 +3,13 @@
   <component name="ChangeListManager">
     <list default="true" id="d6f22f76-4cab-4883-b7a1-3f2423e519a5" name="Default" comment="test">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/component/header.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/component/header.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/contacts.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/contacts.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/market-research.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/market-research.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/market-research_test.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/market-research_test.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/marketing.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/marketing.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/services.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/services.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/transfer-pricing.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/transfer-pricing.blade.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
